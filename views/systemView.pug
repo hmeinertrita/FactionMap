@@ -2,5 +2,12 @@ html
   head
     title=system.name
   body
-    each star, name in system.stars
-      div= star.name
+    each star in system.stars
+      =star.name
+      ul
+        each orbital in star.orbitals
+          li
+            =orbital.name
+            ul Planets
+              each planet in orbital.planets
+                li=planet.name

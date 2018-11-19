@@ -17,25 +17,40 @@ const writeFile = (file, data) => {
     });
   });
 };
+const openFile = (path) => {
+  return new Promise(function (resolve, reject) {
+    fs.open(path, 'w', function (error, fd) {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(fd);
+      }
+    });
+  });
+};
 
 async function writeSystem(system) {
   data = {name: system.name}
+
+  data.stars = [];
+  for (var s in system.stars) {
+    const planets = [];
+    system.stars[s].orbitals.forEach((o, i) => {
+      o.planets.forEach((p) => {
+        planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
+      });
+    });
+    data.stars.push({name: system.stars[s].name, planets: planets});
+  }
+
   data.factions = [];
   system.factions.forEach((f) => {
     data.factions.push({name: f.name, colour: f.colour});
   });
 
-  data.stars = [];
-  system.stars.forEach((s) => {
-    const planets = [];
-    s.orbitals.forEach((o) => {
-      o.planets.forEach((p) => {
-        planets.push({name: p.name, techLevel: p.techLevel, orbital: p.orbital});
-      });
-    });
-    data.stars.push({name: s.name, planets: planets});
+  openFile('./Data/saveTest.json').then(fd => {
+    writeFile(fd, JSON.stringify({system: data}));
   });
-  writeFile('Data/saveTest.json', JSON.stringify({system: data}));
 }
 
 module.exports = writeSystem;
