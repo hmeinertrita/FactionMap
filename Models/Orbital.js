@@ -5,4 +5,4 @@ class Orbital {
   }
 }
 
-export default Orbital;
+module.exports = Orbital;

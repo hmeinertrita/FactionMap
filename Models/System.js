@@ -3,11 +3,11 @@ class System {
     this.name = name;
     this.factions = factions;
     this.stars = {};
-    for (var s in stars) {
+    stars.forEach((s) => {
       this.stars[s.name] = s;
-    }
+    });
     this.assets = [];
   }
 }
 
-export default System;
+module.exports = System;

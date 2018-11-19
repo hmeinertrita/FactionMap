@@ -5,4 +5,4 @@ class Faction {
   }
 }
 
-export default Faction;
+module.exports = Faction;

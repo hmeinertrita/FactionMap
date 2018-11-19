@@ -86,44 +86,44 @@
     "factions": [
       {
         "name": "Agraria",
-        "colour": "FF0000",
+        "colour": "FF0000"
       },
       {
         "name": "Next World",
-        "colour": "980000",
+        "colour": "980000"
       },
       {
         "name": "OmniLight",
-        "colour": "EA9999",
+        "colour": "EA9999"
       },
       {
         "name": "Dominion",
-        "colour": "B4A7D6",
+        "colour": "B4A7D6"
       },
       {
         "name": "UEF",
-        "colour": "9900FF",
+        "colour": "9900FF"
       },
       {
         "name": "Ascendancy",
-        "colour": "FF00FF",
+        "colour": "FF00FF"
       },
       {
         "name": "Chorus",
-        "colour": "00FF00",
+        "colour": "00FF00"
       },
       {
         "name": "Shepherd's Railway",
-        "colour": "0000FF",
+        "colour": "0000FF"
       },
       {
         "name": "Oasis",
-        "colour": "00FFFF",
+        "colour": "00FFFF"
       },
       {
         "name": "Haven Bureau",
-        "colour": "6D9EEB",
-      },
+        "colour": "6D9EEB"
+      }
     ]
   }
 }

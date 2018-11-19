@@ -1,4 +1,4 @@
-import Orbital from './Orbital.js';
+const Orbital = require('./Orbital.js');
 
 class Star {
   constructor(name, planets) {
@@ -8,9 +8,9 @@ class Star {
       this.orbitals.push(new Orbital('Euthenia-'+i));
     }
 
-    for (var p in planets) {
+     planets.forEach((p) => {
       this.orbitals[p.orbital].planets.push(p.planet);
-    }
+    });
   }
 
   addAsset(asset, orbital) {
@@ -31,4 +31,4 @@ class Star {
   }
 }
 
-export default Star;
+module.exports = Star;
