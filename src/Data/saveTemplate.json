@@ -1,0 +1,23 @@
+{
+  "system": {
+    "name": "",
+    "stars": [
+      {
+        "name": "",
+        "planets": [
+          {
+            "name": "",
+            "techLevel": -1,
+            "orbital": -1
+          }
+        ]
+      }
+    ],
+    "factions": [
+      {
+        "name": "",
+        "colour": "",
+      }
+    ]
+  }
+}

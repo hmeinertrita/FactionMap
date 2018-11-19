@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "name": "",
+      "faction": "",
+      "id": "",
+      "maxHp": -1,
+      "currentHp": -1,
+      "location": {
+        "star": "",
+        "orbital": -1
+      }
+    }
+  ]
+}
