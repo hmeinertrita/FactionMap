@@ -1,7 +1,23 @@
 {
-  "name": "FactionMap",
-  "version": "0.1.0",
-  "private": true,
+  "name": "factionmap",
+  "version": "1.0.0",
+  "description": "A interactive map to track a hacked version of the Stars Without Number faction turn for a game of the Sprawl.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmeinertrita/FactionMap.git"
+  },
+  "author": "harrison meinert-rita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmeinertrita/FactionMap/issues"
+  },
+  "homepage": "https://github.com/hmeinertrita/FactionMap#readme",
   "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
   }
 }
