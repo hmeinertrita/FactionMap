@@ -1,11 +1,11 @@
 class Asset {
-  constructor(name, faction, id, hp, loc) {
+  constructor(name, id, location, faction, maxHp, currentHp) {
     this.name = name;
-    this.faction = faction;
     this.id = id;
-    this.maxHp = hp;
-    this.currentHp = hp;
-    this.location = loc;
+    this.location = location;
+    this.faction = faction;
+    this.maxHp = maxHp;
+    this.currentHp = currentHp ? currentHp : maxHp;
   }
 }
 module.exports = Asset;

@@ -23,25 +23,31 @@ async function loadSystem(path) {
   console.log('Loading: ' + path);
   const data = JSON.parse(dataString);
 
-  const factions = [];
+  const factions = {};
   data.system.factions.forEach((f) => {
-    factions.push(new Faction(f.name, f.colour));
+    factions[f.colour] = new Faction(f.name, f.colour);
     console.log('Created faction ' + f.name);
   });
 
-  const stars = [];
+  const stars = {};
   data.system.stars.forEach((s) => {
     const planets = [];
     s.planets.forEach((p) => {
-      const planet = new Planet(p.name, p.techLevel);
+      const planet = new Planet(p.name, p.techLevel, factions[p.factionColour]);
       planets.push({planet: planet, orbital: p.orbital});
       console.log('Created planet '+ planet.name);
     });
-    stars.push(new Star(s.name, planets));
+    stars[s.name] = new Star(s.name, planets);
     console.log('Created star '+ s.name);
   });
 
-  const system = new System(data.system.name, stars, factions);
+  const assets = {};
+  data.system.assets.forEach((a) => {
+    assets[a.id] = new Asset(a.name, a.id, a.location, factions[a.factionColour], a.maxHp, a.currentHp);
+    console.log('Created asset ' + a.name);
+  });
+
+  const system = new System(data.system.name, stars, factions, assets);
 
   return system;
 }

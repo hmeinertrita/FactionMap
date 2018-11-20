@@ -8,7 +8,8 @@
           {
             "name": "",
             "techLevel": -1,
-            "orbital": -1
+            "orbital": -1,
+            "factionColour": ""
           }
         ]
       }
@@ -17,6 +18,19 @@
       {
         "name": "",
         "colour": "",
+      }
+    ],
+    "assets": [
+      {
+        "name": "",
+        "id": "",
+        "location": {
+          "star": "",
+          "orbital": -1
+        },
+        "factionColour": "",
+        "maxHp": -1,
+        "currentHp": -1
       }
     ]
   }

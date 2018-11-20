@@ -44,9 +44,21 @@ async function writeSystem(system) {
   }
 
   data.factions = [];
-  system.factions.forEach((f) => {
+  for (var f in system.factions) {
     data.factions.push({name: f.name, colour: f.colour});
-  });
+  }
+
+  data.assets = [];
+  for (var a in system.assets) {
+    data.assets.push({
+      name: a.name,
+      id: a.id,
+      location: a.location,
+      factionColour: a.faction.colour,
+      maxHp: a.maxHp,
+      currentHp: a.currentHp
+    });
+  }
 
   openFile('./Data/saveTest.json').then(fd => {
     writeFile(fd, JSON.stringify({system: data}));
