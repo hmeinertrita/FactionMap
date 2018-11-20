@@ -1,13 +1,9 @@
 html
   head
+    script(src='/socket.io/socket.io.js')
+    script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+    script(src='/js/site.js')
+    link(rel='stylesheet' href='/stylesheets/style.css')
     title=system.name
   body
-    each star in system.stars
-      =star.name
-      ul
-        each orbital in star.orbitals
-          li
-            =orbital.name
-            ul Planets
-              each planet in orbital.planets
-                li=planet.name
+    div(class='root')

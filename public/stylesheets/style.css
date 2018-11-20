@@ -1,0 +1,5 @@
+div:not(.root) {
+  border-left: 1px solid black;
+  margin-left: 16px;
+  padding-left: 4px;
+}

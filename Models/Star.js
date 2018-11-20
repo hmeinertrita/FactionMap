@@ -5,7 +5,7 @@ class Star {
     this.name = name;
     this.orbitals = [];
     for (var i = 0; i < 11; i++){
-      this.orbitals.push(new Orbital('Euthenia-'+i));
+      this.orbitals.push(new Orbital(name+'-'+i));
     }
 
      planets.forEach((p) => {
