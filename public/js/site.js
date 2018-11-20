@@ -33,8 +33,32 @@ function render() {
     systemElement.append(starElement);
   }
 
+  const assets = {};
+  for (var f in sys.factions) {
+    assets[sys.factions[f].colour] = [];
+  }
+  for (var a in sys.assets) {
+    assets[sys.assets[a].faction.colour].push(sys.assets[a]);
+  }
+
+  const assetsElement = $('<div class="assets"/>');
+  assetsElement.text('Assets');
+  for (var f in assets) {
+    const factionElement = $('<div class="faction"/>');
+    factionElement.text(sys.factions[f].name);
+
+    assets[f].forEach(a => {
+      const assetElement = $('<div class="asset"/>');
+      assetElement.text(a.id);
+      factionElement.append(assetElement);
+    });
+
+    assetsElement.append(factionElement);
+  }
+
   $('.root').empty();
   $('.root').append(systemElement);
+  $('.root').append(assetsElement);
 }
 
 function update() {
