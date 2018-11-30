@@ -1,9 +1,10 @@
 class System {
-  constructor(name, stars, factions, assets) {
+  constructor(name, stars, factions, assets, ...deepSpace) {
     this.name = name;
     this.factions = factions;
     this.stars = stars;
     this.assets = assets ? assets : {};
+    this.deepSpace = deepSpace;
   }
 
   newAsset(name, id, location, factionColour, maxHp) {

@@ -97,12 +97,12 @@ async function writeSystem(system) {
   data.assets = [];
   for (var a in system.assets) {
     data.assets.push({
-      name: a.name,
-      id: a.id,
-      location: a.location,
-      factionColour: a.faction.colour,
-      maxHp: a.maxHp,
-      currentHp: a.currentHp
+      name: system.assets[a].name,
+      id: system.assets[a].id,
+      location: system.assets[a].location,
+      factionColour: system.assets[a].faction.colour,
+      maxHp: system.assets[a].maxHp,
+      currentHp: system.assets[a].currentHp
     });
   }
 
