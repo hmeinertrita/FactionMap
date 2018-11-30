@@ -15,6 +15,82 @@ var templatesCloned=false;
 
 socket.on('refresh', refresh);
 
+function hoverHighlight(element, match) {
+  element.attr('data-match',match);
+  const selector = '[data-'+match+'=true]';
+  const hoverIn = function() {
+    $(selector).addClass('-hover');
+  }
+  const hoverOut = function() {
+    $(selector).removeClass('-hover');
+  }
+  element.hover(hoverIn, hoverOut);
+}
+
+function createAssetElement(asset) {
+  const ae = assetTemplate.clone();
+  ae.attr('id', asset.id);
+  ae.find('.asset__name').text(asset.name);
+  ae.find('.asset__id').text(asset.id);
+  const select = ae.find('select.asset__location-select');
+  locations.forEach(l => {
+    const option = $('<option/>');
+    option.val(l.name);
+    option.text(l.name);
+    select.append(option);
+  });
+  select.attr('data-asset', asset.id);
+  select.val(asset.locationName);
+  ae.find('input.asset__current-hp').val(asset.currentHp);
+  ae.find('input.asset__current-hp').attr('data-asset', asset.id);
+  ae.find('.asset__max-hp').text(asset.maxHp);
+  ae.attr('data-faction', asset.faction.colour);
+  return ae;
+}
+
+function createFactionElement(faction) {
+  const fe = factionTemplate.clone();
+  fe.attr('id', faction.colour);
+  const name = fe.find('.faction__name');
+  name.text(faction.name);
+  hoverHighlight(name, faction.colour);
+
+  return fe;
+}
+
+function createStarElement(star) {
+  const se = starTemplate.clone();
+  se.attr('id', star.name);
+  return se;
+}
+
+function createOrbitalElement(orbital, satelliteCount) {
+  const oe = orbitalTemplate.clone();
+  oe.attr('id', orbital.name);
+  oe.addClass('ring-' + orbital.ring);
+  oe.addClass('count-' + satelliteCount);
+  return oe;
+}
+
+function createPlanetElement(planet, satelliteNum) {
+  const pe = planetTemplate.clone();
+  console.log(planet);
+  if (planet.faction) {
+    pe.attr('data-'+planet.faction.colour, true);
+  }
+  pe.attr('id', planet.name);
+  pe.addClass('num-'+satelliteNum);
+  return pe;
+}
+
+function createAssetDotElement(asset, satelliteNum) {
+  const ade = assetDotTemplate.clone();
+  ade.attr('data-'+asset.faction.colour, true);
+  ade.attr('id', asset.id);
+  ade.addClass('num-'+satelliteNum);
+  return ade;
+}
+
 function init(system) {
   sys = system;
   locations = system.allLocations;
@@ -46,62 +122,6 @@ function init(system) {
 
     templatesCloned=true;
   }
-}
-
-function createAssetElement(asset) {
-  const ae = assetTemplate.clone();
-  ae.attr('id', asset.id);
-  ae.find('.asset__name').text(asset.name);
-  ae.find('.asset__id').text(asset.id);
-  const select = ae.find('select.asset__location-select');
-  locations.forEach(l => {
-    const option = $('<option/>');
-    option.val(l.name);
-    option.text(l.name);
-    select.append(option);
-  });
-  select.attr('data-asset', asset.id);
-  select.val(asset.locationName);
-  ae.find('input.asset__current-hp').val(asset.currentHp);
-  ae.find('input.asset__current-hp').attr('data-asset', asset.id);
-  ae.find('.asset__max-hp').text(asset.maxHp);
-  ae.attr('data-faction', asset.faction.colour);
-  return ae;
-}
-
-function createFactionElement(faction) {
-  const fe = factionTemplate.clone();
-  fe.attr('id', faction.colour);
-  fe.find('.faction__name').text(faction.name);
-  return fe;
-}
-
-function createStarElement(star) {
-  const se = starTemplate.clone();
-  se.attr('id', star.name);
-  return se;
-}
-
-function createOrbitalElement(orbital, satelliteCount) {
-  const oe = orbitalTemplate.clone();
-  oe.attr('id', orbital.name);
-  oe.addClass('ring-' + orbital.ring);
-  oe.addClass('count-' + satelliteCount);
-  return oe;
-}
-
-function createPlanetElement(planet, satelliteNum) {
-  const pe = planetTemplate.clone();
-  pe.attr('id', planet.name);
-  pe.addClass('num-'+satelliteNum);
-  return pe;
-}
-
-function createAssetDotElement(asset, satelliteNum) {
-  const ade = assetDotTemplate.clone();
-  ade.attr('id', asset.id);
-  ade.addClass('num-'+satelliteNum);
-  return ade;
 }
 
 function render() {
@@ -153,11 +173,17 @@ function render() {
     sys.assets[id].currentHp = parseInt($(this).val());
     update();
   });
+  $('select.asset__location-select').change(function() {
+    const id = $(this).attr('data-asset');
+    sys.assets[id].locationName = $(this).val();
+    update();
+  });
 }
 
 function refresh(system) {
   init(system);
   render();
+  console.log('refresh');
 }
 
 function update() {

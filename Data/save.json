@@ -13,7 +13,8 @@
           {
             "name": "Alkali",
             "techLevel": 3,
-            "orbital": 2
+            "orbital": 2,
+            "factionColour": "FF00FF"
           },
           {
             "name": "Physalis",
@@ -23,12 +24,14 @@
           {
             "name": "Ilanthus",
             "techLevel": 4,
+            "factionColour": "B4A7D6",
             "orbital": 6
           },
           {
             "name": "Union IX",
             "techLevel": 4,
-            "orbital": 8
+            "orbital": 8,
+            "factionColour": "FF0000"
           },
           {
             "name": "Dustbin",
@@ -48,12 +51,14 @@
           {
             "name": "Haven Base",
             "techLevel": 4.5,
-            "orbital": 1
+            "orbital": 1,
+            "factionColour": "6D9EEB"
           },
           {
             "name": "Harbor",
             "techLevel": 4.5,
-            "orbital": 3
+            "orbital": 3,
+            "factionColour": "EA9999"
           },
           {
             "name": "Ocean Planet",
@@ -63,7 +68,8 @@
           {
             "name": "Prophecy",
             "techLevel": 4,
-            "orbital": 6
+            "orbital": 6,
+            "factionColour": "9900FF"
           },
           {
             "name": "Kaisallia",
@@ -73,12 +79,14 @@
           {
             "name": "Rilgar",
             "techLevel": 4,
-            "orbital": 8
+            "orbital": 8,
+            "factionColour": "00FFFF"
           },
           {
             "name": "Diptera",
             "techLevel": 4,
-            "orbital": 9
+            "orbital": 9,
+            "factionColour": "980000"
           }
         ]
       }
@@ -127,8 +135,8 @@
     ],
     "assets": [
       {
-        "name": "cyberninjas",
-        "id": "Phoenix Prodigy",
+        "name": "Cyberninjas",
+        "id": "P2 Classified Retrieval Unit",
         "locationName": "Euthenia-8",
         "factionColour": "B4A7D6",
         "maxHp": 10,
