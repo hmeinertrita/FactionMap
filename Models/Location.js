@@ -6,11 +6,4 @@ class Location {
   }
 }
 
-class Orbital extends Location {
-  constructor(ring, id, name, ...planets) {
-    super(id, name, ...planets);
-    this.ring = ring;
-  }
-}
-
 module.exports = Location;

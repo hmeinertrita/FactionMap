@@ -3,7 +3,6 @@ html
     script(src='/socket.io/socket.io.js')
     script(src='https://code.jquery.com/jquery-3.3.1.min.js')
     script(src='/js/site.js')
-    script(src='/js/edit.js')
     link(rel='stylesheet' href='/stylesheets/style.css')
     title=system.name
   body
@@ -17,3 +16,5 @@ html
               span(class='asset__max-hp')
             div(class='asset__location -border-col') Location: 
               select(class='asset__location-select')
+      div(class='faction' id='template')
+        span(class='faction__name')

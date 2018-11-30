@@ -15,6 +15,7 @@ function init() {
   });
 
   assetTemplate = $('.asset#template').clone();
+  factionTemplate = $('.faction#template').clone();
 }
 
 function refresh(system) {
@@ -58,8 +59,7 @@ function render() {
   const assetsElement = $('<div class="assets"/>');
   assetsElement.text('Assets');
   for (var f in assets) {
-    const factionElement = $('<div class="faction"/>');
-    factionElement.text(sys.factions[f].name);
+    const factionElement = createFactionElement(sys.factions[f]);
 
     assets[f].forEach(a => {
       const assetElement = createAssetElement(a);
@@ -93,6 +93,7 @@ function createAssetElement(asset) {
 function createFactionElement(faction) {
   const fe = factionTemplate.clone();
   fe.attr('id', faction.colour);
+  console.log(faction);
   fe.find('.faction__name').text(faction.name);
   return fe;
 }
