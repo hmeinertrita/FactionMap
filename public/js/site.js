@@ -27,6 +27,16 @@ function hoverHighlight(element, match) {
   element.hover(hoverIn, hoverOut);
 }
 
+function setColour(element, hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  const rgb = result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+  element.css('--colour', rgb.r + ', '+ rgb.g + ', '+ rgb.b);
+}
+
 function createAssetElement(asset) {
   const ae = assetTemplate.clone();
   ae.attr('id', asset.id);
@@ -45,12 +55,14 @@ function createAssetElement(asset) {
   ae.find('input.asset__current-hp').attr('data-asset', asset.id);
   ae.find('.asset__max-hp').text(asset.maxHp);
   ae.attr('data-faction', asset.faction.colour);
+  setColour(ae, asset.faction.colour);
   return ae;
 }
 
 function createFactionElement(faction) {
   const fe = factionTemplate.clone();
   fe.attr('id', faction.colour);
+  setColour(fe, faction.colour);
   const name = fe.find('.faction__name');
   name.text(faction.name);
   hoverHighlight(name, faction.colour);
@@ -77,6 +89,7 @@ function createPlanetElement(planet, satelliteNum) {
   console.log(planet);
   if (planet.faction) {
     pe.attr('data-'+planet.faction.colour, true);
+    setColour(pe, planet.faction.colour);
   }
   pe.attr('id', planet.name);
   pe.addClass('num-'+satelliteNum);
