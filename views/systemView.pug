@@ -11,17 +11,22 @@ html
       //Asset Template
       div(class='asset', id='template')
           div(class='asset__id -border-row')
-          div(class='asset__name -border-row')
+          div(class='-border-row')
+            span Unit Type:
+            span(class='asset__name')
           div(class='asset__controls -border-cols')
             span(class='asset__hp -border-col')
-              input(class='asset__current-hp', value=10)
+              span
+                input(class='asset__current-hp', value=10)
+              span /
               span(class='asset__max-hp')
+              span HP
             div(class='asset__location -border-col') Location: 
               select(class='asset__location-select')
               
       //Faction Template
       div(class='faction' id='template')
-        span(class='faction__name')
+        div(class='faction__name')
       
       //Star Template
       div(class='star' id='template')
@@ -31,3 +36,6 @@ html
       
       //Planet template
       div(class='planet satellite' id='template')
+      
+      //Asset dot template
+      div(class='asset-dot satellite' id='template')

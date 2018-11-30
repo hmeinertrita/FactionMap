@@ -129,10 +129,7 @@
       {
         "name": "cyberninjas",
         "id": "Phoenix Prodigy",
-        "location": {
-          "star": "Euthenia",
-          "orbital": 8
-        },
+        "locationName": "Euthenia-8",
         "factionColour": "B4A7D6",
         "maxHp": 10,
         "currentHp": 10

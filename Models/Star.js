@@ -1,12 +1,15 @@
 const Orbital = require('./Orbital.js');
+const Region = require('./Region.js');
 
-class Star {
+class Star extends Region.CompositeRegion {
   constructor(name, planets) {
-    this.name = name;
-    this.orbitals = [];
+    const orbitals = [];
     for (var i = 0; i < 11; i++){
-      this.orbitals.push(new Orbital(i, name+'-'+i, ...(planets[i] ? planets[i]:[])));
+      orbitals.push(new Orbital(i, name+'-'+i, ...(planets[i] ? planets[i]:[])));
     }
+    super(...orbitals);
+    this.orbitals = orbitals;
+    this.name = name;
   }
 
   addAsset(asset, orbital) {

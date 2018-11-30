@@ -1,6 +1,6 @@
-const Location = require('./Location.js');
+const Region = require('./Region.js');
 
-class Orbital extends Location {
+class Orbital extends Region.RegionAndLocation {
   constructor(ring, name, ...planets) {
     super(name, ...planets);
     this.ring = ring;

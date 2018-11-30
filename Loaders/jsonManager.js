@@ -51,7 +51,7 @@ async function loadSystem(path) {
     console.log('Created faction ' + f.name);
   });
 
-  const stars = {};
+  const stars = [];
   data.system.stars.forEach((s) => {
     const planets = {};
     s.planets.forEach((p) => {
@@ -64,13 +64,13 @@ async function loadSystem(path) {
       }
       console.log('Created planet '+ planet.name);
     });
-    stars[s.name] = new Star(s.name, planets);
+    stars.push(new Star(s.name, planets));
     console.log('Created star '+ s.name);
   });
 
   const assets = {};
   data.system.assets.forEach((a) => {
-    assets[a.id] = new Asset(a.name, a.id, a.location, factions[a.factionColour], a.maxHp, a.currentHp);
+    assets[a.id] = new Asset(a.name, a.id, a.locationName, factions[a.factionColour], a.maxHp, a.currentHp);
     console.log('Created asset ' + a.name);
   });
 
@@ -84,15 +84,15 @@ async function writeSystem(system) {
   data = {name: system.name}
 
   data.stars = [];
-  for (var s in system.stars) {
+  system.stars.forEach(s => {
     const planets = [];
-    system.stars[s].orbitals.forEach((o, i) => {
+    s.orbitals.forEach((o, i) => {
       o.locations.forEach((p) => {
         planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
       });
     });
     data.stars.push({name: system.stars[s].name, planets: planets});
-  }
+  });
 
   data.factions = [];
   for (var f in system.factions) {
@@ -104,7 +104,7 @@ async function writeSystem(system) {
     data.assets.push({
       name: system.assets[a].name,
       id: system.assets[a].id,
-      location: system.assets[a].location,
+      locationName: system.assets[a].location.name,
       factionColour: system.assets[a].faction.colour,
       maxHp: system.assets[a].maxHp,
       currentHp: system.assets[a].currentHp

@@ -1,18 +1,14 @@
-class System {
-  constructor(name, stars, factions, assets, ...deepSpace) {
+const Region = require('./Region.js');
+
+class System extends Region.CompositeRegion {
+  constructor(name, stars, factions, assets, ...deepSpaceRegions) {
+    super(...stars, ...deepSpaceRegions);
     this.name = name;
     this.factions = factions;
     this.stars = stars;
     this.assets = assets ? assets : {};
-    this.deepSpace = deepSpace;
-  }
-
-  newAsset(name, id, location, factionColour, maxHp) {
-    this.assets[id] = new Asset(name, id, location, this.factions[factionColour], maxHp);
-  }
-
-  removeAsset(id) {
-    delete this.assets[id];
+    this.deepSpaceRegions = deepSpaceRegions;
+    this.allLocations = this.getLocations();
   }
 }
 
