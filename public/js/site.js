@@ -11,6 +11,7 @@ let systemTemplate;
 let oribitalTemplate;
 let planetTemplate;
 let assetDotTemplate;
+var templatesCloned=false;
 
 socket.on('refresh', refresh);
 
@@ -33,13 +34,18 @@ function init(system) {
   for (var a in sys.assets) {
     assetsByLocation[sys.assets[a].locationName].push(sys.assets[a]);
   }
-  assetTemplate = $('.asset#template').clone();
-  factionTemplate = $('.faction#template').clone();
-  starTemplate = $('.star#template').clone();
-  systemTemplate = $('.system#template').clone();
-  orbitalTemplate = $('.orbital#template').clone();
-  planetTemplate = $('.planet#template').clone();
-  assetDotTemplate = $('.asset-dot#template').clone();
+
+  if (!templatesCloned) {
+    assetTemplate = $('.asset#template').clone();
+    factionTemplate = $('.faction#template').clone();
+    starTemplate = $('.star#template').clone();
+    systemTemplate = $('.system#template').clone();
+    orbitalTemplate = $('.orbital#template').clone();
+    planetTemplate = $('.planet#template').clone();
+    assetDotTemplate = $('.asset-dot#template').clone();
+
+    templatesCloned=true;
+  }
 }
 
 function createAssetElement(asset) {
@@ -101,11 +107,9 @@ function createAssetDotElement(asset, satelliteNum) {
 function render() {
   const systemElement = $('<div class="system"/>');
   systemElement.text(sys.name);
-
-  for (var s in sys.stars) {
-    const starElement = createStarElement(sys.stars[s]);
-
-    sys.stars[s].orbitals.forEach((o, i) => {
+  sys.stars.forEach(s => {
+    const starElement = createStarElement(s);
+    s.orbitals.forEach((o, i) => {
       const orbitalElement = createOrbitalElement(o, assetsByLocation[o.name].length + o.locations.length);
 
       var satelliteNum = 0;
@@ -126,7 +130,7 @@ function render() {
     });
 
     systemElement.append(starElement);
-  }
+  });
 
   const assetsElement = $('<div class="assets"/>');
   assetsElement.text('Assets');
@@ -152,7 +156,6 @@ function render() {
 }
 
 function refresh(system) {
-  console.log('page refreshed');
   init(system);
   render();
 }

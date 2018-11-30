@@ -91,7 +91,7 @@ async function writeSystem(system) {
         planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
       });
     });
-    data.stars.push({name: system.stars[s].name, planets: planets});
+    data.stars.push({name: s.name, planets: planets});
   });
 
   data.factions = [];
@@ -104,7 +104,7 @@ async function writeSystem(system) {
     data.assets.push({
       name: system.assets[a].name,
       id: system.assets[a].id,
-      locationName: system.assets[a].location.name,
+      locationName: system.assets[a].locationName,
       factionColour: system.assets[a].faction.colour,
       maxHp: system.assets[a].maxHp,
       currentHp: system.assets[a].currentHp
