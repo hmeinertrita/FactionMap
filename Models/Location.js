@@ -1,8 +1,7 @@
 class Location {
-  constructor(id, name, ...planets) {
-    this.id = id;
+  constructor(name, ...locations) {
     this.name = name;
-    this.planets = planets;
+    this.locations = locations;
   }
 }
 

@@ -5,12 +5,8 @@ class Star {
     this.name = name;
     this.orbitals = [];
     for (var i = 0; i < 11; i++){
-      this.orbitals.push(new Orbital(name+'-'+i));
+      this.orbitals.push(new Orbital(i, name+'-'+i, ...(planets[i] ? planets[i]:[])));
     }
-
-     planets.forEach((p) => {
-      this.orbitals[p.orbital].planets.push(p.planet);
-    });
   }
 
   addAsset(asset, orbital) {

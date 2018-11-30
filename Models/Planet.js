@@ -1,6 +1,8 @@
-class Planet {
+const Location = require('./Location.js');
+
+class Planet extends Location {
   constructor(name, techLevel, faction) {
-    this.name = name;
+    super(name);
     this.techLevel = techLevel;
     this.faction = faction;
   }

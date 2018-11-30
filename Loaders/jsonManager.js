@@ -53,10 +53,15 @@ async function loadSystem(path) {
 
   const stars = {};
   data.system.stars.forEach((s) => {
-    const planets = [];
+    const planets = {};
     s.planets.forEach((p) => {
       const planet = new Planet(p.name, p.techLevel, factions[p.factionColour]);
-      planets.push({planet: planet, orbital: p.orbital});
+      if (planets[p.orbital]) {
+        planets[p.orbital].push(planet);
+      }
+      else {
+        planets[p.orbital] = [planet];
+      }
       console.log('Created planet '+ planet.name);
     });
     stars[s.name] = new Star(s.name, planets);
@@ -82,7 +87,7 @@ async function writeSystem(system) {
   for (var s in system.stars) {
     const planets = [];
     system.stars[s].orbitals.forEach((o, i) => {
-      o.planets.forEach((p) => {
+      o.locations.forEach((p) => {
         planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
       });
     });

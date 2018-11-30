@@ -1,8 +1,8 @@
 const Location = require('./Location.js');
 
 class Orbital extends Location {
-  constructor(ring, id, name, ...planets) {
-    super(id, name, ...planets);
+  constructor(ring, name, ...planets) {
+    super(name, ...planets);
     this.ring = ring;
   }
 }
