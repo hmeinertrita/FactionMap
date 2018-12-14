@@ -136,7 +136,23 @@
     "assets": [
       {
         "name": "Cyberninjas",
-        "id": "P2 Classified Retrieval Unit",
+        "callsign": "P2 Classified Retrieval Unit",
+        "locationName": "Euthenia-8",
+        "factionColour": "B4A7D6",
+        "maxHp": 10,
+        "currentHp": 10
+      },
+      {
+        "name": "Cracked Comms",
+        "callsign": "P2 Classified Retrieval Unit",
+        "locationName": "Euthenia-8",
+        "factionColour": "B4A7D6",
+        "maxHp": 10,
+        "currentHp": 10
+      },
+      {
+        "name": "Smugglers",
+        "callsign": "P2 Classified Retrieval Unit",
         "locationName": "Euthenia-8",
         "factionColour": "B4A7D6",
         "maxHp": 10,

@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser')
 const app = express();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
@@ -14,9 +15,15 @@ json.read('./Data/save.json').then((sys) => {
 
 app.set('view engine', 'pug');
 app.use(express.static(__dirname+'/public'));
+app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
   res.render('systemView', {system: system});
+});
+
+app.post('/create', (req, res) => {
+  system.newAsset(req.body.name, req.body.callsign, req.body.location, req.body.faction, req.body.maxHp)
+  change();
 });
 
 io.on('connection', function(socket){
@@ -36,6 +43,10 @@ io.on('connection', function(socket){
 function update(sys) {
   system = sys;
   console.log('system updated');
+  change();
+}
+
+function change() {
   io.emit('refresh', system);
   json.write(system);
 }

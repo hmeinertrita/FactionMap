@@ -1,6 +1,7 @@
 class Asset {
-  constructor(name, id, locationName, faction, maxHp, currentHp) {
+  constructor(id, name, callsign, locationName, faction, maxHp, currentHp) {
     this.name = name;
+    this.callsign = callsign;
     this.id = id;
     this.locationName = locationName;
     this.faction = faction;

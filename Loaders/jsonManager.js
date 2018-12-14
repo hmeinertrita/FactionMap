@@ -69,8 +69,8 @@ async function loadSystem(path) {
   });
 
   const assets = {};
-  data.system.assets.forEach((a) => {
-    assets[a.id] = new Asset(a.name, a.id, a.locationName, factions[a.factionColour], a.maxHp, a.currentHp);
+  data.system.assets.forEach((a, i) => {
+    assets[i] = new Asset(i, a.name, a.callsign, a.locationName, factions[a.factionColour], a.maxHp, a.currentHp);
     console.log('Created asset ' + a.name);
   });
 
@@ -101,14 +101,16 @@ async function writeSystem(system) {
 
   data.assets = [];
   for (var a in system.assets) {
-    data.assets.push({
-      name: system.assets[a].name,
-      id: system.assets[a].id,
-      locationName: system.assets[a].locationName,
-      factionColour: system.assets[a].faction.colour,
-      maxHp: system.assets[a].maxHp,
-      currentHp: system.assets[a].currentHp
-    });
+    if (system.assets[a]) {
+      data.assets.push({
+        name: system.assets[a].name,
+        callsign: system.assets[a].callsign,
+        locationName: system.assets[a].locationName,
+        factionColour: system.assets[a].faction.colour,
+        maxHp: system.assets[a].maxHp,
+        currentHp: system.assets[a].currentHp
+      });
+    }
   }
 
   openFile('./Data/saveTest.json').then(fd => {
