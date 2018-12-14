@@ -2,7 +2,7 @@ const Region = require('./Region.js');
 const Asset = require('./Asset.js');
 
 class System extends Region.CompositeRegion {
-  constructor(name, stars, factions, assets, ...deepSpaceRegions) {
+  constructor(name, stars, factions, assets, deepSpaceRegions) {
     super(...stars, ...deepSpaceRegions);
     this.name = name;
     this.factions = factions;

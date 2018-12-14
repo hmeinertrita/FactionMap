@@ -32,7 +32,9 @@ class RegionAndLocation extends Region {
     super(...locations);
     this.name = name;
   }
-  getLocations() {return [this, ...(this.locations)];}
+  getLocations() {
+    return [this, ...(this.locations)];
+  }
 }
 
 module.exports = {

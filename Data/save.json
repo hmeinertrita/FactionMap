@@ -91,6 +91,20 @@
         ]
       }
     ],
+    "deepspace": [
+      {
+        "name": "Solanite River",
+        "size": 9,
+        "planets": [
+          {
+            "name": "Asteroid",
+            "techLevel": 3,
+            "orbital": 4,
+            "factionColour": "0000FF"
+          }
+        ]
+      }
+    ],
     "factions": [
       {
         "name": "Agraria",

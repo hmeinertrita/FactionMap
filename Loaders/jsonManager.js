@@ -4,6 +4,7 @@ const Orbital = require('../Models/Orbital.js');
 const Planet = require('../Models/Planet.js');
 const Star = require('../Models/Star.js');
 const System = require('../Models/System.js');
+const DeepSpace = require('../Models/DeepSpace.js');
 
 const fs = require('fs');
 const readFile = (path) => {
@@ -62,10 +63,25 @@ async function loadSystem(path) {
       else {
         planets[p.orbital] = [planet];
       }
-      console.log('Created planet '+ planet.name);
     });
     stars.push(new Star(s.name, planets));
     console.log('Created star '+ s.name);
+  });
+
+  const deepSpace = [];
+  data.system.deepspace.forEach((ds) => {
+    const planets = {};
+    ds.planets.forEach((p) => {
+      const planet = new Planet(p.name, p.techLevel, factions[p.factionColour]);
+      if (planets[p.orbital]) {
+        planets[p.orbital].push(planet);
+      }
+      else {
+        planets[p.orbital] = [planet];
+      }
+    });
+    deepSpace.push(new DeepSpace(ds.name, ds.size, planets));
+    console.log('Created deep space region '+ ds.name);
   });
 
   const assets = {};
@@ -74,7 +90,7 @@ async function loadSystem(path) {
     console.log('Created asset ' + a.name);
   });
 
-  const system = new System(data.system.name, stars, factions, assets);
+  const system = new System(data.system.name, stars, factions, assets, deepSpace);
 
   return system;
 }
@@ -92,6 +108,15 @@ async function writeSystem(system) {
       });
     });
     data.stars.push({name: s.name, planets: planets});
+  });
+  system.deepSpaceRegions.forEach(ds => {
+    const planets = [];
+    ds.orbitals.forEach((o, i) => {
+      o.locations.forEach((p) => {
+        planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
+      });
+    });
+    data.deepspace.push({name: ds.name, size: ds.orbitals.length, planets: planets});
   });
 
   data.factions = [];

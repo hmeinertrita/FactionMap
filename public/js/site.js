@@ -8,6 +8,8 @@ let assetTemplate;
 let factionTemplate;
 let starTemplate;
 let systemTemplate;
+let sectorTemplate;
+let deepSpaceTemplate;
 let oribitalTemplate;
 let planetTemplate;
 let assetDotTemplate;
@@ -89,6 +91,20 @@ function createOrbitalElement(orbital, satelliteCount) {
   return oe;
 }
 
+function createDeepSpaceElement(deepSpace) {
+  const dse = deepSpaceTemplate.clone();
+  dse.attr('id', deepSpace.name);
+  dse.addClass('slices-' + deepSpace.orbitals.length);
+  return dse;
+}
+
+function createSectorElement(orbital) {
+  const se = sectorTemplate.clone();
+  se.attr('id', orbital.name);
+  se.addClass('line-' + orbital.ring);
+  return se;
+}
+
 function createPlanetElement(planet, satelliteNum) {
   const pe = planetTemplate.clone();
   if (planet.faction) {
@@ -136,7 +152,6 @@ function createAssetForm() {
       acc[cur.name] = cur.value;
       return acc;
     }, {});
-    console.log(data);
 
     $.post({
       url: 'create',
@@ -177,6 +192,8 @@ function init(system) {
     planetTemplate = $('.planet#template').clone();
     assetDotTemplate = $('.asset-dot#template').clone();
     assetForm = $('.asset-form#template').clone();
+    deepSpaceTemplate = $('.deepspace#template').clone();
+    sectorTemplate = $('.sector#template').clone();
 
     templatesCloned=true;
   }
@@ -198,7 +215,6 @@ function render() {
         satelliteNum++;
       });
 
-      console.log(assetsByLocation[o.name]);
       assetsByLocation[o.name].forEach(a => {
         const assetDotElement = createAssetDotElement(a, satelliteNum);
         orbitalElement.append(assetDotElement);
@@ -209,6 +225,31 @@ function render() {
     });
 
     systemElement.append(starElement);
+  });
+
+  sys.deepSpaceRegions.forEach(ds => {
+    const deepSpaceElement = createDeepSpaceElement(ds);
+    ds.orbitals.forEach((o, i) => {
+      const sectorElement = createSectorElement(o);
+
+      var satelliteNum = 0;
+
+      o.locations.forEach(p => {
+        const planetElement = createPlanetElement(p, satelliteNum);
+        sectorElement.append(planetElement);
+        satelliteNum++;
+      });
+
+      assetsByLocation[o.name].forEach(a => {
+        const assetDotElement = createAssetDotElement(a, satelliteNum);
+        sectorElement.append(assetDotElement);
+        satelliteNum++;
+      });
+
+      deepSpaceElement.append(sectorElement);
+    });
+
+    systemElement.append(deepSpaceElement);
   });
 
   const assetsElement = $('<div class="assets"/>');
