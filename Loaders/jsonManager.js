@@ -109,6 +109,7 @@ async function writeSystem(system) {
     });
     data.stars.push({name: s.name, planets: planets});
   });
+  data.deepspace = [];
   system.deepSpaceRegions.forEach(ds => {
     const planets = [];
     ds.orbitals.forEach((o, i) => {

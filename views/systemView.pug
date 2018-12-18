@@ -50,16 +50,20 @@ html
       div(class='asset-dot satellite' id='template')
       
       //Asset Form
-      div(class='asset-form' id='template') Create new asset
-        form(class='asset-form__form')
-          label(class='asset-form__callsign-label' for='new-asset-callsign') Callsign
-          input(class='asset-form__callsign-input' name='callsign' id='new-asset-callsign')
-          label(class='asset-form__name-label' for='new-asset-name') Asset Type
-          input(class='asset-form__name-input' name='name' id='new-asset-name')
-          label(class='asset-form__max-hp-label' for='new-asset-max-hp')  Max HP
-          input(class='asset-form__max-hp-input' type='number' name='maxHp' id='new-asset-max-hp')
-          label(class='asset-form__faction-label' for='new-asset-faction') Faction
-          select(class='asset-form__faction-select' name='faction' id='new-asset-faction')
-          label(class='asset-form__location-label' for='new-asset-location') Location
-          select(class='asset-form__location-select' name='location' id='new-asset-location')
-          button(class='asset-form__submit') Create
+      form(class='asset-form', id='template')
+        div(class='faction__name') Create Asset
+        div(class='asset-form__asset')
+          div(class='d-flex')
+            input(class='asset-form__callsign -border-row' placeholder='CALLSIGN' id='new-asset-callsign' name='callsign')
+            button(class='asset-form__create') +
+          div(class='asset-form__controls -border-cols')
+            input(class='asset-form__name -border-col' placeholder='NAME' id='new-asset-name' name='name')
+            span(class='asset-form__hp -border-col')
+              input(class='asset-form__max-hp' placeholder='-99' type='number' id='new-asset-hp' name='maxHp')
+              span HP
+          div(class='-border-row')
+            div(class='asset-form__select') Location: 
+              select(class='asset-form__location-select' id='new-asset-location' name='location')
+          div(class='-border-row')
+            div(class='asset-form__select') Faction: 
+              select(class='asset-form__faction-select' id='new-asset-faction' name='faction')

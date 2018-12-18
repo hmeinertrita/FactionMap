@@ -5,7 +5,7 @@ class DeepSpace extends Region.CompositeRegion {
   constructor(name, size, planets) {
     const orbitals = [];
     for (var i = 0; i < size; i++){
-      orbitals.push(new Orbital(i, name+'-'+i, ...(planets[i] ? planets[i]:[])));
+      orbitals.push(new Orbital(i, name, name+'-'+i, ...(planets[i] ? planets[i]:[])));
     }
     super(...orbitals);
     this.orbitals = orbitals;

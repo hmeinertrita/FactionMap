@@ -3,6 +3,8 @@ let sys;
 let locations;
 let assetsByFaction;
 let assetsByLocation;
+let locationsByGroup;
+let locationOptionsByGroup;
 
 let assetTemplate;
 let factionTemplate;
@@ -49,12 +51,9 @@ function createAssetElement(asset) {
   hoverHighlight(callsign, 'asset-' + asset.id);
   ae.find('.asset__name').text(asset.name);
   const select = ae.find('select.asset__location-select');
-  locations.forEach(l => {
-    const option = $('<option/>');
-    option.val(l.name);
-    option.text(l.name);
-    select.append(option);
-  });
+  for (var g in locationOptionsByGroup) {
+    select.append(locationOptionsByGroup[g].clone());
+  }
   select.attr('data-asset', asset.id);
   select.val(asset.locationName);
   ae.find('input.asset__current-hp').val(asset.currentHp);
@@ -139,14 +138,11 @@ function createAssetForm() {
     factionSelect.append(option);
   }
 
-  locations.forEach(l => {
-    const option = $('<option/>');
-    option.val(l.name);
-    option.text(l.name);
-    locationSelect.append(option);
-  });
+  for (var g in locationOptionsByGroup) {
+    locationSelect.append(locationOptionsByGroup[g].clone());
+  }
 
-  af.find('form.asset-form__form').submit(function(e) {
+  af.submit(function(e) {
     e.preventDefault();
     const data = $(this).serializeArray().reduce((acc, cur) => {
       acc[cur.name] = cur.value;
@@ -165,6 +161,30 @@ function createAssetForm() {
 function init(system) {
   sys = system;
   locations = system.allLocations;
+
+  locationsByGroup = {};
+  locationOptionsByGroup = {};
+  locations.forEach(l => {
+    if(locationsByGroup[l.group]) {
+      locationsByGroup[l.group].push(l);
+
+      const option = $('<option/>');
+      option.val(l.name);
+      option.text(l.name);
+      locationOptionsByGroup[l.group].append(option);
+    }
+    else {
+      locationsByGroup[l.group] = [l];
+
+      const group = $('<optgroup/>');
+      const option = $('<option/>');
+      group.attr('label', l.group);
+      option.val(l.name);
+      option.text(l.name);
+      group.append(option);
+      locationOptionsByGroup[l.group] = group;
+    }
+  });
 
   assetsByFaction = {};
   for (var f in sys.factions) {

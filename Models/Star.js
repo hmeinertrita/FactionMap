@@ -5,7 +5,7 @@ class Star extends Region.CompositeRegion {
   constructor(name, planets) {
     const orbitals = [];
     for (var i = 0; i < 11; i++){
-      orbitals.push(new Orbital(i, name+'-'+i, ...(planets[i] ? planets[i]:[])));
+      orbitals.push(new Orbital(i, name, name+'-'+i, ...(planets[i] ? planets[i]:[])));
     }
     super(...orbitals);
     this.orbitals = orbitals;

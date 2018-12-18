@@ -1,8 +1,8 @@
 const Region = require('./Region.js');
 
 class Orbital extends Region.RegionAndLocation {
-  constructor(ring, name, ...planets) {
-    super(name, ...planets);
+  constructor(ring, region, name, ...planets) {
+    super(name, region, ...planets);
     this.ring = ring;
   }
 }

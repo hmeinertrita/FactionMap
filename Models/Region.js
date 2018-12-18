@@ -22,15 +22,18 @@ class CompositeRegion extends Region {
 }
 
 class Location {
-  constructor(name) {
-    this.name = name ? name : 'NO LOCATION NAME';
+  constructor(name, group) {
+    this.name = name;
+    this.group = group;
   }
 }
 
 class RegionAndLocation extends Region {
-  constructor(name, ...locations) {
+  constructor(name, group, ...locations) {
     super(...locations);
-    this.name = name;
+    this.location = new Location(name, group);
+    this.name = this.location.name;
+    this.group = this.location.group;
   }
   getLocations() {
     return [this, ...(this.locations)];
