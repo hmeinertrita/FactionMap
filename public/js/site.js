@@ -5,6 +5,8 @@ let assetsByFaction;
 let assetsByLocation;
 let locationsByGroup;
 let locationOptionsByGroup;
+let locationIdsByName;
+let groupIdsByName;
 
 let assetTemplate;
 let factionTemplate;
@@ -15,7 +17,9 @@ let deepSpaceTemplate;
 let oribitalTemplate;
 let planetTemplate;
 let assetDotTemplate;
-let assetForm;
+let locationGroupTemplate;
+let locationTemplate;
+let assetFormTemplate;
 
 var templatesCloned=false;
 
@@ -76,6 +80,25 @@ function createFactionElement(faction) {
   return fe;
 }
 
+function createLocationGroupElement(groupName, groupId) {
+  const lge = locationGroupTemplate.clone();
+  lge.attr('id', groupId);
+  const name = lge.find('.location-group__name');
+  name.text(groupName);
+  hoverHighlight(name, groupId);
+
+  return lge;
+}
+
+function createLocationElement(location) {
+  const le = locationTemplate.clone();
+  le.attr('id', locationIdsByName[location.name]);
+  le.text(location.name);
+  hoverHighlight(le, locationIdsByName[location.name]);
+
+  return le;
+}
+
 function createStarElement(star) {
   const se = starTemplate.clone();
   se.attr('id', star.name);
@@ -84,6 +107,7 @@ function createStarElement(star) {
 
 function createOrbitalElement(orbital, satelliteCount) {
   const oe = orbitalTemplate.clone();
+  oe.attr('data-'+locationIdsByName[orbital.name], true);
   oe.attr('id', orbital.name);
   oe.addClass('ring-' + orbital.ring);
   oe.addClass('count-' + satelliteCount);
@@ -93,12 +117,14 @@ function createOrbitalElement(orbital, satelliteCount) {
 function createDeepSpaceElement(deepSpace) {
   const dse = deepSpaceTemplate.clone();
   dse.attr('id', deepSpace.name);
+  dse.attr('data-'+groupIdsByName[deepSpace.name], true);
   dse.addClass('slices-' + deepSpace.orbitals.length);
   return dse;
 }
 
 function createSectorElement(orbital) {
   const se = sectorTemplate.clone();
+  se.attr('data-'+locationIdsByName[orbital.name], true);
   se.attr('id', orbital.name);
   se.addClass('line-' + orbital.ring);
   return se;
@@ -110,6 +136,7 @@ function createPlanetElement(planet, satelliteNum) {
     pe.attr('data-'+planet.faction.colour, true);
     setColour(pe, planet.faction.colour);
   }
+  pe.attr('data-'+locationIdsByName[planet.name], true);
   pe.attr('id', planet.name);
   pe.addClass('num-'+satelliteNum);
   return pe;
@@ -126,7 +153,7 @@ function createAssetDotElement(asset, satelliteNum) {
 }
 
 function createAssetForm() {
-  const af = assetForm.clone();
+  const af = assetFormTemplate.clone();
   af.attr('id', '');
   const factionSelect = af.find('select.asset-form__faction-select');
   const locationSelect = af.find('select.asset-form__location-select');
@@ -164,17 +191,27 @@ function init(system) {
 
   locationsByGroup = {};
   locationOptionsByGroup = {};
-  locations.forEach(l => {
-    if(locationsByGroup[l.group]) {
-      locationsByGroup[l.group].push(l);
+  groupIdsByName = {};
+  locationIdsByName = {};
+  var groupCount = 0;
+  locations.forEach((l, i) => {
+    locationIdsByName[l.name] = 'location-' + i;
+
+    var id = groupIdsByName[l.group];
+    if(id) {
+      locationsByGroup[id].push(l);
 
       const option = $('<option/>');
       option.val(l.name);
       option.text(l.name);
-      locationOptionsByGroup[l.group].append(option);
+      locationOptionsByGroup[id].append(option);
     }
     else {
-      locationsByGroup[l.group] = [l];
+      id = 'lg-' + groupCount;
+      groupIdsByName[l.group] = id;
+      groupCount++;
+
+      locationsByGroup[id] = [l];
 
       const group = $('<optgroup/>');
       const option = $('<option/>');
@@ -182,7 +219,7 @@ function init(system) {
       option.val(l.name);
       option.text(l.name);
       group.append(option);
-      locationOptionsByGroup[l.group] = group;
+      locationOptionsByGroup[id] = group;
     }
   });
 
@@ -211,9 +248,11 @@ function init(system) {
     orbitalTemplate = $('.orbital#template').clone();
     planetTemplate = $('.planet#template').clone();
     assetDotTemplate = $('.asset-dot#template').clone();
-    assetForm = $('.asset-form#template').clone();
+    assetFormTemplate = $('.asset-form#template').clone();
     deepSpaceTemplate = $('.deepspace#template').clone();
     sectorTemplate = $('.sector#template').clone();
+    locationTemplate = $('.location#template').clone();
+    locationGroupTemplate = $('.location-group#template').clone();
 
     templatesCloned=true;
   }
@@ -272,6 +311,18 @@ function render() {
     systemElement.append(deepSpaceElement);
   });
 
+  const locationsElement = $('<div class="locations"/>');
+  for (var lg in locationsByGroup) {
+    const groupElement = createLocationGroupElement(locationsByGroup[lg][0].group, lg)
+
+    locationsByGroup[lg].forEach((l, i) => {
+      const locationElement = createLocationElement(l, lg + '-' + i);
+      groupElement.find('.location-group__locations').append(locationElement);
+    });
+
+    locationsElement.append(groupElement);
+  }
+
   const assetsElement = $('<div class="assets"/>');
   //assetsElement.text('Assets');
   for (var f in assetsByFaction) {
@@ -287,6 +338,7 @@ function render() {
 
   $('.root').empty();
   $('.root').append(systemElement);
+  $('.root').append(locationsElement);
   $('.root').append(assetsElement);
   $('.root').append(createAssetForm());
 
