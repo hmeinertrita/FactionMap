@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   font-size: 16px;
   font-family: arial;
 }
@@ -349,13 +350,21 @@
   background: pink;
 }
 
+.star#Eucleia {
+  background: yellow;
+}
+
+.star#Euthenia {
+  background: cyan;
+}
+
 .star .orbital.ring-0 {
   width: 10px;
   height: 10px;
 }
 
 .star .orbital.ring-0.count-1 .satellite.num-0 {
-  animation: satellite-0-1-0 13.9s infinite linear;
+  animation: satellite-0-1-0 11.3s infinite linear;
 }
 
 @keyframes satellite-0-1-0 {
@@ -368,7 +377,7 @@
 }
 
 .star .orbital.ring-0.count-2 .satellite.num-0 {
-  animation: satellite-0-2-0 17s infinite linear;
+  animation: satellite-0-2-0 18.4s infinite linear;
 }
 
 @keyframes satellite-0-2-0 {
@@ -381,7 +390,7 @@
 }
 
 .star .orbital.ring-0.count-2 .satellite.num-1 {
-  animation: satellite-0-2-1 17s infinite linear;
+  animation: satellite-0-2-1 18.4s infinite linear;
 }
 
 @keyframes satellite-0-2-1 {
@@ -394,7 +403,7 @@
 }
 
 .star .orbital.ring-0.count-3 .satellite.num-0 {
-  animation: satellite-0-3-0 4.2s infinite linear;
+  animation: satellite-0-3-0 8.6s infinite linear;
 }
 
 @keyframes satellite-0-3-0 {
@@ -407,7 +416,7 @@
 }
 
 .star .orbital.ring-0.count-3 .satellite.num-1 {
-  animation: satellite-0-3-1 4.2s infinite linear;
+  animation: satellite-0-3-1 8.6s infinite linear;
 }
 
 @keyframes satellite-0-3-1 {
@@ -420,7 +429,7 @@
 }
 
 .star .orbital.ring-0.count-3 .satellite.num-2 {
-  animation: satellite-0-3-2 4.2s infinite linear;
+  animation: satellite-0-3-2 8.6s infinite linear;
 }
 
 @keyframes satellite-0-3-2 {
@@ -433,7 +442,7 @@
 }
 
 .star .orbital.ring-0.count-4 .satellite.num-0 {
-  animation: satellite-0-4-0 9.3s infinite linear;
+  animation: satellite-0-4-0 18s infinite linear;
 }
 
 @keyframes satellite-0-4-0 {
@@ -446,7 +455,7 @@
 }
 
 .star .orbital.ring-0.count-4 .satellite.num-1 {
-  animation: satellite-0-4-1 9.3s infinite linear;
+  animation: satellite-0-4-1 18s infinite linear;
 }
 
 @keyframes satellite-0-4-1 {
@@ -459,7 +468,7 @@
 }
 
 .star .orbital.ring-0.count-4 .satellite.num-2 {
-  animation: satellite-0-4-2 9.3s infinite linear;
+  animation: satellite-0-4-2 18s infinite linear;
 }
 
 @keyframes satellite-0-4-2 {
@@ -472,7 +481,7 @@
 }
 
 .star .orbital.ring-0.count-4 .satellite.num-3 {
-  animation: satellite-0-4-3 9.3s infinite linear;
+  animation: satellite-0-4-3 18s infinite linear;
 }
 
 @keyframes satellite-0-4-3 {
@@ -485,7 +494,7 @@
 }
 
 .star .orbital.ring-0.count-5 .satellite.num-0 {
-  animation: satellite-0-5-0 6.7s infinite linear;
+  animation: satellite-0-5-0 15.7s infinite linear;
 }
 
 @keyframes satellite-0-5-0 {
@@ -498,7 +507,7 @@
 }
 
 .star .orbital.ring-0.count-5 .satellite.num-1 {
-  animation: satellite-0-5-1 6.7s infinite linear;
+  animation: satellite-0-5-1 15.7s infinite linear;
 }
 
 @keyframes satellite-0-5-1 {
@@ -511,7 +520,7 @@
 }
 
 .star .orbital.ring-0.count-5 .satellite.num-2 {
-  animation: satellite-0-5-2 6.7s infinite linear;
+  animation: satellite-0-5-2 15.7s infinite linear;
 }
 
 @keyframes satellite-0-5-2 {
@@ -524,7 +533,7 @@
 }
 
 .star .orbital.ring-0.count-5 .satellite.num-3 {
-  animation: satellite-0-5-3 6.7s infinite linear;
+  animation: satellite-0-5-3 15.7s infinite linear;
 }
 
 @keyframes satellite-0-5-3 {
@@ -537,7 +546,7 @@
 }
 
 .star .orbital.ring-0.count-5 .satellite.num-4 {
-  animation: satellite-0-5-4 6.7s infinite linear;
+  animation: satellite-0-5-4 15.7s infinite linear;
 }
 
 @keyframes satellite-0-5-4 {
@@ -550,7 +559,7 @@
 }
 
 .star .orbital.ring-0.count-6 .satellite.num-0 {
-  animation: satellite-0-6-0 17.1s infinite linear;
+  animation: satellite-0-6-0 13.9s infinite linear;
 }
 
 @keyframes satellite-0-6-0 {
@@ -563,7 +572,7 @@
 }
 
 .star .orbital.ring-0.count-6 .satellite.num-1 {
-  animation: satellite-0-6-1 17.1s infinite linear;
+  animation: satellite-0-6-1 13.9s infinite linear;
 }
 
 @keyframes satellite-0-6-1 {
@@ -576,7 +585,7 @@
 }
 
 .star .orbital.ring-0.count-6 .satellite.num-2 {
-  animation: satellite-0-6-2 17.1s infinite linear;
+  animation: satellite-0-6-2 13.9s infinite linear;
 }
 
 @keyframes satellite-0-6-2 {
@@ -589,7 +598,7 @@
 }
 
 .star .orbital.ring-0.count-6 .satellite.num-3 {
-  animation: satellite-0-6-3 17.1s infinite linear;
+  animation: satellite-0-6-3 13.9s infinite linear;
 }
 
 @keyframes satellite-0-6-3 {
@@ -602,7 +611,7 @@
 }
 
 .star .orbital.ring-0.count-6 .satellite.num-4 {
-  animation: satellite-0-6-4 17.1s infinite linear;
+  animation: satellite-0-6-4 13.9s infinite linear;
 }
 
 @keyframes satellite-0-6-4 {
@@ -615,7 +624,7 @@
 }
 
 .star .orbital.ring-0.count-6 .satellite.num-5 {
-  animation: satellite-0-6-5 17.1s infinite linear;
+  animation: satellite-0-6-5 13.9s infinite linear;
 }
 
 @keyframes satellite-0-6-5 {
@@ -628,7 +637,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-0 {
-  animation: satellite-0-7-0 5s infinite linear;
+  animation: satellite-0-7-0 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-0 {
@@ -641,7 +650,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-1 {
-  animation: satellite-0-7-1 5s infinite linear;
+  animation: satellite-0-7-1 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-1 {
@@ -654,7 +663,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-2 {
-  animation: satellite-0-7-2 5s infinite linear;
+  animation: satellite-0-7-2 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-2 {
@@ -667,7 +676,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-3 {
-  animation: satellite-0-7-3 5s infinite linear;
+  animation: satellite-0-7-3 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-3 {
@@ -680,7 +689,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-4 {
-  animation: satellite-0-7-4 5s infinite linear;
+  animation: satellite-0-7-4 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-4 {
@@ -693,7 +702,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-5 {
-  animation: satellite-0-7-5 5s infinite linear;
+  animation: satellite-0-7-5 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-5 {
@@ -706,7 +715,7 @@
 }
 
 .star .orbital.ring-0.count-7 .satellite.num-6 {
-  animation: satellite-0-7-6 5s infinite linear;
+  animation: satellite-0-7-6 4.5s infinite linear;
 }
 
 @keyframes satellite-0-7-6 {
@@ -719,7 +728,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-0 {
-  animation: satellite-0-8-0 8.7s infinite linear;
+  animation: satellite-0-8-0 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-0 {
@@ -732,7 +741,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-1 {
-  animation: satellite-0-8-1 8.7s infinite linear;
+  animation: satellite-0-8-1 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-1 {
@@ -745,7 +754,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-2 {
-  animation: satellite-0-8-2 8.7s infinite linear;
+  animation: satellite-0-8-2 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-2 {
@@ -758,7 +767,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-3 {
-  animation: satellite-0-8-3 8.7s infinite linear;
+  animation: satellite-0-8-3 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-3 {
@@ -771,7 +780,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-4 {
-  animation: satellite-0-8-4 8.7s infinite linear;
+  animation: satellite-0-8-4 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-4 {
@@ -784,7 +793,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-5 {
-  animation: satellite-0-8-5 8.7s infinite linear;
+  animation: satellite-0-8-5 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-5 {
@@ -797,7 +806,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-6 {
-  animation: satellite-0-8-6 8.7s infinite linear;
+  animation: satellite-0-8-6 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-6 {
@@ -810,7 +819,7 @@
 }
 
 .star .orbital.ring-0.count-8 .satellite.num-7 {
-  animation: satellite-0-8-7 8.7s infinite linear;
+  animation: satellite-0-8-7 12.5s infinite linear;
 }
 
 @keyframes satellite-0-8-7 {
@@ -823,7 +832,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-0 {
-  animation: satellite-0-9-0 11.1s infinite linear;
+  animation: satellite-0-9-0 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-0 {
@@ -836,7 +845,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-1 {
-  animation: satellite-0-9-1 11.1s infinite linear;
+  animation: satellite-0-9-1 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-1 {
@@ -849,7 +858,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-2 {
-  animation: satellite-0-9-2 11.1s infinite linear;
+  animation: satellite-0-9-2 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-2 {
@@ -862,7 +871,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-3 {
-  animation: satellite-0-9-3 11.1s infinite linear;
+  animation: satellite-0-9-3 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-3 {
@@ -875,7 +884,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-4 {
-  animation: satellite-0-9-4 11.1s infinite linear;
+  animation: satellite-0-9-4 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-4 {
@@ -888,7 +897,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-5 {
-  animation: satellite-0-9-5 11.1s infinite linear;
+  animation: satellite-0-9-5 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-5 {
@@ -901,7 +910,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-6 {
-  animation: satellite-0-9-6 11.1s infinite linear;
+  animation: satellite-0-9-6 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-6 {
@@ -914,7 +923,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-7 {
-  animation: satellite-0-9-7 11.1s infinite linear;
+  animation: satellite-0-9-7 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-7 {
@@ -927,7 +936,7 @@
 }
 
 .star .orbital.ring-0.count-9 .satellite.num-8 {
-  animation: satellite-0-9-8 11.1s infinite linear;
+  animation: satellite-0-9-8 12.6s infinite linear;
 }
 
 @keyframes satellite-0-9-8 {
@@ -940,7 +949,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-0 {
-  animation: satellite-0-10-0 13.9s infinite linear;
+  animation: satellite-0-10-0 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-0 {
@@ -953,7 +962,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-1 {
-  animation: satellite-0-10-1 13.9s infinite linear;
+  animation: satellite-0-10-1 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-1 {
@@ -966,7 +975,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-2 {
-  animation: satellite-0-10-2 13.9s infinite linear;
+  animation: satellite-0-10-2 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-2 {
@@ -979,7 +988,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-3 {
-  animation: satellite-0-10-3 13.9s infinite linear;
+  animation: satellite-0-10-3 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-3 {
@@ -992,7 +1001,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-4 {
-  animation: satellite-0-10-4 13.9s infinite linear;
+  animation: satellite-0-10-4 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-4 {
@@ -1005,7 +1014,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-5 {
-  animation: satellite-0-10-5 13.9s infinite linear;
+  animation: satellite-0-10-5 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-5 {
@@ -1018,7 +1027,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-6 {
-  animation: satellite-0-10-6 13.9s infinite linear;
+  animation: satellite-0-10-6 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-6 {
@@ -1031,7 +1040,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-7 {
-  animation: satellite-0-10-7 13.9s infinite linear;
+  animation: satellite-0-10-7 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-7 {
@@ -1044,7 +1053,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-8 {
-  animation: satellite-0-10-8 13.9s infinite linear;
+  animation: satellite-0-10-8 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-8 {
@@ -1057,7 +1066,7 @@
 }
 
 .star .orbital.ring-0.count-10 .satellite.num-9 {
-  animation: satellite-0-10-9 13.9s infinite linear;
+  animation: satellite-0-10-9 5.3s infinite linear;
 }
 
 @keyframes satellite-0-10-9 {
@@ -1075,7 +1084,7 @@
 }
 
 .star .orbital.ring-1.count-1 .satellite.num-0 {
-  animation: satellite-1-1-0 9.2s infinite linear;
+  animation: satellite-1-1-0 8.2s infinite linear;
 }
 
 @keyframes satellite-1-1-0 {
@@ -1088,7 +1097,7 @@
 }
 
 .star .orbital.ring-1.count-2 .satellite.num-0 {
-  animation: satellite-1-2-0 5.5s infinite linear;
+  animation: satellite-1-2-0 6.8s infinite linear;
 }
 
 @keyframes satellite-1-2-0 {
@@ -1101,7 +1110,7 @@
 }
 
 .star .orbital.ring-1.count-2 .satellite.num-1 {
-  animation: satellite-1-2-1 5.5s infinite linear;
+  animation: satellite-1-2-1 6.8s infinite linear;
 }
 
 @keyframes satellite-1-2-1 {
@@ -1114,7 +1123,7 @@
 }
 
 .star .orbital.ring-1.count-3 .satellite.num-0 {
-  animation: satellite-1-3-0 4.2s infinite linear;
+  animation: satellite-1-3-0 8.2s infinite linear;
 }
 
 @keyframes satellite-1-3-0 {
@@ -1127,7 +1136,7 @@
 }
 
 .star .orbital.ring-1.count-3 .satellite.num-1 {
-  animation: satellite-1-3-1 4.2s infinite linear;
+  animation: satellite-1-3-1 8.2s infinite linear;
 }
 
 @keyframes satellite-1-3-1 {
@@ -1140,7 +1149,7 @@
 }
 
 .star .orbital.ring-1.count-3 .satellite.num-2 {
-  animation: satellite-1-3-2 4.2s infinite linear;
+  animation: satellite-1-3-2 8.2s infinite linear;
 }
 
 @keyframes satellite-1-3-2 {
@@ -1153,7 +1162,7 @@
 }
 
 .star .orbital.ring-1.count-4 .satellite.num-0 {
-  animation: satellite-1-4-0 6s infinite linear;
+  animation: satellite-1-4-0 11.2s infinite linear;
 }
 
 @keyframes satellite-1-4-0 {
@@ -1166,7 +1175,7 @@
 }
 
 .star .orbital.ring-1.count-4 .satellite.num-1 {
-  animation: satellite-1-4-1 6s infinite linear;
+  animation: satellite-1-4-1 11.2s infinite linear;
 }
 
 @keyframes satellite-1-4-1 {
@@ -1179,7 +1188,7 @@
 }
 
 .star .orbital.ring-1.count-4 .satellite.num-2 {
-  animation: satellite-1-4-2 6s infinite linear;
+  animation: satellite-1-4-2 11.2s infinite linear;
 }
 
 @keyframes satellite-1-4-2 {
@@ -1192,7 +1201,7 @@
 }
 
 .star .orbital.ring-1.count-4 .satellite.num-3 {
-  animation: satellite-1-4-3 6s infinite linear;
+  animation: satellite-1-4-3 11.2s infinite linear;
 }
 
 @keyframes satellite-1-4-3 {
@@ -1205,7 +1214,7 @@
 }
 
 .star .orbital.ring-1.count-5 .satellite.num-0 {
-  animation: satellite-1-5-0 6.8s infinite linear;
+  animation: satellite-1-5-0 5.1s infinite linear;
 }
 
 @keyframes satellite-1-5-0 {
@@ -1218,7 +1227,7 @@
 }
 
 .star .orbital.ring-1.count-5 .satellite.num-1 {
-  animation: satellite-1-5-1 6.8s infinite linear;
+  animation: satellite-1-5-1 5.1s infinite linear;
 }
 
 @keyframes satellite-1-5-1 {
@@ -1231,7 +1240,7 @@
 }
 
 .star .orbital.ring-1.count-5 .satellite.num-2 {
-  animation: satellite-1-5-2 6.8s infinite linear;
+  animation: satellite-1-5-2 5.1s infinite linear;
 }
 
 @keyframes satellite-1-5-2 {
@@ -1244,7 +1253,7 @@
 }
 
 .star .orbital.ring-1.count-5 .satellite.num-3 {
-  animation: satellite-1-5-3 6.8s infinite linear;
+  animation: satellite-1-5-3 5.1s infinite linear;
 }
 
 @keyframes satellite-1-5-3 {
@@ -1257,7 +1266,7 @@
 }
 
 .star .orbital.ring-1.count-5 .satellite.num-4 {
-  animation: satellite-1-5-4 6.8s infinite linear;
+  animation: satellite-1-5-4 5.1s infinite linear;
 }
 
 @keyframes satellite-1-5-4 {
@@ -1270,7 +1279,7 @@
 }
 
 .star .orbital.ring-1.count-6 .satellite.num-0 {
-  animation: satellite-1-6-0 8.8s infinite linear;
+  animation: satellite-1-6-0 15.8s infinite linear;
 }
 
 @keyframes satellite-1-6-0 {
@@ -1283,7 +1292,7 @@
 }
 
 .star .orbital.ring-1.count-6 .satellite.num-1 {
-  animation: satellite-1-6-1 8.8s infinite linear;
+  animation: satellite-1-6-1 15.8s infinite linear;
 }
 
 @keyframes satellite-1-6-1 {
@@ -1296,7 +1305,7 @@
 }
 
 .star .orbital.ring-1.count-6 .satellite.num-2 {
-  animation: satellite-1-6-2 8.8s infinite linear;
+  animation: satellite-1-6-2 15.8s infinite linear;
 }
 
 @keyframes satellite-1-6-2 {
@@ -1309,7 +1318,7 @@
 }
 
 .star .orbital.ring-1.count-6 .satellite.num-3 {
-  animation: satellite-1-6-3 8.8s infinite linear;
+  animation: satellite-1-6-3 15.8s infinite linear;
 }
 
 @keyframes satellite-1-6-3 {
@@ -1322,7 +1331,7 @@
 }
 
 .star .orbital.ring-1.count-6 .satellite.num-4 {
-  animation: satellite-1-6-4 8.8s infinite linear;
+  animation: satellite-1-6-4 15.8s infinite linear;
 }
 
 @keyframes satellite-1-6-4 {
@@ -1335,7 +1344,7 @@
 }
 
 .star .orbital.ring-1.count-6 .satellite.num-5 {
-  animation: satellite-1-6-5 8.8s infinite linear;
+  animation: satellite-1-6-5 15.8s infinite linear;
 }
 
 @keyframes satellite-1-6-5 {
@@ -1348,7 +1357,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-0 {
-  animation: satellite-1-7-0 15.1s infinite linear;
+  animation: satellite-1-7-0 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-0 {
@@ -1361,7 +1370,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-1 {
-  animation: satellite-1-7-1 15.1s infinite linear;
+  animation: satellite-1-7-1 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-1 {
@@ -1374,7 +1383,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-2 {
-  animation: satellite-1-7-2 15.1s infinite linear;
+  animation: satellite-1-7-2 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-2 {
@@ -1387,7 +1396,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-3 {
-  animation: satellite-1-7-3 15.1s infinite linear;
+  animation: satellite-1-7-3 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-3 {
@@ -1400,7 +1409,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-4 {
-  animation: satellite-1-7-4 15.1s infinite linear;
+  animation: satellite-1-7-4 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-4 {
@@ -1413,7 +1422,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-5 {
-  animation: satellite-1-7-5 15.1s infinite linear;
+  animation: satellite-1-7-5 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-5 {
@@ -1426,7 +1435,7 @@
 }
 
 .star .orbital.ring-1.count-7 .satellite.num-6 {
-  animation: satellite-1-7-6 15.1s infinite linear;
+  animation: satellite-1-7-6 6.7s infinite linear;
 }
 
 @keyframes satellite-1-7-6 {
@@ -1439,7 +1448,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-0 {
-  animation: satellite-1-8-0 7.3s infinite linear;
+  animation: satellite-1-8-0 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-0 {
@@ -1452,7 +1461,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-1 {
-  animation: satellite-1-8-1 7.3s infinite linear;
+  animation: satellite-1-8-1 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-1 {
@@ -1465,7 +1474,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-2 {
-  animation: satellite-1-8-2 7.3s infinite linear;
+  animation: satellite-1-8-2 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-2 {
@@ -1478,7 +1487,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-3 {
-  animation: satellite-1-8-3 7.3s infinite linear;
+  animation: satellite-1-8-3 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-3 {
@@ -1491,7 +1500,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-4 {
-  animation: satellite-1-8-4 7.3s infinite linear;
+  animation: satellite-1-8-4 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-4 {
@@ -1504,7 +1513,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-5 {
-  animation: satellite-1-8-5 7.3s infinite linear;
+  animation: satellite-1-8-5 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-5 {
@@ -1517,7 +1526,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-6 {
-  animation: satellite-1-8-6 7.3s infinite linear;
+  animation: satellite-1-8-6 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-6 {
@@ -1530,7 +1539,7 @@
 }
 
 .star .orbital.ring-1.count-8 .satellite.num-7 {
-  animation: satellite-1-8-7 7.3s infinite linear;
+  animation: satellite-1-8-7 15.3s infinite linear;
 }
 
 @keyframes satellite-1-8-7 {
@@ -1543,7 +1552,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-0 {
-  animation: satellite-1-9-0 7.8s infinite linear;
+  animation: satellite-1-9-0 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-0 {
@@ -1556,7 +1565,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-1 {
-  animation: satellite-1-9-1 7.8s infinite linear;
+  animation: satellite-1-9-1 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-1 {
@@ -1569,7 +1578,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-2 {
-  animation: satellite-1-9-2 7.8s infinite linear;
+  animation: satellite-1-9-2 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-2 {
@@ -1582,7 +1591,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-3 {
-  animation: satellite-1-9-3 7.8s infinite linear;
+  animation: satellite-1-9-3 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-3 {
@@ -1595,7 +1604,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-4 {
-  animation: satellite-1-9-4 7.8s infinite linear;
+  animation: satellite-1-9-4 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-4 {
@@ -1608,7 +1617,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-5 {
-  animation: satellite-1-9-5 7.8s infinite linear;
+  animation: satellite-1-9-5 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-5 {
@@ -1621,7 +1630,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-6 {
-  animation: satellite-1-9-6 7.8s infinite linear;
+  animation: satellite-1-9-6 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-6 {
@@ -1634,7 +1643,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-7 {
-  animation: satellite-1-9-7 7.8s infinite linear;
+  animation: satellite-1-9-7 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-7 {
@@ -1647,7 +1656,7 @@
 }
 
 .star .orbital.ring-1.count-9 .satellite.num-8 {
-  animation: satellite-1-9-8 7.8s infinite linear;
+  animation: satellite-1-9-8 16.9s infinite linear;
 }
 
 @keyframes satellite-1-9-8 {
@@ -1660,7 +1669,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-0 {
-  animation: satellite-1-10-0 18.3s infinite linear;
+  animation: satellite-1-10-0 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-0 {
@@ -1673,7 +1682,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-1 {
-  animation: satellite-1-10-1 18.3s infinite linear;
+  animation: satellite-1-10-1 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-1 {
@@ -1686,7 +1695,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-2 {
-  animation: satellite-1-10-2 18.3s infinite linear;
+  animation: satellite-1-10-2 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-2 {
@@ -1699,7 +1708,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-3 {
-  animation: satellite-1-10-3 18.3s infinite linear;
+  animation: satellite-1-10-3 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-3 {
@@ -1712,7 +1721,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-4 {
-  animation: satellite-1-10-4 18.3s infinite linear;
+  animation: satellite-1-10-4 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-4 {
@@ -1725,7 +1734,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-5 {
-  animation: satellite-1-10-5 18.3s infinite linear;
+  animation: satellite-1-10-5 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-5 {
@@ -1738,7 +1747,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-6 {
-  animation: satellite-1-10-6 18.3s infinite linear;
+  animation: satellite-1-10-6 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-6 {
@@ -1751,7 +1760,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-7 {
-  animation: satellite-1-10-7 18.3s infinite linear;
+  animation: satellite-1-10-7 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-7 {
@@ -1764,7 +1773,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-8 {
-  animation: satellite-1-10-8 18.3s infinite linear;
+  animation: satellite-1-10-8 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-8 {
@@ -1777,7 +1786,7 @@
 }
 
 .star .orbital.ring-1.count-10 .satellite.num-9 {
-  animation: satellite-1-10-9 18.3s infinite linear;
+  animation: satellite-1-10-9 12.1s infinite linear;
 }
 
 @keyframes satellite-1-10-9 {
@@ -1795,7 +1804,7 @@
 }
 
 .star .orbital.ring-2.count-1 .satellite.num-0 {
-  animation: satellite-2-1-0 6.6s infinite linear;
+  animation: satellite-2-1-0 4.1s infinite linear;
 }
 
 @keyframes satellite-2-1-0 {
@@ -1808,7 +1817,7 @@
 }
 
 .star .orbital.ring-2.count-2 .satellite.num-0 {
-  animation: satellite-2-2-0 13.1s infinite linear;
+  animation: satellite-2-2-0 11.8s infinite linear;
 }
 
 @keyframes satellite-2-2-0 {
@@ -1821,7 +1830,7 @@
 }
 
 .star .orbital.ring-2.count-2 .satellite.num-1 {
-  animation: satellite-2-2-1 13.1s infinite linear;
+  animation: satellite-2-2-1 11.8s infinite linear;
 }
 
 @keyframes satellite-2-2-1 {
@@ -1834,7 +1843,7 @@
 }
 
 .star .orbital.ring-2.count-3 .satellite.num-0 {
-  animation: satellite-2-3-0 9.4s infinite linear;
+  animation: satellite-2-3-0 12.8s infinite linear;
 }
 
 @keyframes satellite-2-3-0 {
@@ -1847,7 +1856,7 @@
 }
 
 .star .orbital.ring-2.count-3 .satellite.num-1 {
-  animation: satellite-2-3-1 9.4s infinite linear;
+  animation: satellite-2-3-1 12.8s infinite linear;
 }
 
 @keyframes satellite-2-3-1 {
@@ -1860,7 +1869,7 @@
 }
 
 .star .orbital.ring-2.count-3 .satellite.num-2 {
-  animation: satellite-2-3-2 9.4s infinite linear;
+  animation: satellite-2-3-2 12.8s infinite linear;
 }
 
 @keyframes satellite-2-3-2 {
@@ -1873,7 +1882,7 @@
 }
 
 .star .orbital.ring-2.count-4 .satellite.num-0 {
-  animation: satellite-2-4-0 14.1s infinite linear;
+  animation: satellite-2-4-0 5.6s infinite linear;
 }
 
 @keyframes satellite-2-4-0 {
@@ -1886,7 +1895,7 @@
 }
 
 .star .orbital.ring-2.count-4 .satellite.num-1 {
-  animation: satellite-2-4-1 14.1s infinite linear;
+  animation: satellite-2-4-1 5.6s infinite linear;
 }
 
 @keyframes satellite-2-4-1 {
@@ -1899,7 +1908,7 @@
 }
 
 .star .orbital.ring-2.count-4 .satellite.num-2 {
-  animation: satellite-2-4-2 14.1s infinite linear;
+  animation: satellite-2-4-2 5.6s infinite linear;
 }
 
 @keyframes satellite-2-4-2 {
@@ -1912,7 +1921,7 @@
 }
 
 .star .orbital.ring-2.count-4 .satellite.num-3 {
-  animation: satellite-2-4-3 14.1s infinite linear;
+  animation: satellite-2-4-3 5.6s infinite linear;
 }
 
 @keyframes satellite-2-4-3 {
@@ -1925,7 +1934,7 @@
 }
 
 .star .orbital.ring-2.count-5 .satellite.num-0 {
-  animation: satellite-2-5-0 10.3s infinite linear;
+  animation: satellite-2-5-0 10.8s infinite linear;
 }
 
 @keyframes satellite-2-5-0 {
@@ -1938,7 +1947,7 @@
 }
 
 .star .orbital.ring-2.count-5 .satellite.num-1 {
-  animation: satellite-2-5-1 10.3s infinite linear;
+  animation: satellite-2-5-1 10.8s infinite linear;
 }
 
 @keyframes satellite-2-5-1 {
@@ -1951,7 +1960,7 @@
 }
 
 .star .orbital.ring-2.count-5 .satellite.num-2 {
-  animation: satellite-2-5-2 10.3s infinite linear;
+  animation: satellite-2-5-2 10.8s infinite linear;
 }
 
 @keyframes satellite-2-5-2 {
@@ -1964,7 +1973,7 @@
 }
 
 .star .orbital.ring-2.count-5 .satellite.num-3 {
-  animation: satellite-2-5-3 10.3s infinite linear;
+  animation: satellite-2-5-3 10.8s infinite linear;
 }
 
 @keyframes satellite-2-5-3 {
@@ -1977,7 +1986,7 @@
 }
 
 .star .orbital.ring-2.count-5 .satellite.num-4 {
-  animation: satellite-2-5-4 10.3s infinite linear;
+  animation: satellite-2-5-4 10.8s infinite linear;
 }
 
 @keyframes satellite-2-5-4 {
@@ -1990,7 +1999,7 @@
 }
 
 .star .orbital.ring-2.count-6 .satellite.num-0 {
-  animation: satellite-2-6-0 9.8s infinite linear;
+  animation: satellite-2-6-0 13s infinite linear;
 }
 
 @keyframes satellite-2-6-0 {
@@ -2003,7 +2012,7 @@
 }
 
 .star .orbital.ring-2.count-6 .satellite.num-1 {
-  animation: satellite-2-6-1 9.8s infinite linear;
+  animation: satellite-2-6-1 13s infinite linear;
 }
 
 @keyframes satellite-2-6-1 {
@@ -2016,7 +2025,7 @@
 }
 
 .star .orbital.ring-2.count-6 .satellite.num-2 {
-  animation: satellite-2-6-2 9.8s infinite linear;
+  animation: satellite-2-6-2 13s infinite linear;
 }
 
 @keyframes satellite-2-6-2 {
@@ -2029,7 +2038,7 @@
 }
 
 .star .orbital.ring-2.count-6 .satellite.num-3 {
-  animation: satellite-2-6-3 9.8s infinite linear;
+  animation: satellite-2-6-3 13s infinite linear;
 }
 
 @keyframes satellite-2-6-3 {
@@ -2042,7 +2051,7 @@
 }
 
 .star .orbital.ring-2.count-6 .satellite.num-4 {
-  animation: satellite-2-6-4 9.8s infinite linear;
+  animation: satellite-2-6-4 13s infinite linear;
 }
 
 @keyframes satellite-2-6-4 {
@@ -2055,7 +2064,7 @@
 }
 
 .star .orbital.ring-2.count-6 .satellite.num-5 {
-  animation: satellite-2-6-5 9.8s infinite linear;
+  animation: satellite-2-6-5 13s infinite linear;
 }
 
 @keyframes satellite-2-6-5 {
@@ -2068,7 +2077,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-0 {
-  animation: satellite-2-7-0 10.8s infinite linear;
+  animation: satellite-2-7-0 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-0 {
@@ -2081,7 +2090,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-1 {
-  animation: satellite-2-7-1 10.8s infinite linear;
+  animation: satellite-2-7-1 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-1 {
@@ -2094,7 +2103,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-2 {
-  animation: satellite-2-7-2 10.8s infinite linear;
+  animation: satellite-2-7-2 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-2 {
@@ -2107,7 +2116,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-3 {
-  animation: satellite-2-7-3 10.8s infinite linear;
+  animation: satellite-2-7-3 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-3 {
@@ -2120,7 +2129,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-4 {
-  animation: satellite-2-7-4 10.8s infinite linear;
+  animation: satellite-2-7-4 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-4 {
@@ -2133,7 +2142,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-5 {
-  animation: satellite-2-7-5 10.8s infinite linear;
+  animation: satellite-2-7-5 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-5 {
@@ -2146,7 +2155,7 @@
 }
 
 .star .orbital.ring-2.count-7 .satellite.num-6 {
-  animation: satellite-2-7-6 10.8s infinite linear;
+  animation: satellite-2-7-6 9.1s infinite linear;
 }
 
 @keyframes satellite-2-7-6 {
@@ -2159,7 +2168,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-0 {
-  animation: satellite-2-8-0 14.1s infinite linear;
+  animation: satellite-2-8-0 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-0 {
@@ -2172,7 +2181,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-1 {
-  animation: satellite-2-8-1 14.1s infinite linear;
+  animation: satellite-2-8-1 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-1 {
@@ -2185,7 +2194,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-2 {
-  animation: satellite-2-8-2 14.1s infinite linear;
+  animation: satellite-2-8-2 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-2 {
@@ -2198,7 +2207,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-3 {
-  animation: satellite-2-8-3 14.1s infinite linear;
+  animation: satellite-2-8-3 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-3 {
@@ -2211,7 +2220,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-4 {
-  animation: satellite-2-8-4 14.1s infinite linear;
+  animation: satellite-2-8-4 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-4 {
@@ -2224,7 +2233,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-5 {
-  animation: satellite-2-8-5 14.1s infinite linear;
+  animation: satellite-2-8-5 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-5 {
@@ -2237,7 +2246,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-6 {
-  animation: satellite-2-8-6 14.1s infinite linear;
+  animation: satellite-2-8-6 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-6 {
@@ -2250,7 +2259,7 @@
 }
 
 .star .orbital.ring-2.count-8 .satellite.num-7 {
-  animation: satellite-2-8-7 14.1s infinite linear;
+  animation: satellite-2-8-7 7.4s infinite linear;
 }
 
 @keyframes satellite-2-8-7 {
@@ -2263,7 +2272,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-0 {
-  animation: satellite-2-9-0 6.9s infinite linear;
+  animation: satellite-2-9-0 12s infinite linear;
 }
 
 @keyframes satellite-2-9-0 {
@@ -2276,7 +2285,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-1 {
-  animation: satellite-2-9-1 6.9s infinite linear;
+  animation: satellite-2-9-1 12s infinite linear;
 }
 
 @keyframes satellite-2-9-1 {
@@ -2289,7 +2298,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-2 {
-  animation: satellite-2-9-2 6.9s infinite linear;
+  animation: satellite-2-9-2 12s infinite linear;
 }
 
 @keyframes satellite-2-9-2 {
@@ -2302,7 +2311,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-3 {
-  animation: satellite-2-9-3 6.9s infinite linear;
+  animation: satellite-2-9-3 12s infinite linear;
 }
 
 @keyframes satellite-2-9-3 {
@@ -2315,7 +2324,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-4 {
-  animation: satellite-2-9-4 6.9s infinite linear;
+  animation: satellite-2-9-4 12s infinite linear;
 }
 
 @keyframes satellite-2-9-4 {
@@ -2328,7 +2337,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-5 {
-  animation: satellite-2-9-5 6.9s infinite linear;
+  animation: satellite-2-9-5 12s infinite linear;
 }
 
 @keyframes satellite-2-9-5 {
@@ -2341,7 +2350,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-6 {
-  animation: satellite-2-9-6 6.9s infinite linear;
+  animation: satellite-2-9-6 12s infinite linear;
 }
 
 @keyframes satellite-2-9-6 {
@@ -2354,7 +2363,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-7 {
-  animation: satellite-2-9-7 6.9s infinite linear;
+  animation: satellite-2-9-7 12s infinite linear;
 }
 
 @keyframes satellite-2-9-7 {
@@ -2367,7 +2376,7 @@
 }
 
 .star .orbital.ring-2.count-9 .satellite.num-8 {
-  animation: satellite-2-9-8 6.9s infinite linear;
+  animation: satellite-2-9-8 12s infinite linear;
 }
 
 @keyframes satellite-2-9-8 {
@@ -2380,7 +2389,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-0 {
-  animation: satellite-2-10-0 6.3s infinite linear;
+  animation: satellite-2-10-0 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-0 {
@@ -2393,7 +2402,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-1 {
-  animation: satellite-2-10-1 6.3s infinite linear;
+  animation: satellite-2-10-1 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-1 {
@@ -2406,7 +2415,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-2 {
-  animation: satellite-2-10-2 6.3s infinite linear;
+  animation: satellite-2-10-2 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-2 {
@@ -2419,7 +2428,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-3 {
-  animation: satellite-2-10-3 6.3s infinite linear;
+  animation: satellite-2-10-3 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-3 {
@@ -2432,7 +2441,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-4 {
-  animation: satellite-2-10-4 6.3s infinite linear;
+  animation: satellite-2-10-4 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-4 {
@@ -2445,7 +2454,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-5 {
-  animation: satellite-2-10-5 6.3s infinite linear;
+  animation: satellite-2-10-5 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-5 {
@@ -2458,7 +2467,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-6 {
-  animation: satellite-2-10-6 6.3s infinite linear;
+  animation: satellite-2-10-6 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-6 {
@@ -2471,7 +2480,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-7 {
-  animation: satellite-2-10-7 6.3s infinite linear;
+  animation: satellite-2-10-7 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-7 {
@@ -2484,7 +2493,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-8 {
-  animation: satellite-2-10-8 6.3s infinite linear;
+  animation: satellite-2-10-8 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-8 {
@@ -2497,7 +2506,7 @@
 }
 
 .star .orbital.ring-2.count-10 .satellite.num-9 {
-  animation: satellite-2-10-9 6.3s infinite linear;
+  animation: satellite-2-10-9 7.3s infinite linear;
 }
 
 @keyframes satellite-2-10-9 {
@@ -2515,7 +2524,7 @@
 }
 
 .star .orbital.ring-3.count-1 .satellite.num-0 {
-  animation: satellite-3-1-0 18.7s infinite linear;
+  animation: satellite-3-1-0 8.6s infinite linear;
 }
 
 @keyframes satellite-3-1-0 {
@@ -2528,7 +2537,7 @@
 }
 
 .star .orbital.ring-3.count-2 .satellite.num-0 {
-  animation: satellite-3-2-0 5.4s infinite linear;
+  animation: satellite-3-2-0 10.8s infinite linear;
 }
 
 @keyframes satellite-3-2-0 {
@@ -2541,7 +2550,7 @@
 }
 
 .star .orbital.ring-3.count-2 .satellite.num-1 {
-  animation: satellite-3-2-1 5.4s infinite linear;
+  animation: satellite-3-2-1 10.8s infinite linear;
 }
 
 @keyframes satellite-3-2-1 {
@@ -2554,7 +2563,7 @@
 }
 
 .star .orbital.ring-3.count-3 .satellite.num-0 {
-  animation: satellite-3-3-0 18.2s infinite linear;
+  animation: satellite-3-3-0 13.1s infinite linear;
 }
 
 @keyframes satellite-3-3-0 {
@@ -2567,7 +2576,7 @@
 }
 
 .star .orbital.ring-3.count-3 .satellite.num-1 {
-  animation: satellite-3-3-1 18.2s infinite linear;
+  animation: satellite-3-3-1 13.1s infinite linear;
 }
 
 @keyframes satellite-3-3-1 {
@@ -2580,7 +2589,7 @@
 }
 
 .star .orbital.ring-3.count-3 .satellite.num-2 {
-  animation: satellite-3-3-2 18.2s infinite linear;
+  animation: satellite-3-3-2 13.1s infinite linear;
 }
 
 @keyframes satellite-3-3-2 {
@@ -2593,7 +2602,7 @@
 }
 
 .star .orbital.ring-3.count-4 .satellite.num-0 {
-  animation: satellite-3-4-0 17.2s infinite linear;
+  animation: satellite-3-4-0 10.8s infinite linear;
 }
 
 @keyframes satellite-3-4-0 {
@@ -2606,7 +2615,7 @@
 }
 
 .star .orbital.ring-3.count-4 .satellite.num-1 {
-  animation: satellite-3-4-1 17.2s infinite linear;
+  animation: satellite-3-4-1 10.8s infinite linear;
 }
 
 @keyframes satellite-3-4-1 {
@@ -2619,7 +2628,7 @@
 }
 
 .star .orbital.ring-3.count-4 .satellite.num-2 {
-  animation: satellite-3-4-2 17.2s infinite linear;
+  animation: satellite-3-4-2 10.8s infinite linear;
 }
 
 @keyframes satellite-3-4-2 {
@@ -2632,7 +2641,7 @@
 }
 
 .star .orbital.ring-3.count-4 .satellite.num-3 {
-  animation: satellite-3-4-3 17.2s infinite linear;
+  animation: satellite-3-4-3 10.8s infinite linear;
 }
 
 @keyframes satellite-3-4-3 {
@@ -2645,7 +2654,7 @@
 }
 
 .star .orbital.ring-3.count-5 .satellite.num-0 {
-  animation: satellite-3-5-0 18.8s infinite linear;
+  animation: satellite-3-5-0 17.7s infinite linear;
 }
 
 @keyframes satellite-3-5-0 {
@@ -2658,7 +2667,7 @@
 }
 
 .star .orbital.ring-3.count-5 .satellite.num-1 {
-  animation: satellite-3-5-1 18.8s infinite linear;
+  animation: satellite-3-5-1 17.7s infinite linear;
 }
 
 @keyframes satellite-3-5-1 {
@@ -2671,7 +2680,7 @@
 }
 
 .star .orbital.ring-3.count-5 .satellite.num-2 {
-  animation: satellite-3-5-2 18.8s infinite linear;
+  animation: satellite-3-5-2 17.7s infinite linear;
 }
 
 @keyframes satellite-3-5-2 {
@@ -2684,7 +2693,7 @@
 }
 
 .star .orbital.ring-3.count-5 .satellite.num-3 {
-  animation: satellite-3-5-3 18.8s infinite linear;
+  animation: satellite-3-5-3 17.7s infinite linear;
 }
 
 @keyframes satellite-3-5-3 {
@@ -2697,7 +2706,7 @@
 }
 
 .star .orbital.ring-3.count-5 .satellite.num-4 {
-  animation: satellite-3-5-4 18.8s infinite linear;
+  animation: satellite-3-5-4 17.7s infinite linear;
 }
 
 @keyframes satellite-3-5-4 {
@@ -2710,7 +2719,7 @@
 }
 
 .star .orbital.ring-3.count-6 .satellite.num-0 {
-  animation: satellite-3-6-0 14.6s infinite linear;
+  animation: satellite-3-6-0 17s infinite linear;
 }
 
 @keyframes satellite-3-6-0 {
@@ -2723,7 +2732,7 @@
 }
 
 .star .orbital.ring-3.count-6 .satellite.num-1 {
-  animation: satellite-3-6-1 14.6s infinite linear;
+  animation: satellite-3-6-1 17s infinite linear;
 }
 
 @keyframes satellite-3-6-1 {
@@ -2736,7 +2745,7 @@
 }
 
 .star .orbital.ring-3.count-6 .satellite.num-2 {
-  animation: satellite-3-6-2 14.6s infinite linear;
+  animation: satellite-3-6-2 17s infinite linear;
 }
 
 @keyframes satellite-3-6-2 {
@@ -2749,7 +2758,7 @@
 }
 
 .star .orbital.ring-3.count-6 .satellite.num-3 {
-  animation: satellite-3-6-3 14.6s infinite linear;
+  animation: satellite-3-6-3 17s infinite linear;
 }
 
 @keyframes satellite-3-6-3 {
@@ -2762,7 +2771,7 @@
 }
 
 .star .orbital.ring-3.count-6 .satellite.num-4 {
-  animation: satellite-3-6-4 14.6s infinite linear;
+  animation: satellite-3-6-4 17s infinite linear;
 }
 
 @keyframes satellite-3-6-4 {
@@ -2775,7 +2784,7 @@
 }
 
 .star .orbital.ring-3.count-6 .satellite.num-5 {
-  animation: satellite-3-6-5 14.6s infinite linear;
+  animation: satellite-3-6-5 17s infinite linear;
 }
 
 @keyframes satellite-3-6-5 {
@@ -2788,7 +2797,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-0 {
-  animation: satellite-3-7-0 7s infinite linear;
+  animation: satellite-3-7-0 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-0 {
@@ -2801,7 +2810,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-1 {
-  animation: satellite-3-7-1 7s infinite linear;
+  animation: satellite-3-7-1 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-1 {
@@ -2814,7 +2823,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-2 {
-  animation: satellite-3-7-2 7s infinite linear;
+  animation: satellite-3-7-2 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-2 {
@@ -2827,7 +2836,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-3 {
-  animation: satellite-3-7-3 7s infinite linear;
+  animation: satellite-3-7-3 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-3 {
@@ -2840,7 +2849,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-4 {
-  animation: satellite-3-7-4 7s infinite linear;
+  animation: satellite-3-7-4 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-4 {
@@ -2853,7 +2862,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-5 {
-  animation: satellite-3-7-5 7s infinite linear;
+  animation: satellite-3-7-5 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-5 {
@@ -2866,7 +2875,7 @@
 }
 
 .star .orbital.ring-3.count-7 .satellite.num-6 {
-  animation: satellite-3-7-6 7s infinite linear;
+  animation: satellite-3-7-6 7.5s infinite linear;
 }
 
 @keyframes satellite-3-7-6 {
@@ -2879,7 +2888,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-0 {
-  animation: satellite-3-8-0 18.3s infinite linear;
+  animation: satellite-3-8-0 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-0 {
@@ -2892,7 +2901,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-1 {
-  animation: satellite-3-8-1 18.3s infinite linear;
+  animation: satellite-3-8-1 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-1 {
@@ -2905,7 +2914,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-2 {
-  animation: satellite-3-8-2 18.3s infinite linear;
+  animation: satellite-3-8-2 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-2 {
@@ -2918,7 +2927,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-3 {
-  animation: satellite-3-8-3 18.3s infinite linear;
+  animation: satellite-3-8-3 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-3 {
@@ -2931,7 +2940,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-4 {
-  animation: satellite-3-8-4 18.3s infinite linear;
+  animation: satellite-3-8-4 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-4 {
@@ -2944,7 +2953,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-5 {
-  animation: satellite-3-8-5 18.3s infinite linear;
+  animation: satellite-3-8-5 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-5 {
@@ -2957,7 +2966,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-6 {
-  animation: satellite-3-8-6 18.3s infinite linear;
+  animation: satellite-3-8-6 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-6 {
@@ -2970,7 +2979,7 @@
 }
 
 .star .orbital.ring-3.count-8 .satellite.num-7 {
-  animation: satellite-3-8-7 18.3s infinite linear;
+  animation: satellite-3-8-7 8.8s infinite linear;
 }
 
 @keyframes satellite-3-8-7 {
@@ -2983,7 +2992,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-0 {
-  animation: satellite-3-9-0 17.4s infinite linear;
+  animation: satellite-3-9-0 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-0 {
@@ -2996,7 +3005,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-1 {
-  animation: satellite-3-9-1 17.4s infinite linear;
+  animation: satellite-3-9-1 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-1 {
@@ -3009,7 +3018,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-2 {
-  animation: satellite-3-9-2 17.4s infinite linear;
+  animation: satellite-3-9-2 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-2 {
@@ -3022,7 +3031,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-3 {
-  animation: satellite-3-9-3 17.4s infinite linear;
+  animation: satellite-3-9-3 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-3 {
@@ -3035,7 +3044,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-4 {
-  animation: satellite-3-9-4 17.4s infinite linear;
+  animation: satellite-3-9-4 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-4 {
@@ -3048,7 +3057,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-5 {
-  animation: satellite-3-9-5 17.4s infinite linear;
+  animation: satellite-3-9-5 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-5 {
@@ -3061,7 +3070,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-6 {
-  animation: satellite-3-9-6 17.4s infinite linear;
+  animation: satellite-3-9-6 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-6 {
@@ -3074,7 +3083,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-7 {
-  animation: satellite-3-9-7 17.4s infinite linear;
+  animation: satellite-3-9-7 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-7 {
@@ -3087,7 +3096,7 @@
 }
 
 .star .orbital.ring-3.count-9 .satellite.num-8 {
-  animation: satellite-3-9-8 17.4s infinite linear;
+  animation: satellite-3-9-8 16.8s infinite linear;
 }
 
 @keyframes satellite-3-9-8 {
@@ -3100,7 +3109,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-0 {
-  animation: satellite-3-10-0 10.2s infinite linear;
+  animation: satellite-3-10-0 10s infinite linear;
 }
 
 @keyframes satellite-3-10-0 {
@@ -3113,7 +3122,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-1 {
-  animation: satellite-3-10-1 10.2s infinite linear;
+  animation: satellite-3-10-1 10s infinite linear;
 }
 
 @keyframes satellite-3-10-1 {
@@ -3126,7 +3135,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-2 {
-  animation: satellite-3-10-2 10.2s infinite linear;
+  animation: satellite-3-10-2 10s infinite linear;
 }
 
 @keyframes satellite-3-10-2 {
@@ -3139,7 +3148,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-3 {
-  animation: satellite-3-10-3 10.2s infinite linear;
+  animation: satellite-3-10-3 10s infinite linear;
 }
 
 @keyframes satellite-3-10-3 {
@@ -3152,7 +3161,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-4 {
-  animation: satellite-3-10-4 10.2s infinite linear;
+  animation: satellite-3-10-4 10s infinite linear;
 }
 
 @keyframes satellite-3-10-4 {
@@ -3165,7 +3174,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-5 {
-  animation: satellite-3-10-5 10.2s infinite linear;
+  animation: satellite-3-10-5 10s infinite linear;
 }
 
 @keyframes satellite-3-10-5 {
@@ -3178,7 +3187,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-6 {
-  animation: satellite-3-10-6 10.2s infinite linear;
+  animation: satellite-3-10-6 10s infinite linear;
 }
 
 @keyframes satellite-3-10-6 {
@@ -3191,7 +3200,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-7 {
-  animation: satellite-3-10-7 10.2s infinite linear;
+  animation: satellite-3-10-7 10s infinite linear;
 }
 
 @keyframes satellite-3-10-7 {
@@ -3204,7 +3213,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-8 {
-  animation: satellite-3-10-8 10.2s infinite linear;
+  animation: satellite-3-10-8 10s infinite linear;
 }
 
 @keyframes satellite-3-10-8 {
@@ -3217,7 +3226,7 @@
 }
 
 .star .orbital.ring-3.count-10 .satellite.num-9 {
-  animation: satellite-3-10-9 10.2s infinite linear;
+  animation: satellite-3-10-9 10s infinite linear;
 }
 
 @keyframes satellite-3-10-9 {
@@ -3235,7 +3244,7 @@
 }
 
 .star .orbital.ring-4.count-1 .satellite.num-0 {
-  animation: satellite-4-1-0 17s infinite linear;
+  animation: satellite-4-1-0 16.9s infinite linear;
 }
 
 @keyframes satellite-4-1-0 {
@@ -3248,7 +3257,7 @@
 }
 
 .star .orbital.ring-4.count-2 .satellite.num-0 {
-  animation: satellite-4-2-0 14.6s infinite linear;
+  animation: satellite-4-2-0 6.8s infinite linear;
 }
 
 @keyframes satellite-4-2-0 {
@@ -3261,7 +3270,7 @@
 }
 
 .star .orbital.ring-4.count-2 .satellite.num-1 {
-  animation: satellite-4-2-1 14.6s infinite linear;
+  animation: satellite-4-2-1 6.8s infinite linear;
 }
 
 @keyframes satellite-4-2-1 {
@@ -3274,7 +3283,7 @@
 }
 
 .star .orbital.ring-4.count-3 .satellite.num-0 {
-  animation: satellite-4-3-0 9.8s infinite linear;
+  animation: satellite-4-3-0 9.6s infinite linear;
 }
 
 @keyframes satellite-4-3-0 {
@@ -3287,7 +3296,7 @@
 }
 
 .star .orbital.ring-4.count-3 .satellite.num-1 {
-  animation: satellite-4-3-1 9.8s infinite linear;
+  animation: satellite-4-3-1 9.6s infinite linear;
 }
 
 @keyframes satellite-4-3-1 {
@@ -3300,7 +3309,7 @@
 }
 
 .star .orbital.ring-4.count-3 .satellite.num-2 {
-  animation: satellite-4-3-2 9.8s infinite linear;
+  animation: satellite-4-3-2 9.6s infinite linear;
 }
 
 @keyframes satellite-4-3-2 {
@@ -3313,7 +3322,7 @@
 }
 
 .star .orbital.ring-4.count-4 .satellite.num-0 {
-  animation: satellite-4-4-0 14.9s infinite linear;
+  animation: satellite-4-4-0 5.4s infinite linear;
 }
 
 @keyframes satellite-4-4-0 {
@@ -3326,7 +3335,7 @@
 }
 
 .star .orbital.ring-4.count-4 .satellite.num-1 {
-  animation: satellite-4-4-1 14.9s infinite linear;
+  animation: satellite-4-4-1 5.4s infinite linear;
 }
 
 @keyframes satellite-4-4-1 {
@@ -3339,7 +3348,7 @@
 }
 
 .star .orbital.ring-4.count-4 .satellite.num-2 {
-  animation: satellite-4-4-2 14.9s infinite linear;
+  animation: satellite-4-4-2 5.4s infinite linear;
 }
 
 @keyframes satellite-4-4-2 {
@@ -3352,7 +3361,7 @@
 }
 
 .star .orbital.ring-4.count-4 .satellite.num-3 {
-  animation: satellite-4-4-3 14.9s infinite linear;
+  animation: satellite-4-4-3 5.4s infinite linear;
 }
 
 @keyframes satellite-4-4-3 {
@@ -3365,7 +3374,7 @@
 }
 
 .star .orbital.ring-4.count-5 .satellite.num-0 {
-  animation: satellite-4-5-0 15.7s infinite linear;
+  animation: satellite-4-5-0 18.8s infinite linear;
 }
 
 @keyframes satellite-4-5-0 {
@@ -3378,7 +3387,7 @@
 }
 
 .star .orbital.ring-4.count-5 .satellite.num-1 {
-  animation: satellite-4-5-1 15.7s infinite linear;
+  animation: satellite-4-5-1 18.8s infinite linear;
 }
 
 @keyframes satellite-4-5-1 {
@@ -3391,7 +3400,7 @@
 }
 
 .star .orbital.ring-4.count-5 .satellite.num-2 {
-  animation: satellite-4-5-2 15.7s infinite linear;
+  animation: satellite-4-5-2 18.8s infinite linear;
 }
 
 @keyframes satellite-4-5-2 {
@@ -3404,7 +3413,7 @@
 }
 
 .star .orbital.ring-4.count-5 .satellite.num-3 {
-  animation: satellite-4-5-3 15.7s infinite linear;
+  animation: satellite-4-5-3 18.8s infinite linear;
 }
 
 @keyframes satellite-4-5-3 {
@@ -3417,7 +3426,7 @@
 }
 
 .star .orbital.ring-4.count-5 .satellite.num-4 {
-  animation: satellite-4-5-4 15.7s infinite linear;
+  animation: satellite-4-5-4 18.8s infinite linear;
 }
 
 @keyframes satellite-4-5-4 {
@@ -3430,7 +3439,7 @@
 }
 
 .star .orbital.ring-4.count-6 .satellite.num-0 {
-  animation: satellite-4-6-0 6.9s infinite linear;
+  animation: satellite-4-6-0 16.7s infinite linear;
 }
 
 @keyframes satellite-4-6-0 {
@@ -3443,7 +3452,7 @@
 }
 
 .star .orbital.ring-4.count-6 .satellite.num-1 {
-  animation: satellite-4-6-1 6.9s infinite linear;
+  animation: satellite-4-6-1 16.7s infinite linear;
 }
 
 @keyframes satellite-4-6-1 {
@@ -3456,7 +3465,7 @@
 }
 
 .star .orbital.ring-4.count-6 .satellite.num-2 {
-  animation: satellite-4-6-2 6.9s infinite linear;
+  animation: satellite-4-6-2 16.7s infinite linear;
 }
 
 @keyframes satellite-4-6-2 {
@@ -3469,7 +3478,7 @@
 }
 
 .star .orbital.ring-4.count-6 .satellite.num-3 {
-  animation: satellite-4-6-3 6.9s infinite linear;
+  animation: satellite-4-6-3 16.7s infinite linear;
 }
 
 @keyframes satellite-4-6-3 {
@@ -3482,7 +3491,7 @@
 }
 
 .star .orbital.ring-4.count-6 .satellite.num-4 {
-  animation: satellite-4-6-4 6.9s infinite linear;
+  animation: satellite-4-6-4 16.7s infinite linear;
 }
 
 @keyframes satellite-4-6-4 {
@@ -3495,7 +3504,7 @@
 }
 
 .star .orbital.ring-4.count-6 .satellite.num-5 {
-  animation: satellite-4-6-5 6.9s infinite linear;
+  animation: satellite-4-6-5 16.7s infinite linear;
 }
 
 @keyframes satellite-4-6-5 {
@@ -3508,7 +3517,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-0 {
-  animation: satellite-4-7-0 15.7s infinite linear;
+  animation: satellite-4-7-0 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-0 {
@@ -3521,7 +3530,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-1 {
-  animation: satellite-4-7-1 15.7s infinite linear;
+  animation: satellite-4-7-1 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-1 {
@@ -3534,7 +3543,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-2 {
-  animation: satellite-4-7-2 15.7s infinite linear;
+  animation: satellite-4-7-2 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-2 {
@@ -3547,7 +3556,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-3 {
-  animation: satellite-4-7-3 15.7s infinite linear;
+  animation: satellite-4-7-3 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-3 {
@@ -3560,7 +3569,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-4 {
-  animation: satellite-4-7-4 15.7s infinite linear;
+  animation: satellite-4-7-4 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-4 {
@@ -3573,7 +3582,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-5 {
-  animation: satellite-4-7-5 15.7s infinite linear;
+  animation: satellite-4-7-5 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-5 {
@@ -3586,7 +3595,7 @@
 }
 
 .star .orbital.ring-4.count-7 .satellite.num-6 {
-  animation: satellite-4-7-6 15.7s infinite linear;
+  animation: satellite-4-7-6 7.5s infinite linear;
 }
 
 @keyframes satellite-4-7-6 {
@@ -3599,7 +3608,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-0 {
-  animation: satellite-4-8-0 16.9s infinite linear;
+  animation: satellite-4-8-0 14s infinite linear;
 }
 
 @keyframes satellite-4-8-0 {
@@ -3612,7 +3621,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-1 {
-  animation: satellite-4-8-1 16.9s infinite linear;
+  animation: satellite-4-8-1 14s infinite linear;
 }
 
 @keyframes satellite-4-8-1 {
@@ -3625,7 +3634,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-2 {
-  animation: satellite-4-8-2 16.9s infinite linear;
+  animation: satellite-4-8-2 14s infinite linear;
 }
 
 @keyframes satellite-4-8-2 {
@@ -3638,7 +3647,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-3 {
-  animation: satellite-4-8-3 16.9s infinite linear;
+  animation: satellite-4-8-3 14s infinite linear;
 }
 
 @keyframes satellite-4-8-3 {
@@ -3651,7 +3660,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-4 {
-  animation: satellite-4-8-4 16.9s infinite linear;
+  animation: satellite-4-8-4 14s infinite linear;
 }
 
 @keyframes satellite-4-8-4 {
@@ -3664,7 +3673,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-5 {
-  animation: satellite-4-8-5 16.9s infinite linear;
+  animation: satellite-4-8-5 14s infinite linear;
 }
 
 @keyframes satellite-4-8-5 {
@@ -3677,7 +3686,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-6 {
-  animation: satellite-4-8-6 16.9s infinite linear;
+  animation: satellite-4-8-6 14s infinite linear;
 }
 
 @keyframes satellite-4-8-6 {
@@ -3690,7 +3699,7 @@
 }
 
 .star .orbital.ring-4.count-8 .satellite.num-7 {
-  animation: satellite-4-8-7 16.9s infinite linear;
+  animation: satellite-4-8-7 14s infinite linear;
 }
 
 @keyframes satellite-4-8-7 {
@@ -3703,7 +3712,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-0 {
-  animation: satellite-4-9-0 11.3s infinite linear;
+  animation: satellite-4-9-0 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-0 {
@@ -3716,7 +3725,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-1 {
-  animation: satellite-4-9-1 11.3s infinite linear;
+  animation: satellite-4-9-1 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-1 {
@@ -3729,7 +3738,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-2 {
-  animation: satellite-4-9-2 11.3s infinite linear;
+  animation: satellite-4-9-2 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-2 {
@@ -3742,7 +3751,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-3 {
-  animation: satellite-4-9-3 11.3s infinite linear;
+  animation: satellite-4-9-3 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-3 {
@@ -3755,7 +3764,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-4 {
-  animation: satellite-4-9-4 11.3s infinite linear;
+  animation: satellite-4-9-4 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-4 {
@@ -3768,7 +3777,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-5 {
-  animation: satellite-4-9-5 11.3s infinite linear;
+  animation: satellite-4-9-5 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-5 {
@@ -3781,7 +3790,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-6 {
-  animation: satellite-4-9-6 11.3s infinite linear;
+  animation: satellite-4-9-6 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-6 {
@@ -3794,7 +3803,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-7 {
-  animation: satellite-4-9-7 11.3s infinite linear;
+  animation: satellite-4-9-7 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-7 {
@@ -3807,7 +3816,7 @@
 }
 
 .star .orbital.ring-4.count-9 .satellite.num-8 {
-  animation: satellite-4-9-8 11.3s infinite linear;
+  animation: satellite-4-9-8 8.4s infinite linear;
 }
 
 @keyframes satellite-4-9-8 {
@@ -3820,7 +3829,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-0 {
-  animation: satellite-4-10-0 13.2s infinite linear;
+  animation: satellite-4-10-0 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-0 {
@@ -3833,7 +3842,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-1 {
-  animation: satellite-4-10-1 13.2s infinite linear;
+  animation: satellite-4-10-1 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-1 {
@@ -3846,7 +3855,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-2 {
-  animation: satellite-4-10-2 13.2s infinite linear;
+  animation: satellite-4-10-2 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-2 {
@@ -3859,7 +3868,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-3 {
-  animation: satellite-4-10-3 13.2s infinite linear;
+  animation: satellite-4-10-3 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-3 {
@@ -3872,7 +3881,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-4 {
-  animation: satellite-4-10-4 13.2s infinite linear;
+  animation: satellite-4-10-4 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-4 {
@@ -3885,7 +3894,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-5 {
-  animation: satellite-4-10-5 13.2s infinite linear;
+  animation: satellite-4-10-5 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-5 {
@@ -3898,7 +3907,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-6 {
-  animation: satellite-4-10-6 13.2s infinite linear;
+  animation: satellite-4-10-6 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-6 {
@@ -3911,7 +3920,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-7 {
-  animation: satellite-4-10-7 13.2s infinite linear;
+  animation: satellite-4-10-7 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-7 {
@@ -3924,7 +3933,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-8 {
-  animation: satellite-4-10-8 13.2s infinite linear;
+  animation: satellite-4-10-8 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-8 {
@@ -3937,7 +3946,7 @@
 }
 
 .star .orbital.ring-4.count-10 .satellite.num-9 {
-  animation: satellite-4-10-9 13.2s infinite linear;
+  animation: satellite-4-10-9 7.4s infinite linear;
 }
 
 @keyframes satellite-4-10-9 {
@@ -3955,7 +3964,7 @@
 }
 
 .star .orbital.ring-5.count-1 .satellite.num-0 {
-  animation: satellite-5-1-0 11.2s infinite linear;
+  animation: satellite-5-1-0 6.2s infinite linear;
 }
 
 @keyframes satellite-5-1-0 {
@@ -3968,7 +3977,7 @@
 }
 
 .star .orbital.ring-5.count-2 .satellite.num-0 {
-  animation: satellite-5-2-0 11.9s infinite linear;
+  animation: satellite-5-2-0 8.3s infinite linear;
 }
 
 @keyframes satellite-5-2-0 {
@@ -3981,7 +3990,7 @@
 }
 
 .star .orbital.ring-5.count-2 .satellite.num-1 {
-  animation: satellite-5-2-1 11.9s infinite linear;
+  animation: satellite-5-2-1 8.3s infinite linear;
 }
 
 @keyframes satellite-5-2-1 {
@@ -3994,7 +4003,7 @@
 }
 
 .star .orbital.ring-5.count-3 .satellite.num-0 {
-  animation: satellite-5-3-0 17.1s infinite linear;
+  animation: satellite-5-3-0 7.2s infinite linear;
 }
 
 @keyframes satellite-5-3-0 {
@@ -4007,7 +4016,7 @@
 }
 
 .star .orbital.ring-5.count-3 .satellite.num-1 {
-  animation: satellite-5-3-1 17.1s infinite linear;
+  animation: satellite-5-3-1 7.2s infinite linear;
 }
 
 @keyframes satellite-5-3-1 {
@@ -4020,7 +4029,7 @@
 }
 
 .star .orbital.ring-5.count-3 .satellite.num-2 {
-  animation: satellite-5-3-2 17.1s infinite linear;
+  animation: satellite-5-3-2 7.2s infinite linear;
 }
 
 @keyframes satellite-5-3-2 {
@@ -4033,7 +4042,7 @@
 }
 
 .star .orbital.ring-5.count-4 .satellite.num-0 {
-  animation: satellite-5-4-0 9.2s infinite linear;
+  animation: satellite-5-4-0 17.8s infinite linear;
 }
 
 @keyframes satellite-5-4-0 {
@@ -4046,7 +4055,7 @@
 }
 
 .star .orbital.ring-5.count-4 .satellite.num-1 {
-  animation: satellite-5-4-1 9.2s infinite linear;
+  animation: satellite-5-4-1 17.8s infinite linear;
 }
 
 @keyframes satellite-5-4-1 {
@@ -4059,7 +4068,7 @@
 }
 
 .star .orbital.ring-5.count-4 .satellite.num-2 {
-  animation: satellite-5-4-2 9.2s infinite linear;
+  animation: satellite-5-4-2 17.8s infinite linear;
 }
 
 @keyframes satellite-5-4-2 {
@@ -4072,7 +4081,7 @@
 }
 
 .star .orbital.ring-5.count-4 .satellite.num-3 {
-  animation: satellite-5-4-3 9.2s infinite linear;
+  animation: satellite-5-4-3 17.8s infinite linear;
 }
 
 @keyframes satellite-5-4-3 {
@@ -4085,7 +4094,7 @@
 }
 
 .star .orbital.ring-5.count-5 .satellite.num-0 {
-  animation: satellite-5-5-0 11.7s infinite linear;
+  animation: satellite-5-5-0 18s infinite linear;
 }
 
 @keyframes satellite-5-5-0 {
@@ -4098,7 +4107,7 @@
 }
 
 .star .orbital.ring-5.count-5 .satellite.num-1 {
-  animation: satellite-5-5-1 11.7s infinite linear;
+  animation: satellite-5-5-1 18s infinite linear;
 }
 
 @keyframes satellite-5-5-1 {
@@ -4111,7 +4120,7 @@
 }
 
 .star .orbital.ring-5.count-5 .satellite.num-2 {
-  animation: satellite-5-5-2 11.7s infinite linear;
+  animation: satellite-5-5-2 18s infinite linear;
 }
 
 @keyframes satellite-5-5-2 {
@@ -4124,7 +4133,7 @@
 }
 
 .star .orbital.ring-5.count-5 .satellite.num-3 {
-  animation: satellite-5-5-3 11.7s infinite linear;
+  animation: satellite-5-5-3 18s infinite linear;
 }
 
 @keyframes satellite-5-5-3 {
@@ -4137,7 +4146,7 @@
 }
 
 .star .orbital.ring-5.count-5 .satellite.num-4 {
-  animation: satellite-5-5-4 11.7s infinite linear;
+  animation: satellite-5-5-4 18s infinite linear;
 }
 
 @keyframes satellite-5-5-4 {
@@ -4150,7 +4159,7 @@
 }
 
 .star .orbital.ring-5.count-6 .satellite.num-0 {
-  animation: satellite-5-6-0 10.7s infinite linear;
+  animation: satellite-5-6-0 16s infinite linear;
 }
 
 @keyframes satellite-5-6-0 {
@@ -4163,7 +4172,7 @@
 }
 
 .star .orbital.ring-5.count-6 .satellite.num-1 {
-  animation: satellite-5-6-1 10.7s infinite linear;
+  animation: satellite-5-6-1 16s infinite linear;
 }
 
 @keyframes satellite-5-6-1 {
@@ -4176,7 +4185,7 @@
 }
 
 .star .orbital.ring-5.count-6 .satellite.num-2 {
-  animation: satellite-5-6-2 10.7s infinite linear;
+  animation: satellite-5-6-2 16s infinite linear;
 }
 
 @keyframes satellite-5-6-2 {
@@ -4189,7 +4198,7 @@
 }
 
 .star .orbital.ring-5.count-6 .satellite.num-3 {
-  animation: satellite-5-6-3 10.7s infinite linear;
+  animation: satellite-5-6-3 16s infinite linear;
 }
 
 @keyframes satellite-5-6-3 {
@@ -4202,7 +4211,7 @@
 }
 
 .star .orbital.ring-5.count-6 .satellite.num-4 {
-  animation: satellite-5-6-4 10.7s infinite linear;
+  animation: satellite-5-6-4 16s infinite linear;
 }
 
 @keyframes satellite-5-6-4 {
@@ -4215,7 +4224,7 @@
 }
 
 .star .orbital.ring-5.count-6 .satellite.num-5 {
-  animation: satellite-5-6-5 10.7s infinite linear;
+  animation: satellite-5-6-5 16s infinite linear;
 }
 
 @keyframes satellite-5-6-5 {
@@ -4228,7 +4237,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-0 {
-  animation: satellite-5-7-0 18.1s infinite linear;
+  animation: satellite-5-7-0 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-0 {
@@ -4241,7 +4250,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-1 {
-  animation: satellite-5-7-1 18.1s infinite linear;
+  animation: satellite-5-7-1 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-1 {
@@ -4254,7 +4263,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-2 {
-  animation: satellite-5-7-2 18.1s infinite linear;
+  animation: satellite-5-7-2 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-2 {
@@ -4267,7 +4276,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-3 {
-  animation: satellite-5-7-3 18.1s infinite linear;
+  animation: satellite-5-7-3 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-3 {
@@ -4280,7 +4289,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-4 {
-  animation: satellite-5-7-4 18.1s infinite linear;
+  animation: satellite-5-7-4 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-4 {
@@ -4293,7 +4302,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-5 {
-  animation: satellite-5-7-5 18.1s infinite linear;
+  animation: satellite-5-7-5 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-5 {
@@ -4306,7 +4315,7 @@
 }
 
 .star .orbital.ring-5.count-7 .satellite.num-6 {
-  animation: satellite-5-7-6 18.1s infinite linear;
+  animation: satellite-5-7-6 5.7s infinite linear;
 }
 
 @keyframes satellite-5-7-6 {
@@ -4319,7 +4328,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-0 {
-  animation: satellite-5-8-0 7.4s infinite linear;
+  animation: satellite-5-8-0 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-0 {
@@ -4332,7 +4341,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-1 {
-  animation: satellite-5-8-1 7.4s infinite linear;
+  animation: satellite-5-8-1 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-1 {
@@ -4345,7 +4354,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-2 {
-  animation: satellite-5-8-2 7.4s infinite linear;
+  animation: satellite-5-8-2 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-2 {
@@ -4358,7 +4367,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-3 {
-  animation: satellite-5-8-3 7.4s infinite linear;
+  animation: satellite-5-8-3 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-3 {
@@ -4371,7 +4380,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-4 {
-  animation: satellite-5-8-4 7.4s infinite linear;
+  animation: satellite-5-8-4 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-4 {
@@ -4384,7 +4393,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-5 {
-  animation: satellite-5-8-5 7.4s infinite linear;
+  animation: satellite-5-8-5 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-5 {
@@ -4397,7 +4406,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-6 {
-  animation: satellite-5-8-6 7.4s infinite linear;
+  animation: satellite-5-8-6 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-6 {
@@ -4410,7 +4419,7 @@
 }
 
 .star .orbital.ring-5.count-8 .satellite.num-7 {
-  animation: satellite-5-8-7 7.4s infinite linear;
+  animation: satellite-5-8-7 10.6s infinite linear;
 }
 
 @keyframes satellite-5-8-7 {
@@ -4423,7 +4432,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-0 {
-  animation: satellite-5-9-0 8.5s infinite linear;
+  animation: satellite-5-9-0 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-0 {
@@ -4436,7 +4445,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-1 {
-  animation: satellite-5-9-1 8.5s infinite linear;
+  animation: satellite-5-9-1 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-1 {
@@ -4449,7 +4458,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-2 {
-  animation: satellite-5-9-2 8.5s infinite linear;
+  animation: satellite-5-9-2 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-2 {
@@ -4462,7 +4471,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-3 {
-  animation: satellite-5-9-3 8.5s infinite linear;
+  animation: satellite-5-9-3 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-3 {
@@ -4475,7 +4484,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-4 {
-  animation: satellite-5-9-4 8.5s infinite linear;
+  animation: satellite-5-9-4 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-4 {
@@ -4488,7 +4497,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-5 {
-  animation: satellite-5-9-5 8.5s infinite linear;
+  animation: satellite-5-9-5 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-5 {
@@ -4501,7 +4510,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-6 {
-  animation: satellite-5-9-6 8.5s infinite linear;
+  animation: satellite-5-9-6 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-6 {
@@ -4514,7 +4523,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-7 {
-  animation: satellite-5-9-7 8.5s infinite linear;
+  animation: satellite-5-9-7 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-7 {
@@ -4527,7 +4536,7 @@
 }
 
 .star .orbital.ring-5.count-9 .satellite.num-8 {
-  animation: satellite-5-9-8 8.5s infinite linear;
+  animation: satellite-5-9-8 10.5s infinite linear;
 }
 
 @keyframes satellite-5-9-8 {
@@ -4540,7 +4549,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-0 {
-  animation: satellite-5-10-0 8.5s infinite linear;
+  animation: satellite-5-10-0 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-0 {
@@ -4553,7 +4562,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-1 {
-  animation: satellite-5-10-1 8.5s infinite linear;
+  animation: satellite-5-10-1 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-1 {
@@ -4566,7 +4575,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-2 {
-  animation: satellite-5-10-2 8.5s infinite linear;
+  animation: satellite-5-10-2 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-2 {
@@ -4579,7 +4588,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-3 {
-  animation: satellite-5-10-3 8.5s infinite linear;
+  animation: satellite-5-10-3 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-3 {
@@ -4592,7 +4601,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-4 {
-  animation: satellite-5-10-4 8.5s infinite linear;
+  animation: satellite-5-10-4 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-4 {
@@ -4605,7 +4614,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-5 {
-  animation: satellite-5-10-5 8.5s infinite linear;
+  animation: satellite-5-10-5 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-5 {
@@ -4618,7 +4627,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-6 {
-  animation: satellite-5-10-6 8.5s infinite linear;
+  animation: satellite-5-10-6 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-6 {
@@ -4631,7 +4640,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-7 {
-  animation: satellite-5-10-7 8.5s infinite linear;
+  animation: satellite-5-10-7 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-7 {
@@ -4644,7 +4653,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-8 {
-  animation: satellite-5-10-8 8.5s infinite linear;
+  animation: satellite-5-10-8 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-8 {
@@ -4657,7 +4666,7 @@
 }
 
 .star .orbital.ring-5.count-10 .satellite.num-9 {
-  animation: satellite-5-10-9 8.5s infinite linear;
+  animation: satellite-5-10-9 17.4s infinite linear;
 }
 
 @keyframes satellite-5-10-9 {
@@ -4675,7 +4684,7 @@
 }
 
 .star .orbital.ring-6.count-1 .satellite.num-0 {
-  animation: satellite-6-1-0 12.6s infinite linear;
+  animation: satellite-6-1-0 8s infinite linear;
 }
 
 @keyframes satellite-6-1-0 {
@@ -4688,7 +4697,7 @@
 }
 
 .star .orbital.ring-6.count-2 .satellite.num-0 {
-  animation: satellite-6-2-0 15.5s infinite linear;
+  animation: satellite-6-2-0 13.7s infinite linear;
 }
 
 @keyframes satellite-6-2-0 {
@@ -4701,7 +4710,7 @@
 }
 
 .star .orbital.ring-6.count-2 .satellite.num-1 {
-  animation: satellite-6-2-1 15.5s infinite linear;
+  animation: satellite-6-2-1 13.7s infinite linear;
 }
 
 @keyframes satellite-6-2-1 {
@@ -4714,7 +4723,7 @@
 }
 
 .star .orbital.ring-6.count-3 .satellite.num-0 {
-  animation: satellite-6-3-0 18.6s infinite linear;
+  animation: satellite-6-3-0 4.4s infinite linear;
 }
 
 @keyframes satellite-6-3-0 {
@@ -4727,7 +4736,7 @@
 }
 
 .star .orbital.ring-6.count-3 .satellite.num-1 {
-  animation: satellite-6-3-1 18.6s infinite linear;
+  animation: satellite-6-3-1 4.4s infinite linear;
 }
 
 @keyframes satellite-6-3-1 {
@@ -4740,7 +4749,7 @@
 }
 
 .star .orbital.ring-6.count-3 .satellite.num-2 {
-  animation: satellite-6-3-2 18.6s infinite linear;
+  animation: satellite-6-3-2 4.4s infinite linear;
 }
 
 @keyframes satellite-6-3-2 {
@@ -4753,7 +4762,7 @@
 }
 
 .star .orbital.ring-6.count-4 .satellite.num-0 {
-  animation: satellite-6-4-0 13.2s infinite linear;
+  animation: satellite-6-4-0 4.9s infinite linear;
 }
 
 @keyframes satellite-6-4-0 {
@@ -4766,7 +4775,7 @@
 }
 
 .star .orbital.ring-6.count-4 .satellite.num-1 {
-  animation: satellite-6-4-1 13.2s infinite linear;
+  animation: satellite-6-4-1 4.9s infinite linear;
 }
 
 @keyframes satellite-6-4-1 {
@@ -4779,7 +4788,7 @@
 }
 
 .star .orbital.ring-6.count-4 .satellite.num-2 {
-  animation: satellite-6-4-2 13.2s infinite linear;
+  animation: satellite-6-4-2 4.9s infinite linear;
 }
 
 @keyframes satellite-6-4-2 {
@@ -4792,7 +4801,7 @@
 }
 
 .star .orbital.ring-6.count-4 .satellite.num-3 {
-  animation: satellite-6-4-3 13.2s infinite linear;
+  animation: satellite-6-4-3 4.9s infinite linear;
 }
 
 @keyframes satellite-6-4-3 {
@@ -4805,7 +4814,7 @@
 }
 
 .star .orbital.ring-6.count-5 .satellite.num-0 {
-  animation: satellite-6-5-0 16.8s infinite linear;
+  animation: satellite-6-5-0 13.5s infinite linear;
 }
 
 @keyframes satellite-6-5-0 {
@@ -4818,7 +4827,7 @@
 }
 
 .star .orbital.ring-6.count-5 .satellite.num-1 {
-  animation: satellite-6-5-1 16.8s infinite linear;
+  animation: satellite-6-5-1 13.5s infinite linear;
 }
 
 @keyframes satellite-6-5-1 {
@@ -4831,7 +4840,7 @@
 }
 
 .star .orbital.ring-6.count-5 .satellite.num-2 {
-  animation: satellite-6-5-2 16.8s infinite linear;
+  animation: satellite-6-5-2 13.5s infinite linear;
 }
 
 @keyframes satellite-6-5-2 {
@@ -4844,7 +4853,7 @@
 }
 
 .star .orbital.ring-6.count-5 .satellite.num-3 {
-  animation: satellite-6-5-3 16.8s infinite linear;
+  animation: satellite-6-5-3 13.5s infinite linear;
 }
 
 @keyframes satellite-6-5-3 {
@@ -4857,7 +4866,7 @@
 }
 
 .star .orbital.ring-6.count-5 .satellite.num-4 {
-  animation: satellite-6-5-4 16.8s infinite linear;
+  animation: satellite-6-5-4 13.5s infinite linear;
 }
 
 @keyframes satellite-6-5-4 {
@@ -4870,7 +4879,7 @@
 }
 
 .star .orbital.ring-6.count-6 .satellite.num-0 {
-  animation: satellite-6-6-0 7.8s infinite linear;
+  animation: satellite-6-6-0 13.4s infinite linear;
 }
 
 @keyframes satellite-6-6-0 {
@@ -4883,7 +4892,7 @@
 }
 
 .star .orbital.ring-6.count-6 .satellite.num-1 {
-  animation: satellite-6-6-1 7.8s infinite linear;
+  animation: satellite-6-6-1 13.4s infinite linear;
 }
 
 @keyframes satellite-6-6-1 {
@@ -4896,7 +4905,7 @@
 }
 
 .star .orbital.ring-6.count-6 .satellite.num-2 {
-  animation: satellite-6-6-2 7.8s infinite linear;
+  animation: satellite-6-6-2 13.4s infinite linear;
 }
 
 @keyframes satellite-6-6-2 {
@@ -4909,7 +4918,7 @@
 }
 
 .star .orbital.ring-6.count-6 .satellite.num-3 {
-  animation: satellite-6-6-3 7.8s infinite linear;
+  animation: satellite-6-6-3 13.4s infinite linear;
 }
 
 @keyframes satellite-6-6-3 {
@@ -4922,7 +4931,7 @@
 }
 
 .star .orbital.ring-6.count-6 .satellite.num-4 {
-  animation: satellite-6-6-4 7.8s infinite linear;
+  animation: satellite-6-6-4 13.4s infinite linear;
 }
 
 @keyframes satellite-6-6-4 {
@@ -4935,7 +4944,7 @@
 }
 
 .star .orbital.ring-6.count-6 .satellite.num-5 {
-  animation: satellite-6-6-5 7.8s infinite linear;
+  animation: satellite-6-6-5 13.4s infinite linear;
 }
 
 @keyframes satellite-6-6-5 {
@@ -4948,7 +4957,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-0 {
-  animation: satellite-6-7-0 15.1s infinite linear;
+  animation: satellite-6-7-0 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-0 {
@@ -4961,7 +4970,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-1 {
-  animation: satellite-6-7-1 15.1s infinite linear;
+  animation: satellite-6-7-1 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-1 {
@@ -4974,7 +4983,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-2 {
-  animation: satellite-6-7-2 15.1s infinite linear;
+  animation: satellite-6-7-2 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-2 {
@@ -4987,7 +4996,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-3 {
-  animation: satellite-6-7-3 15.1s infinite linear;
+  animation: satellite-6-7-3 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-3 {
@@ -5000,7 +5009,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-4 {
-  animation: satellite-6-7-4 15.1s infinite linear;
+  animation: satellite-6-7-4 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-4 {
@@ -5013,7 +5022,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-5 {
-  animation: satellite-6-7-5 15.1s infinite linear;
+  animation: satellite-6-7-5 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-5 {
@@ -5026,7 +5035,7 @@
 }
 
 .star .orbital.ring-6.count-7 .satellite.num-6 {
-  animation: satellite-6-7-6 15.1s infinite linear;
+  animation: satellite-6-7-6 4.2s infinite linear;
 }
 
 @keyframes satellite-6-7-6 {
@@ -5039,7 +5048,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-0 {
-  animation: satellite-6-8-0 13.4s infinite linear;
+  animation: satellite-6-8-0 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-0 {
@@ -5052,7 +5061,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-1 {
-  animation: satellite-6-8-1 13.4s infinite linear;
+  animation: satellite-6-8-1 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-1 {
@@ -5065,7 +5074,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-2 {
-  animation: satellite-6-8-2 13.4s infinite linear;
+  animation: satellite-6-8-2 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-2 {
@@ -5078,7 +5087,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-3 {
-  animation: satellite-6-8-3 13.4s infinite linear;
+  animation: satellite-6-8-3 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-3 {
@@ -5091,7 +5100,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-4 {
-  animation: satellite-6-8-4 13.4s infinite linear;
+  animation: satellite-6-8-4 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-4 {
@@ -5104,7 +5113,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-5 {
-  animation: satellite-6-8-5 13.4s infinite linear;
+  animation: satellite-6-8-5 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-5 {
@@ -5117,7 +5126,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-6 {
-  animation: satellite-6-8-6 13.4s infinite linear;
+  animation: satellite-6-8-6 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-6 {
@@ -5130,7 +5139,7 @@
 }
 
 .star .orbital.ring-6.count-8 .satellite.num-7 {
-  animation: satellite-6-8-7 13.4s infinite linear;
+  animation: satellite-6-8-7 11.4s infinite linear;
 }
 
 @keyframes satellite-6-8-7 {
@@ -5143,7 +5152,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-0 {
-  animation: satellite-6-9-0 13.3s infinite linear;
+  animation: satellite-6-9-0 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-0 {
@@ -5156,7 +5165,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-1 {
-  animation: satellite-6-9-1 13.3s infinite linear;
+  animation: satellite-6-9-1 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-1 {
@@ -5169,7 +5178,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-2 {
-  animation: satellite-6-9-2 13.3s infinite linear;
+  animation: satellite-6-9-2 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-2 {
@@ -5182,7 +5191,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-3 {
-  animation: satellite-6-9-3 13.3s infinite linear;
+  animation: satellite-6-9-3 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-3 {
@@ -5195,7 +5204,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-4 {
-  animation: satellite-6-9-4 13.3s infinite linear;
+  animation: satellite-6-9-4 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-4 {
@@ -5208,7 +5217,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-5 {
-  animation: satellite-6-9-5 13.3s infinite linear;
+  animation: satellite-6-9-5 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-5 {
@@ -5221,7 +5230,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-6 {
-  animation: satellite-6-9-6 13.3s infinite linear;
+  animation: satellite-6-9-6 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-6 {
@@ -5234,7 +5243,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-7 {
-  animation: satellite-6-9-7 13.3s infinite linear;
+  animation: satellite-6-9-7 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-7 {
@@ -5247,7 +5256,7 @@
 }
 
 .star .orbital.ring-6.count-9 .satellite.num-8 {
-  animation: satellite-6-9-8 13.3s infinite linear;
+  animation: satellite-6-9-8 11.1s infinite linear;
 }
 
 @keyframes satellite-6-9-8 {
@@ -5260,7 +5269,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-0 {
-  animation: satellite-6-10-0 17.9s infinite linear;
+  animation: satellite-6-10-0 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-0 {
@@ -5273,7 +5282,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-1 {
-  animation: satellite-6-10-1 17.9s infinite linear;
+  animation: satellite-6-10-1 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-1 {
@@ -5286,7 +5295,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-2 {
-  animation: satellite-6-10-2 17.9s infinite linear;
+  animation: satellite-6-10-2 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-2 {
@@ -5299,7 +5308,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-3 {
-  animation: satellite-6-10-3 17.9s infinite linear;
+  animation: satellite-6-10-3 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-3 {
@@ -5312,7 +5321,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-4 {
-  animation: satellite-6-10-4 17.9s infinite linear;
+  animation: satellite-6-10-4 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-4 {
@@ -5325,7 +5334,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-5 {
-  animation: satellite-6-10-5 17.9s infinite linear;
+  animation: satellite-6-10-5 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-5 {
@@ -5338,7 +5347,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-6 {
-  animation: satellite-6-10-6 17.9s infinite linear;
+  animation: satellite-6-10-6 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-6 {
@@ -5351,7 +5360,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-7 {
-  animation: satellite-6-10-7 17.9s infinite linear;
+  animation: satellite-6-10-7 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-7 {
@@ -5364,7 +5373,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-8 {
-  animation: satellite-6-10-8 17.9s infinite linear;
+  animation: satellite-6-10-8 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-8 {
@@ -5377,7 +5386,7 @@
 }
 
 .star .orbital.ring-6.count-10 .satellite.num-9 {
-  animation: satellite-6-10-9 17.9s infinite linear;
+  animation: satellite-6-10-9 4.7s infinite linear;
 }
 
 @keyframes satellite-6-10-9 {
@@ -5395,7 +5404,7 @@
 }
 
 .star .orbital.ring-7.count-1 .satellite.num-0 {
-  animation: satellite-7-1-0 15.5s infinite linear;
+  animation: satellite-7-1-0 13.2s infinite linear;
 }
 
 @keyframes satellite-7-1-0 {
@@ -5408,7 +5417,7 @@
 }
 
 .star .orbital.ring-7.count-2 .satellite.num-0 {
-  animation: satellite-7-2-0 9.2s infinite linear;
+  animation: satellite-7-2-0 5.5s infinite linear;
 }
 
 @keyframes satellite-7-2-0 {
@@ -5421,7 +5430,7 @@
 }
 
 .star .orbital.ring-7.count-2 .satellite.num-1 {
-  animation: satellite-7-2-1 9.2s infinite linear;
+  animation: satellite-7-2-1 5.5s infinite linear;
 }
 
 @keyframes satellite-7-2-1 {
@@ -5434,7 +5443,7 @@
 }
 
 .star .orbital.ring-7.count-3 .satellite.num-0 {
-  animation: satellite-7-3-0 6.9s infinite linear;
+  animation: satellite-7-3-0 13s infinite linear;
 }
 
 @keyframes satellite-7-3-0 {
@@ -5447,7 +5456,7 @@
 }
 
 .star .orbital.ring-7.count-3 .satellite.num-1 {
-  animation: satellite-7-3-1 6.9s infinite linear;
+  animation: satellite-7-3-1 13s infinite linear;
 }
 
 @keyframes satellite-7-3-1 {
@@ -5460,7 +5469,7 @@
 }
 
 .star .orbital.ring-7.count-3 .satellite.num-2 {
-  animation: satellite-7-3-2 6.9s infinite linear;
+  animation: satellite-7-3-2 13s infinite linear;
 }
 
 @keyframes satellite-7-3-2 {
@@ -5473,7 +5482,7 @@
 }
 
 .star .orbital.ring-7.count-4 .satellite.num-0 {
-  animation: satellite-7-4-0 5.9s infinite linear;
+  animation: satellite-7-4-0 12.5s infinite linear;
 }
 
 @keyframes satellite-7-4-0 {
@@ -5486,7 +5495,7 @@
 }
 
 .star .orbital.ring-7.count-4 .satellite.num-1 {
-  animation: satellite-7-4-1 5.9s infinite linear;
+  animation: satellite-7-4-1 12.5s infinite linear;
 }
 
 @keyframes satellite-7-4-1 {
@@ -5499,7 +5508,7 @@
 }
 
 .star .orbital.ring-7.count-4 .satellite.num-2 {
-  animation: satellite-7-4-2 5.9s infinite linear;
+  animation: satellite-7-4-2 12.5s infinite linear;
 }
 
 @keyframes satellite-7-4-2 {
@@ -5512,7 +5521,7 @@
 }
 
 .star .orbital.ring-7.count-4 .satellite.num-3 {
-  animation: satellite-7-4-3 5.9s infinite linear;
+  animation: satellite-7-4-3 12.5s infinite linear;
 }
 
 @keyframes satellite-7-4-3 {
@@ -5525,7 +5534,7 @@
 }
 
 .star .orbital.ring-7.count-5 .satellite.num-0 {
-  animation: satellite-7-5-0 9.2s infinite linear;
+  animation: satellite-7-5-0 9.4s infinite linear;
 }
 
 @keyframes satellite-7-5-0 {
@@ -5538,7 +5547,7 @@
 }
 
 .star .orbital.ring-7.count-5 .satellite.num-1 {
-  animation: satellite-7-5-1 9.2s infinite linear;
+  animation: satellite-7-5-1 9.4s infinite linear;
 }
 
 @keyframes satellite-7-5-1 {
@@ -5551,7 +5560,7 @@
 }
 
 .star .orbital.ring-7.count-5 .satellite.num-2 {
-  animation: satellite-7-5-2 9.2s infinite linear;
+  animation: satellite-7-5-2 9.4s infinite linear;
 }
 
 @keyframes satellite-7-5-2 {
@@ -5564,7 +5573,7 @@
 }
 
 .star .orbital.ring-7.count-5 .satellite.num-3 {
-  animation: satellite-7-5-3 9.2s infinite linear;
+  animation: satellite-7-5-3 9.4s infinite linear;
 }
 
 @keyframes satellite-7-5-3 {
@@ -5577,7 +5586,7 @@
 }
 
 .star .orbital.ring-7.count-5 .satellite.num-4 {
-  animation: satellite-7-5-4 9.2s infinite linear;
+  animation: satellite-7-5-4 9.4s infinite linear;
 }
 
 @keyframes satellite-7-5-4 {
@@ -5590,7 +5599,7 @@
 }
 
 .star .orbital.ring-7.count-6 .satellite.num-0 {
-  animation: satellite-7-6-0 11.7s infinite linear;
+  animation: satellite-7-6-0 14.3s infinite linear;
 }
 
 @keyframes satellite-7-6-0 {
@@ -5603,7 +5612,7 @@
 }
 
 .star .orbital.ring-7.count-6 .satellite.num-1 {
-  animation: satellite-7-6-1 11.7s infinite linear;
+  animation: satellite-7-6-1 14.3s infinite linear;
 }
 
 @keyframes satellite-7-6-1 {
@@ -5616,7 +5625,7 @@
 }
 
 .star .orbital.ring-7.count-6 .satellite.num-2 {
-  animation: satellite-7-6-2 11.7s infinite linear;
+  animation: satellite-7-6-2 14.3s infinite linear;
 }
 
 @keyframes satellite-7-6-2 {
@@ -5629,7 +5638,7 @@
 }
 
 .star .orbital.ring-7.count-6 .satellite.num-3 {
-  animation: satellite-7-6-3 11.7s infinite linear;
+  animation: satellite-7-6-3 14.3s infinite linear;
 }
 
 @keyframes satellite-7-6-3 {
@@ -5642,7 +5651,7 @@
 }
 
 .star .orbital.ring-7.count-6 .satellite.num-4 {
-  animation: satellite-7-6-4 11.7s infinite linear;
+  animation: satellite-7-6-4 14.3s infinite linear;
 }
 
 @keyframes satellite-7-6-4 {
@@ -5655,7 +5664,7 @@
 }
 
 .star .orbital.ring-7.count-6 .satellite.num-5 {
-  animation: satellite-7-6-5 11.7s infinite linear;
+  animation: satellite-7-6-5 14.3s infinite linear;
 }
 
 @keyframes satellite-7-6-5 {
@@ -5668,7 +5677,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-0 {
-  animation: satellite-7-7-0 13.7s infinite linear;
+  animation: satellite-7-7-0 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-0 {
@@ -5681,7 +5690,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-1 {
-  animation: satellite-7-7-1 13.7s infinite linear;
+  animation: satellite-7-7-1 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-1 {
@@ -5694,7 +5703,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-2 {
-  animation: satellite-7-7-2 13.7s infinite linear;
+  animation: satellite-7-7-2 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-2 {
@@ -5707,7 +5716,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-3 {
-  animation: satellite-7-7-3 13.7s infinite linear;
+  animation: satellite-7-7-3 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-3 {
@@ -5720,7 +5729,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-4 {
-  animation: satellite-7-7-4 13.7s infinite linear;
+  animation: satellite-7-7-4 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-4 {
@@ -5733,7 +5742,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-5 {
-  animation: satellite-7-7-5 13.7s infinite linear;
+  animation: satellite-7-7-5 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-5 {
@@ -5746,7 +5755,7 @@
 }
 
 .star .orbital.ring-7.count-7 .satellite.num-6 {
-  animation: satellite-7-7-6 13.7s infinite linear;
+  animation: satellite-7-7-6 6.9s infinite linear;
 }
 
 @keyframes satellite-7-7-6 {
@@ -5759,7 +5768,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-0 {
-  animation: satellite-7-8-0 7.7s infinite linear;
+  animation: satellite-7-8-0 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-0 {
@@ -5772,7 +5781,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-1 {
-  animation: satellite-7-8-1 7.7s infinite linear;
+  animation: satellite-7-8-1 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-1 {
@@ -5785,7 +5794,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-2 {
-  animation: satellite-7-8-2 7.7s infinite linear;
+  animation: satellite-7-8-2 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-2 {
@@ -5798,7 +5807,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-3 {
-  animation: satellite-7-8-3 7.7s infinite linear;
+  animation: satellite-7-8-3 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-3 {
@@ -5811,7 +5820,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-4 {
-  animation: satellite-7-8-4 7.7s infinite linear;
+  animation: satellite-7-8-4 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-4 {
@@ -5824,7 +5833,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-5 {
-  animation: satellite-7-8-5 7.7s infinite linear;
+  animation: satellite-7-8-5 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-5 {
@@ -5837,7 +5846,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-6 {
-  animation: satellite-7-8-6 7.7s infinite linear;
+  animation: satellite-7-8-6 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-6 {
@@ -5850,7 +5859,7 @@
 }
 
 .star .orbital.ring-7.count-8 .satellite.num-7 {
-  animation: satellite-7-8-7 7.7s infinite linear;
+  animation: satellite-7-8-7 18.8s infinite linear;
 }
 
 @keyframes satellite-7-8-7 {
@@ -5980,7 +5989,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-0 {
-  animation: satellite-7-10-0 9.9s infinite linear;
+  animation: satellite-7-10-0 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-0 {
@@ -5993,7 +6002,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-1 {
-  animation: satellite-7-10-1 9.9s infinite linear;
+  animation: satellite-7-10-1 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-1 {
@@ -6006,7 +6015,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-2 {
-  animation: satellite-7-10-2 9.9s infinite linear;
+  animation: satellite-7-10-2 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-2 {
@@ -6019,7 +6028,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-3 {
-  animation: satellite-7-10-3 9.9s infinite linear;
+  animation: satellite-7-10-3 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-3 {
@@ -6032,7 +6041,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-4 {
-  animation: satellite-7-10-4 9.9s infinite linear;
+  animation: satellite-7-10-4 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-4 {
@@ -6045,7 +6054,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-5 {
-  animation: satellite-7-10-5 9.9s infinite linear;
+  animation: satellite-7-10-5 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-5 {
@@ -6058,7 +6067,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-6 {
-  animation: satellite-7-10-6 9.9s infinite linear;
+  animation: satellite-7-10-6 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-6 {
@@ -6071,7 +6080,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-7 {
-  animation: satellite-7-10-7 9.9s infinite linear;
+  animation: satellite-7-10-7 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-7 {
@@ -6084,7 +6093,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-8 {
-  animation: satellite-7-10-8 9.9s infinite linear;
+  animation: satellite-7-10-8 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-8 {
@@ -6097,7 +6106,7 @@
 }
 
 .star .orbital.ring-7.count-10 .satellite.num-9 {
-  animation: satellite-7-10-9 9.9s infinite linear;
+  animation: satellite-7-10-9 8.7s infinite linear;
 }
 
 @keyframes satellite-7-10-9 {
@@ -6115,7 +6124,7 @@
 }
 
 .star .orbital.ring-8.count-1 .satellite.num-0 {
-  animation: satellite-8-1-0 16.8s infinite linear;
+  animation: satellite-8-1-0 13.8s infinite linear;
 }
 
 @keyframes satellite-8-1-0 {
@@ -6128,7 +6137,7 @@
 }
 
 .star .orbital.ring-8.count-2 .satellite.num-0 {
-  animation: satellite-8-2-0 14.8s infinite linear;
+  animation: satellite-8-2-0 8.4s infinite linear;
 }
 
 @keyframes satellite-8-2-0 {
@@ -6141,7 +6150,7 @@
 }
 
 .star .orbital.ring-8.count-2 .satellite.num-1 {
-  animation: satellite-8-2-1 14.8s infinite linear;
+  animation: satellite-8-2-1 8.4s infinite linear;
 }
 
 @keyframes satellite-8-2-1 {
@@ -6154,7 +6163,7 @@
 }
 
 .star .orbital.ring-8.count-3 .satellite.num-0 {
-  animation: satellite-8-3-0 8.3s infinite linear;
+  animation: satellite-8-3-0 4.5s infinite linear;
 }
 
 @keyframes satellite-8-3-0 {
@@ -6167,7 +6176,7 @@
 }
 
 .star .orbital.ring-8.count-3 .satellite.num-1 {
-  animation: satellite-8-3-1 8.3s infinite linear;
+  animation: satellite-8-3-1 4.5s infinite linear;
 }
 
 @keyframes satellite-8-3-1 {
@@ -6180,7 +6189,7 @@
 }
 
 .star .orbital.ring-8.count-3 .satellite.num-2 {
-  animation: satellite-8-3-2 8.3s infinite linear;
+  animation: satellite-8-3-2 4.5s infinite linear;
 }
 
 @keyframes satellite-8-3-2 {
@@ -6193,7 +6202,7 @@
 }
 
 .star .orbital.ring-8.count-4 .satellite.num-0 {
-  animation: satellite-8-4-0 19s infinite linear;
+  animation: satellite-8-4-0 8s infinite linear;
 }
 
 @keyframes satellite-8-4-0 {
@@ -6206,7 +6215,7 @@
 }
 
 .star .orbital.ring-8.count-4 .satellite.num-1 {
-  animation: satellite-8-4-1 19s infinite linear;
+  animation: satellite-8-4-1 8s infinite linear;
 }
 
 @keyframes satellite-8-4-1 {
@@ -6219,7 +6228,7 @@
 }
 
 .star .orbital.ring-8.count-4 .satellite.num-2 {
-  animation: satellite-8-4-2 19s infinite linear;
+  animation: satellite-8-4-2 8s infinite linear;
 }
 
 @keyframes satellite-8-4-2 {
@@ -6232,7 +6241,7 @@
 }
 
 .star .orbital.ring-8.count-4 .satellite.num-3 {
-  animation: satellite-8-4-3 19s infinite linear;
+  animation: satellite-8-4-3 8s infinite linear;
 }
 
 @keyframes satellite-8-4-3 {
@@ -6245,7 +6254,7 @@
 }
 
 .star .orbital.ring-8.count-5 .satellite.num-0 {
-  animation: satellite-8-5-0 13.3s infinite linear;
+  animation: satellite-8-5-0 9.2s infinite linear;
 }
 
 @keyframes satellite-8-5-0 {
@@ -6258,7 +6267,7 @@
 }
 
 .star .orbital.ring-8.count-5 .satellite.num-1 {
-  animation: satellite-8-5-1 13.3s infinite linear;
+  animation: satellite-8-5-1 9.2s infinite linear;
 }
 
 @keyframes satellite-8-5-1 {
@@ -6271,7 +6280,7 @@
 }
 
 .star .orbital.ring-8.count-5 .satellite.num-2 {
-  animation: satellite-8-5-2 13.3s infinite linear;
+  animation: satellite-8-5-2 9.2s infinite linear;
 }
 
 @keyframes satellite-8-5-2 {
@@ -6284,7 +6293,7 @@
 }
 
 .star .orbital.ring-8.count-5 .satellite.num-3 {
-  animation: satellite-8-5-3 13.3s infinite linear;
+  animation: satellite-8-5-3 9.2s infinite linear;
 }
 
 @keyframes satellite-8-5-3 {
@@ -6297,7 +6306,7 @@
 }
 
 .star .orbital.ring-8.count-5 .satellite.num-4 {
-  animation: satellite-8-5-4 13.3s infinite linear;
+  animation: satellite-8-5-4 9.2s infinite linear;
 }
 
 @keyframes satellite-8-5-4 {
@@ -6310,7 +6319,7 @@
 }
 
 .star .orbital.ring-8.count-6 .satellite.num-0 {
-  animation: satellite-8-6-0 13.5s infinite linear;
+  animation: satellite-8-6-0 18.8s infinite linear;
 }
 
 @keyframes satellite-8-6-0 {
@@ -6323,7 +6332,7 @@
 }
 
 .star .orbital.ring-8.count-6 .satellite.num-1 {
-  animation: satellite-8-6-1 13.5s infinite linear;
+  animation: satellite-8-6-1 18.8s infinite linear;
 }
 
 @keyframes satellite-8-6-1 {
@@ -6336,7 +6345,7 @@
 }
 
 .star .orbital.ring-8.count-6 .satellite.num-2 {
-  animation: satellite-8-6-2 13.5s infinite linear;
+  animation: satellite-8-6-2 18.8s infinite linear;
 }
 
 @keyframes satellite-8-6-2 {
@@ -6349,7 +6358,7 @@
 }
 
 .star .orbital.ring-8.count-6 .satellite.num-3 {
-  animation: satellite-8-6-3 13.5s infinite linear;
+  animation: satellite-8-6-3 18.8s infinite linear;
 }
 
 @keyframes satellite-8-6-3 {
@@ -6362,7 +6371,7 @@
 }
 
 .star .orbital.ring-8.count-6 .satellite.num-4 {
-  animation: satellite-8-6-4 13.5s infinite linear;
+  animation: satellite-8-6-4 18.8s infinite linear;
 }
 
 @keyframes satellite-8-6-4 {
@@ -6375,7 +6384,7 @@
 }
 
 .star .orbital.ring-8.count-6 .satellite.num-5 {
-  animation: satellite-8-6-5 13.5s infinite linear;
+  animation: satellite-8-6-5 18.8s infinite linear;
 }
 
 @keyframes satellite-8-6-5 {
@@ -6388,7 +6397,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-0 {
-  animation: satellite-8-7-0 15.1s infinite linear;
+  animation: satellite-8-7-0 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-0 {
@@ -6401,7 +6410,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-1 {
-  animation: satellite-8-7-1 15.1s infinite linear;
+  animation: satellite-8-7-1 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-1 {
@@ -6414,7 +6423,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-2 {
-  animation: satellite-8-7-2 15.1s infinite linear;
+  animation: satellite-8-7-2 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-2 {
@@ -6427,7 +6436,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-3 {
-  animation: satellite-8-7-3 15.1s infinite linear;
+  animation: satellite-8-7-3 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-3 {
@@ -6440,7 +6449,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-4 {
-  animation: satellite-8-7-4 15.1s infinite linear;
+  animation: satellite-8-7-4 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-4 {
@@ -6453,7 +6462,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-5 {
-  animation: satellite-8-7-5 15.1s infinite linear;
+  animation: satellite-8-7-5 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-5 {
@@ -6466,7 +6475,7 @@
 }
 
 .star .orbital.ring-8.count-7 .satellite.num-6 {
-  animation: satellite-8-7-6 15.1s infinite linear;
+  animation: satellite-8-7-6 7.7s infinite linear;
 }
 
 @keyframes satellite-8-7-6 {
@@ -6479,7 +6488,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-0 {
-  animation: satellite-8-8-0 4.5s infinite linear;
+  animation: satellite-8-8-0 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-0 {
@@ -6492,7 +6501,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-1 {
-  animation: satellite-8-8-1 4.5s infinite linear;
+  animation: satellite-8-8-1 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-1 {
@@ -6505,7 +6514,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-2 {
-  animation: satellite-8-8-2 4.5s infinite linear;
+  animation: satellite-8-8-2 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-2 {
@@ -6518,7 +6527,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-3 {
-  animation: satellite-8-8-3 4.5s infinite linear;
+  animation: satellite-8-8-3 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-3 {
@@ -6531,7 +6540,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-4 {
-  animation: satellite-8-8-4 4.5s infinite linear;
+  animation: satellite-8-8-4 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-4 {
@@ -6544,7 +6553,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-5 {
-  animation: satellite-8-8-5 4.5s infinite linear;
+  animation: satellite-8-8-5 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-5 {
@@ -6557,7 +6566,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-6 {
-  animation: satellite-8-8-6 4.5s infinite linear;
+  animation: satellite-8-8-6 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-6 {
@@ -6570,7 +6579,7 @@
 }
 
 .star .orbital.ring-8.count-8 .satellite.num-7 {
-  animation: satellite-8-8-7 4.5s infinite linear;
+  animation: satellite-8-8-7 11.6s infinite linear;
 }
 
 @keyframes satellite-8-8-7 {
@@ -6583,7 +6592,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-0 {
-  animation: satellite-8-9-0 6.9s infinite linear;
+  animation: satellite-8-9-0 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-0 {
@@ -6596,7 +6605,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-1 {
-  animation: satellite-8-9-1 6.9s infinite linear;
+  animation: satellite-8-9-1 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-1 {
@@ -6609,7 +6618,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-2 {
-  animation: satellite-8-9-2 6.9s infinite linear;
+  animation: satellite-8-9-2 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-2 {
@@ -6622,7 +6631,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-3 {
-  animation: satellite-8-9-3 6.9s infinite linear;
+  animation: satellite-8-9-3 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-3 {
@@ -6635,7 +6644,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-4 {
-  animation: satellite-8-9-4 6.9s infinite linear;
+  animation: satellite-8-9-4 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-4 {
@@ -6648,7 +6657,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-5 {
-  animation: satellite-8-9-5 6.9s infinite linear;
+  animation: satellite-8-9-5 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-5 {
@@ -6661,7 +6670,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-6 {
-  animation: satellite-8-9-6 6.9s infinite linear;
+  animation: satellite-8-9-6 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-6 {
@@ -6674,7 +6683,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-7 {
-  animation: satellite-8-9-7 6.9s infinite linear;
+  animation: satellite-8-9-7 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-7 {
@@ -6687,7 +6696,7 @@
 }
 
 .star .orbital.ring-8.count-9 .satellite.num-8 {
-  animation: satellite-8-9-8 6.9s infinite linear;
+  animation: satellite-8-9-8 4.7s infinite linear;
 }
 
 @keyframes satellite-8-9-8 {
@@ -6700,7 +6709,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-0 {
-  animation: satellite-8-10-0 14.3s infinite linear;
+  animation: satellite-8-10-0 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-0 {
@@ -6713,7 +6722,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-1 {
-  animation: satellite-8-10-1 14.3s infinite linear;
+  animation: satellite-8-10-1 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-1 {
@@ -6726,7 +6735,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-2 {
-  animation: satellite-8-10-2 14.3s infinite linear;
+  animation: satellite-8-10-2 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-2 {
@@ -6739,7 +6748,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-3 {
-  animation: satellite-8-10-3 14.3s infinite linear;
+  animation: satellite-8-10-3 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-3 {
@@ -6752,7 +6761,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-4 {
-  animation: satellite-8-10-4 14.3s infinite linear;
+  animation: satellite-8-10-4 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-4 {
@@ -6765,7 +6774,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-5 {
-  animation: satellite-8-10-5 14.3s infinite linear;
+  animation: satellite-8-10-5 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-5 {
@@ -6778,7 +6787,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-6 {
-  animation: satellite-8-10-6 14.3s infinite linear;
+  animation: satellite-8-10-6 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-6 {
@@ -6791,7 +6800,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-7 {
-  animation: satellite-8-10-7 14.3s infinite linear;
+  animation: satellite-8-10-7 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-7 {
@@ -6804,7 +6813,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-8 {
-  animation: satellite-8-10-8 14.3s infinite linear;
+  animation: satellite-8-10-8 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-8 {
@@ -6817,7 +6826,7 @@
 }
 
 .star .orbital.ring-8.count-10 .satellite.num-9 {
-  animation: satellite-8-10-9 14.3s infinite linear;
+  animation: satellite-8-10-9 16.1s infinite linear;
 }
 
 @keyframes satellite-8-10-9 {
@@ -6835,7 +6844,7 @@
 }
 
 .star .orbital.ring-9.count-1 .satellite.num-0 {
-  animation: satellite-9-1-0 18.1s infinite linear;
+  animation: satellite-9-1-0 16.9s infinite linear;
 }
 
 @keyframes satellite-9-1-0 {
@@ -6848,7 +6857,7 @@
 }
 
 .star .orbital.ring-9.count-2 .satellite.num-0 {
-  animation: satellite-9-2-0 6.6s infinite linear;
+  animation: satellite-9-2-0 16s infinite linear;
 }
 
 @keyframes satellite-9-2-0 {
@@ -6861,7 +6870,7 @@
 }
 
 .star .orbital.ring-9.count-2 .satellite.num-1 {
-  animation: satellite-9-2-1 6.6s infinite linear;
+  animation: satellite-9-2-1 16s infinite linear;
 }
 
 @keyframes satellite-9-2-1 {
@@ -6874,7 +6883,7 @@
 }
 
 .star .orbital.ring-9.count-3 .satellite.num-0 {
-  animation: satellite-9-3-0 17.2s infinite linear;
+  animation: satellite-9-3-0 6.2s infinite linear;
 }
 
 @keyframes satellite-9-3-0 {
@@ -6887,7 +6896,7 @@
 }
 
 .star .orbital.ring-9.count-3 .satellite.num-1 {
-  animation: satellite-9-3-1 17.2s infinite linear;
+  animation: satellite-9-3-1 6.2s infinite linear;
 }
 
 @keyframes satellite-9-3-1 {
@@ -6900,7 +6909,7 @@
 }
 
 .star .orbital.ring-9.count-3 .satellite.num-2 {
-  animation: satellite-9-3-2 17.2s infinite linear;
+  animation: satellite-9-3-2 6.2s infinite linear;
 }
 
 @keyframes satellite-9-3-2 {
@@ -6913,7 +6922,7 @@
 }
 
 .star .orbital.ring-9.count-4 .satellite.num-0 {
-  animation: satellite-9-4-0 8.4s infinite linear;
+  animation: satellite-9-4-0 15.8s infinite linear;
 }
 
 @keyframes satellite-9-4-0 {
@@ -6926,7 +6935,7 @@
 }
 
 .star .orbital.ring-9.count-4 .satellite.num-1 {
-  animation: satellite-9-4-1 8.4s infinite linear;
+  animation: satellite-9-4-1 15.8s infinite linear;
 }
 
 @keyframes satellite-9-4-1 {
@@ -6939,7 +6948,7 @@
 }
 
 .star .orbital.ring-9.count-4 .satellite.num-2 {
-  animation: satellite-9-4-2 8.4s infinite linear;
+  animation: satellite-9-4-2 15.8s infinite linear;
 }
 
 @keyframes satellite-9-4-2 {
@@ -6952,7 +6961,7 @@
 }
 
 .star .orbital.ring-9.count-4 .satellite.num-3 {
-  animation: satellite-9-4-3 8.4s infinite linear;
+  animation: satellite-9-4-3 15.8s infinite linear;
 }
 
 @keyframes satellite-9-4-3 {
@@ -6965,7 +6974,7 @@
 }
 
 .star .orbital.ring-9.count-5 .satellite.num-0 {
-  animation: satellite-9-5-0 7.9s infinite linear;
+  animation: satellite-9-5-0 18.4s infinite linear;
 }
 
 @keyframes satellite-9-5-0 {
@@ -6978,7 +6987,7 @@
 }
 
 .star .orbital.ring-9.count-5 .satellite.num-1 {
-  animation: satellite-9-5-1 7.9s infinite linear;
+  animation: satellite-9-5-1 18.4s infinite linear;
 }
 
 @keyframes satellite-9-5-1 {
@@ -6991,7 +7000,7 @@
 }
 
 .star .orbital.ring-9.count-5 .satellite.num-2 {
-  animation: satellite-9-5-2 7.9s infinite linear;
+  animation: satellite-9-5-2 18.4s infinite linear;
 }
 
 @keyframes satellite-9-5-2 {
@@ -7004,7 +7013,7 @@
 }
 
 .star .orbital.ring-9.count-5 .satellite.num-3 {
-  animation: satellite-9-5-3 7.9s infinite linear;
+  animation: satellite-9-5-3 18.4s infinite linear;
 }
 
 @keyframes satellite-9-5-3 {
@@ -7017,7 +7026,7 @@
 }
 
 .star .orbital.ring-9.count-5 .satellite.num-4 {
-  animation: satellite-9-5-4 7.9s infinite linear;
+  animation: satellite-9-5-4 18.4s infinite linear;
 }
 
 @keyframes satellite-9-5-4 {
@@ -7030,7 +7039,7 @@
 }
 
 .star .orbital.ring-9.count-6 .satellite.num-0 {
-  animation: satellite-9-6-0 17.1s infinite linear;
+  animation: satellite-9-6-0 4.7s infinite linear;
 }
 
 @keyframes satellite-9-6-0 {
@@ -7043,7 +7052,7 @@
 }
 
 .star .orbital.ring-9.count-6 .satellite.num-1 {
-  animation: satellite-9-6-1 17.1s infinite linear;
+  animation: satellite-9-6-1 4.7s infinite linear;
 }
 
 @keyframes satellite-9-6-1 {
@@ -7056,7 +7065,7 @@
 }
 
 .star .orbital.ring-9.count-6 .satellite.num-2 {
-  animation: satellite-9-6-2 17.1s infinite linear;
+  animation: satellite-9-6-2 4.7s infinite linear;
 }
 
 @keyframes satellite-9-6-2 {
@@ -7069,7 +7078,7 @@
 }
 
 .star .orbital.ring-9.count-6 .satellite.num-3 {
-  animation: satellite-9-6-3 17.1s infinite linear;
+  animation: satellite-9-6-3 4.7s infinite linear;
 }
 
 @keyframes satellite-9-6-3 {
@@ -7082,7 +7091,7 @@
 }
 
 .star .orbital.ring-9.count-6 .satellite.num-4 {
-  animation: satellite-9-6-4 17.1s infinite linear;
+  animation: satellite-9-6-4 4.7s infinite linear;
 }
 
 @keyframes satellite-9-6-4 {
@@ -7095,7 +7104,7 @@
 }
 
 .star .orbital.ring-9.count-6 .satellite.num-5 {
-  animation: satellite-9-6-5 17.1s infinite linear;
+  animation: satellite-9-6-5 4.7s infinite linear;
 }
 
 @keyframes satellite-9-6-5 {
@@ -7108,7 +7117,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-0 {
-  animation: satellite-9-7-0 4.4s infinite linear;
+  animation: satellite-9-7-0 8s infinite linear;
 }
 
 @keyframes satellite-9-7-0 {
@@ -7121,7 +7130,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-1 {
-  animation: satellite-9-7-1 4.4s infinite linear;
+  animation: satellite-9-7-1 8s infinite linear;
 }
 
 @keyframes satellite-9-7-1 {
@@ -7134,7 +7143,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-2 {
-  animation: satellite-9-7-2 4.4s infinite linear;
+  animation: satellite-9-7-2 8s infinite linear;
 }
 
 @keyframes satellite-9-7-2 {
@@ -7147,7 +7156,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-3 {
-  animation: satellite-9-7-3 4.4s infinite linear;
+  animation: satellite-9-7-3 8s infinite linear;
 }
 
 @keyframes satellite-9-7-3 {
@@ -7160,7 +7169,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-4 {
-  animation: satellite-9-7-4 4.4s infinite linear;
+  animation: satellite-9-7-4 8s infinite linear;
 }
 
 @keyframes satellite-9-7-4 {
@@ -7173,7 +7182,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-5 {
-  animation: satellite-9-7-5 4.4s infinite linear;
+  animation: satellite-9-7-5 8s infinite linear;
 }
 
 @keyframes satellite-9-7-5 {
@@ -7186,7 +7195,7 @@
 }
 
 .star .orbital.ring-9.count-7 .satellite.num-6 {
-  animation: satellite-9-7-6 4.4s infinite linear;
+  animation: satellite-9-7-6 8s infinite linear;
 }
 
 @keyframes satellite-9-7-6 {
@@ -7199,7 +7208,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-0 {
-  animation: satellite-9-8-0 9.2s infinite linear;
+  animation: satellite-9-8-0 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-0 {
@@ -7212,7 +7221,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-1 {
-  animation: satellite-9-8-1 9.2s infinite linear;
+  animation: satellite-9-8-1 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-1 {
@@ -7225,7 +7234,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-2 {
-  animation: satellite-9-8-2 9.2s infinite linear;
+  animation: satellite-9-8-2 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-2 {
@@ -7238,7 +7247,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-3 {
-  animation: satellite-9-8-3 9.2s infinite linear;
+  animation: satellite-9-8-3 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-3 {
@@ -7251,7 +7260,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-4 {
-  animation: satellite-9-8-4 9.2s infinite linear;
+  animation: satellite-9-8-4 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-4 {
@@ -7264,7 +7273,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-5 {
-  animation: satellite-9-8-5 9.2s infinite linear;
+  animation: satellite-9-8-5 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-5 {
@@ -7277,7 +7286,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-6 {
-  animation: satellite-9-8-6 9.2s infinite linear;
+  animation: satellite-9-8-6 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-6 {
@@ -7290,7 +7299,7 @@
 }
 
 .star .orbital.ring-9.count-8 .satellite.num-7 {
-  animation: satellite-9-8-7 9.2s infinite linear;
+  animation: satellite-9-8-7 5.1s infinite linear;
 }
 
 @keyframes satellite-9-8-7 {
@@ -7303,7 +7312,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-0 {
-  animation: satellite-9-9-0 14.7s infinite linear;
+  animation: satellite-9-9-0 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-0 {
@@ -7316,7 +7325,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-1 {
-  animation: satellite-9-9-1 14.7s infinite linear;
+  animation: satellite-9-9-1 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-1 {
@@ -7329,7 +7338,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-2 {
-  animation: satellite-9-9-2 14.7s infinite linear;
+  animation: satellite-9-9-2 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-2 {
@@ -7342,7 +7351,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-3 {
-  animation: satellite-9-9-3 14.7s infinite linear;
+  animation: satellite-9-9-3 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-3 {
@@ -7355,7 +7364,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-4 {
-  animation: satellite-9-9-4 14.7s infinite linear;
+  animation: satellite-9-9-4 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-4 {
@@ -7368,7 +7377,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-5 {
-  animation: satellite-9-9-5 14.7s infinite linear;
+  animation: satellite-9-9-5 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-5 {
@@ -7381,7 +7390,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-6 {
-  animation: satellite-9-9-6 14.7s infinite linear;
+  animation: satellite-9-9-6 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-6 {
@@ -7394,7 +7403,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-7 {
-  animation: satellite-9-9-7 14.7s infinite linear;
+  animation: satellite-9-9-7 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-7 {
@@ -7407,7 +7416,7 @@
 }
 
 .star .orbital.ring-9.count-9 .satellite.num-8 {
-  animation: satellite-9-9-8 14.7s infinite linear;
+  animation: satellite-9-9-8 9.9s infinite linear;
 }
 
 @keyframes satellite-9-9-8 {
@@ -7420,7 +7429,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-0 {
-  animation: satellite-9-10-0 15.3s infinite linear;
+  animation: satellite-9-10-0 18s infinite linear;
 }
 
 @keyframes satellite-9-10-0 {
@@ -7433,7 +7442,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-1 {
-  animation: satellite-9-10-1 15.3s infinite linear;
+  animation: satellite-9-10-1 18s infinite linear;
 }
 
 @keyframes satellite-9-10-1 {
@@ -7446,7 +7455,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-2 {
-  animation: satellite-9-10-2 15.3s infinite linear;
+  animation: satellite-9-10-2 18s infinite linear;
 }
 
 @keyframes satellite-9-10-2 {
@@ -7459,7 +7468,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-3 {
-  animation: satellite-9-10-3 15.3s infinite linear;
+  animation: satellite-9-10-3 18s infinite linear;
 }
 
 @keyframes satellite-9-10-3 {
@@ -7472,7 +7481,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-4 {
-  animation: satellite-9-10-4 15.3s infinite linear;
+  animation: satellite-9-10-4 18s infinite linear;
 }
 
 @keyframes satellite-9-10-4 {
@@ -7485,7 +7494,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-5 {
-  animation: satellite-9-10-5 15.3s infinite linear;
+  animation: satellite-9-10-5 18s infinite linear;
 }
 
 @keyframes satellite-9-10-5 {
@@ -7498,7 +7507,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-6 {
-  animation: satellite-9-10-6 15.3s infinite linear;
+  animation: satellite-9-10-6 18s infinite linear;
 }
 
 @keyframes satellite-9-10-6 {
@@ -7511,7 +7520,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-7 {
-  animation: satellite-9-10-7 15.3s infinite linear;
+  animation: satellite-9-10-7 18s infinite linear;
 }
 
 @keyframes satellite-9-10-7 {
@@ -7524,7 +7533,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-8 {
-  animation: satellite-9-10-8 15.3s infinite linear;
+  animation: satellite-9-10-8 18s infinite linear;
 }
 
 @keyframes satellite-9-10-8 {
@@ -7537,7 +7546,7 @@
 }
 
 .star .orbital.ring-9.count-10 .satellite.num-9 {
-  animation: satellite-9-10-9 15.3s infinite linear;
+  animation: satellite-9-10-9 18s infinite linear;
 }
 
 @keyframes satellite-9-10-9 {
@@ -7555,7 +7564,7 @@
 }
 
 .star .orbital.ring-10.count-1 .satellite.num-0 {
-  animation: satellite-10-1-0 15.8s infinite linear;
+  animation: satellite-10-1-0 5.8s infinite linear;
 }
 
 @keyframes satellite-10-1-0 {
@@ -7568,7 +7577,7 @@
 }
 
 .star .orbital.ring-10.count-2 .satellite.num-0 {
-  animation: satellite-10-2-0 15.6s infinite linear;
+  animation: satellite-10-2-0 6.2s infinite linear;
 }
 
 @keyframes satellite-10-2-0 {
@@ -7581,7 +7590,7 @@
 }
 
 .star .orbital.ring-10.count-2 .satellite.num-1 {
-  animation: satellite-10-2-1 15.6s infinite linear;
+  animation: satellite-10-2-1 6.2s infinite linear;
 }
 
 @keyframes satellite-10-2-1 {
@@ -7594,7 +7603,7 @@
 }
 
 .star .orbital.ring-10.count-3 .satellite.num-0 {
-  animation: satellite-10-3-0 8.8s infinite linear;
+  animation: satellite-10-3-0 6.6s infinite linear;
 }
 
 @keyframes satellite-10-3-0 {
@@ -7607,7 +7616,7 @@
 }
 
 .star .orbital.ring-10.count-3 .satellite.num-1 {
-  animation: satellite-10-3-1 8.8s infinite linear;
+  animation: satellite-10-3-1 6.6s infinite linear;
 }
 
 @keyframes satellite-10-3-1 {
@@ -7620,7 +7629,7 @@
 }
 
 .star .orbital.ring-10.count-3 .satellite.num-2 {
-  animation: satellite-10-3-2 8.8s infinite linear;
+  animation: satellite-10-3-2 6.6s infinite linear;
 }
 
 @keyframes satellite-10-3-2 {
@@ -7633,7 +7642,7 @@
 }
 
 .star .orbital.ring-10.count-4 .satellite.num-0 {
-  animation: satellite-10-4-0 11.3s infinite linear;
+  animation: satellite-10-4-0 8.7s infinite linear;
 }
 
 @keyframes satellite-10-4-0 {
@@ -7646,7 +7655,7 @@
 }
 
 .star .orbital.ring-10.count-4 .satellite.num-1 {
-  animation: satellite-10-4-1 11.3s infinite linear;
+  animation: satellite-10-4-1 8.7s infinite linear;
 }
 
 @keyframes satellite-10-4-1 {
@@ -7659,7 +7668,7 @@
 }
 
 .star .orbital.ring-10.count-4 .satellite.num-2 {
-  animation: satellite-10-4-2 11.3s infinite linear;
+  animation: satellite-10-4-2 8.7s infinite linear;
 }
 
 @keyframes satellite-10-4-2 {
@@ -7672,7 +7681,7 @@
 }
 
 .star .orbital.ring-10.count-4 .satellite.num-3 {
-  animation: satellite-10-4-3 11.3s infinite linear;
+  animation: satellite-10-4-3 8.7s infinite linear;
 }
 
 @keyframes satellite-10-4-3 {
@@ -7685,7 +7694,7 @@
 }
 
 .star .orbital.ring-10.count-5 .satellite.num-0 {
-  animation: satellite-10-5-0 5.8s infinite linear;
+  animation: satellite-10-5-0 13.6s infinite linear;
 }
 
 @keyframes satellite-10-5-0 {
@@ -7698,7 +7707,7 @@
 }
 
 .star .orbital.ring-10.count-5 .satellite.num-1 {
-  animation: satellite-10-5-1 5.8s infinite linear;
+  animation: satellite-10-5-1 13.6s infinite linear;
 }
 
 @keyframes satellite-10-5-1 {
@@ -7711,7 +7720,7 @@
 }
 
 .star .orbital.ring-10.count-5 .satellite.num-2 {
-  animation: satellite-10-5-2 5.8s infinite linear;
+  animation: satellite-10-5-2 13.6s infinite linear;
 }
 
 @keyframes satellite-10-5-2 {
@@ -7724,7 +7733,7 @@
 }
 
 .star .orbital.ring-10.count-5 .satellite.num-3 {
-  animation: satellite-10-5-3 5.8s infinite linear;
+  animation: satellite-10-5-3 13.6s infinite linear;
 }
 
 @keyframes satellite-10-5-3 {
@@ -7737,7 +7746,7 @@
 }
 
 .star .orbital.ring-10.count-5 .satellite.num-4 {
-  animation: satellite-10-5-4 5.8s infinite linear;
+  animation: satellite-10-5-4 13.6s infinite linear;
 }
 
 @keyframes satellite-10-5-4 {
@@ -7750,7 +7759,7 @@
 }
 
 .star .orbital.ring-10.count-6 .satellite.num-0 {
-  animation: satellite-10-6-0 16.9s infinite linear;
+  animation: satellite-10-6-0 5.5s infinite linear;
 }
 
 @keyframes satellite-10-6-0 {
@@ -7763,7 +7772,7 @@
 }
 
 .star .orbital.ring-10.count-6 .satellite.num-1 {
-  animation: satellite-10-6-1 16.9s infinite linear;
+  animation: satellite-10-6-1 5.5s infinite linear;
 }
 
 @keyframes satellite-10-6-1 {
@@ -7776,7 +7785,7 @@
 }
 
 .star .orbital.ring-10.count-6 .satellite.num-2 {
-  animation: satellite-10-6-2 16.9s infinite linear;
+  animation: satellite-10-6-2 5.5s infinite linear;
 }
 
 @keyframes satellite-10-6-2 {
@@ -7789,7 +7798,7 @@
 }
 
 .star .orbital.ring-10.count-6 .satellite.num-3 {
-  animation: satellite-10-6-3 16.9s infinite linear;
+  animation: satellite-10-6-3 5.5s infinite linear;
 }
 
 @keyframes satellite-10-6-3 {
@@ -7802,7 +7811,7 @@
 }
 
 .star .orbital.ring-10.count-6 .satellite.num-4 {
-  animation: satellite-10-6-4 16.9s infinite linear;
+  animation: satellite-10-6-4 5.5s infinite linear;
 }
 
 @keyframes satellite-10-6-4 {
@@ -7815,7 +7824,7 @@
 }
 
 .star .orbital.ring-10.count-6 .satellite.num-5 {
-  animation: satellite-10-6-5 16.9s infinite linear;
+  animation: satellite-10-6-5 5.5s infinite linear;
 }
 
 @keyframes satellite-10-6-5 {
@@ -7828,7 +7837,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-0 {
-  animation: satellite-10-7-0 10.7s infinite linear;
+  animation: satellite-10-7-0 7s infinite linear;
 }
 
 @keyframes satellite-10-7-0 {
@@ -7841,7 +7850,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-1 {
-  animation: satellite-10-7-1 10.7s infinite linear;
+  animation: satellite-10-7-1 7s infinite linear;
 }
 
 @keyframes satellite-10-7-1 {
@@ -7854,7 +7863,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-2 {
-  animation: satellite-10-7-2 10.7s infinite linear;
+  animation: satellite-10-7-2 7s infinite linear;
 }
 
 @keyframes satellite-10-7-2 {
@@ -7867,7 +7876,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-3 {
-  animation: satellite-10-7-3 10.7s infinite linear;
+  animation: satellite-10-7-3 7s infinite linear;
 }
 
 @keyframes satellite-10-7-3 {
@@ -7880,7 +7889,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-4 {
-  animation: satellite-10-7-4 10.7s infinite linear;
+  animation: satellite-10-7-4 7s infinite linear;
 }
 
 @keyframes satellite-10-7-4 {
@@ -7893,7 +7902,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-5 {
-  animation: satellite-10-7-5 10.7s infinite linear;
+  animation: satellite-10-7-5 7s infinite linear;
 }
 
 @keyframes satellite-10-7-5 {
@@ -7906,7 +7915,7 @@
 }
 
 .star .orbital.ring-10.count-7 .satellite.num-6 {
-  animation: satellite-10-7-6 10.7s infinite linear;
+  animation: satellite-10-7-6 7s infinite linear;
 }
 
 @keyframes satellite-10-7-6 {
@@ -7919,7 +7928,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-0 {
-  animation: satellite-10-8-0 11.2s infinite linear;
+  animation: satellite-10-8-0 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-0 {
@@ -7932,7 +7941,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-1 {
-  animation: satellite-10-8-1 11.2s infinite linear;
+  animation: satellite-10-8-1 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-1 {
@@ -7945,7 +7954,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-2 {
-  animation: satellite-10-8-2 11.2s infinite linear;
+  animation: satellite-10-8-2 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-2 {
@@ -7958,7 +7967,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-3 {
-  animation: satellite-10-8-3 11.2s infinite linear;
+  animation: satellite-10-8-3 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-3 {
@@ -7971,7 +7980,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-4 {
-  animation: satellite-10-8-4 11.2s infinite linear;
+  animation: satellite-10-8-4 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-4 {
@@ -7984,7 +7993,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-5 {
-  animation: satellite-10-8-5 11.2s infinite linear;
+  animation: satellite-10-8-5 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-5 {
@@ -7997,7 +8006,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-6 {
-  animation: satellite-10-8-6 11.2s infinite linear;
+  animation: satellite-10-8-6 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-6 {
@@ -8010,7 +8019,7 @@
 }
 
 .star .orbital.ring-10.count-8 .satellite.num-7 {
-  animation: satellite-10-8-7 11.2s infinite linear;
+  animation: satellite-10-8-7 7.9s infinite linear;
 }
 
 @keyframes satellite-10-8-7 {
@@ -8023,7 +8032,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-0 {
-  animation: satellite-10-9-0 7.9s infinite linear;
+  animation: satellite-10-9-0 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-0 {
@@ -8036,7 +8045,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-1 {
-  animation: satellite-10-9-1 7.9s infinite linear;
+  animation: satellite-10-9-1 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-1 {
@@ -8049,7 +8058,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-2 {
-  animation: satellite-10-9-2 7.9s infinite linear;
+  animation: satellite-10-9-2 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-2 {
@@ -8062,7 +8071,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-3 {
-  animation: satellite-10-9-3 7.9s infinite linear;
+  animation: satellite-10-9-3 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-3 {
@@ -8075,7 +8084,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-4 {
-  animation: satellite-10-9-4 7.9s infinite linear;
+  animation: satellite-10-9-4 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-4 {
@@ -8088,7 +8097,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-5 {
-  animation: satellite-10-9-5 7.9s infinite linear;
+  animation: satellite-10-9-5 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-5 {
@@ -8101,7 +8110,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-6 {
-  animation: satellite-10-9-6 7.9s infinite linear;
+  animation: satellite-10-9-6 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-6 {
@@ -8114,7 +8123,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-7 {
-  animation: satellite-10-9-7 7.9s infinite linear;
+  animation: satellite-10-9-7 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-7 {
@@ -8127,7 +8136,7 @@
 }
 
 .star .orbital.ring-10.count-9 .satellite.num-8 {
-  animation: satellite-10-9-8 7.9s infinite linear;
+  animation: satellite-10-9-8 12.9s infinite linear;
 }
 
 @keyframes satellite-10-9-8 {
@@ -8140,7 +8149,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-0 {
-  animation: satellite-10-10-0 9.1s infinite linear;
+  animation: satellite-10-10-0 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-0 {
@@ -8153,7 +8162,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-1 {
-  animation: satellite-10-10-1 9.1s infinite linear;
+  animation: satellite-10-10-1 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-1 {
@@ -8166,7 +8175,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-2 {
-  animation: satellite-10-10-2 9.1s infinite linear;
+  animation: satellite-10-10-2 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-2 {
@@ -8179,7 +8188,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-3 {
-  animation: satellite-10-10-3 9.1s infinite linear;
+  animation: satellite-10-10-3 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-3 {
@@ -8192,7 +8201,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-4 {
-  animation: satellite-10-10-4 9.1s infinite linear;
+  animation: satellite-10-10-4 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-4 {
@@ -8205,7 +8214,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-5 {
-  animation: satellite-10-10-5 9.1s infinite linear;
+  animation: satellite-10-10-5 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-5 {
@@ -8218,7 +8227,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-6 {
-  animation: satellite-10-10-6 9.1s infinite linear;
+  animation: satellite-10-10-6 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-6 {
@@ -8231,7 +8240,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-7 {
-  animation: satellite-10-10-7 9.1s infinite linear;
+  animation: satellite-10-10-7 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-7 {
@@ -8244,7 +8253,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-8 {
-  animation: satellite-10-10-8 9.1s infinite linear;
+  animation: satellite-10-10-8 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-8 {
@@ -8257,7 +8266,7 @@
 }
 
 .star .orbital.ring-10.count-10 .satellite.num-9 {
-  animation: satellite-10-10-9 9.1s infinite linear;
+  animation: satellite-10-10-9 18.3s infinite linear;
 }
 
 @keyframes satellite-10-10-9 {
@@ -8288,24 +8297,42 @@
 
 .asset-dot {
   position: absolute;
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   background: rgba(var(--colour), 1);
 }
 
-.-hover {
+.planet.-hover, .asset-dot.-hover {
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
-.-hover:after {
+.planet.-hover:after, .asset-dot.-hover:after {
   position: absolute;
   content: '';
   border: 1px solid rgba(var(--colour), 1);
   border-radius: 50%;
   width: 16px;
   height: 16px;
+}
+
+.-hoverable {
+  font-weight: bold;
+}
+
+.-hoverable:hover {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.star.-hover {
+  border: 4px solid grey;
+}
+
+.sector.-hover, .orbital.-hover, .deepspace.-hover {
+  border-width: 4px !important;
 }
 
 .deepspace {
@@ -8328,7 +8355,7 @@
 .deepspace.slices-1 {
   height: 20px;
   width: 20px;
-  animation: deepspace-1 33.8s linear infinite;
+  animation: deepspace-1 31s linear infinite;
 }
 
 @keyframes deepspace-1 {
@@ -8356,29 +8383,29 @@
 }
 
 .deepspace.slices-1 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-1-1 10.9s ease-in-out infinite;
+  animation: deepspace-1-1 10.6s ease-in-out infinite;
 }
 
 .deepspace.slices-1 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-1-1 8.5s ease-in-out infinite;
+  animation: deepspace-1-1 9.4s ease-in-out infinite;
 }
 
 .deepspace.slices-1 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-1-1 9.7s ease-in-out infinite;
+  animation: deepspace-1-1 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-1 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-1-1 12.1s ease-in-out infinite;
+  animation: deepspace-1-1 11.1s ease-in-out infinite;
 }
 
 .deepspace.slices-1 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-1-1 10.4s ease-in-out infinite;
+  animation: deepspace-1-1 12.2s ease-in-out infinite;
 }
 
 .deepspace.slices-2 {
   height: 40px;
   width: 40px;
-  animation: deepspace-2 30.7s linear infinite;
+  animation: deepspace-2 30.9s linear infinite;
 }
 
 @keyframes deepspace-2 {
@@ -8406,23 +8433,23 @@
 }
 
 .deepspace.slices-2 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-2-1 12.7s ease-in-out infinite;
+  animation: deepspace-2-1 12.1s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-2-1 10.6s ease-in-out infinite;
+  animation: deepspace-2-1 11.4s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-2-1 12.2s ease-in-out infinite;
+  animation: deepspace-2-1 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-2-1 12.4s ease-in-out infinite;
+  animation: deepspace-2-1 11.3s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-2-1 12.8s ease-in-out infinite;
+  animation: deepspace-2-1 13s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-1 {
@@ -8443,29 +8470,29 @@
 }
 
 .deepspace.slices-2 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-2-2 11.6s ease-in-out infinite;
+  animation: deepspace-2-2 8.2s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-2-2 10.5s ease-in-out infinite;
+  animation: deepspace-2-2 9.4s ease-in-out infinite;
 }
 
 .deepspace.slices-2 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-2-2 12.2s ease-in-out infinite;
-}
-
-.deepspace.slices-2 .sector.line-1 .satellite.num-3 {
   animation: deepspace-2-2 8.5s ease-in-out infinite;
 }
 
+.deepspace.slices-2 .sector.line-1 .satellite.num-3 {
+  animation: deepspace-2-2 10s ease-in-out infinite;
+}
+
 .deepspace.slices-2 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-2-2 9.3s ease-in-out infinite;
+  animation: deepspace-2-2 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-3 {
   height: 60px;
   width: 60px;
-  animation: deepspace-3 33.6s linear infinite;
+  animation: deepspace-3 34s linear infinite;
 }
 
 @keyframes deepspace-3 {
@@ -8493,23 +8520,23 @@
 }
 
 .deepspace.slices-3 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-3-1 12.7s ease-in-out infinite;
+  animation: deepspace-3-1 8.5s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-3-1 9.2s ease-in-out infinite;
+  animation: deepspace-3-1 9.8s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-3-1 8.8s ease-in-out infinite;
+  animation: deepspace-3-1 12.4s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-3-1 9.4s ease-in-out infinite;
+  animation: deepspace-3-1 12.2s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-3-1 9.3s ease-in-out infinite;
+  animation: deepspace-3-1 12.3s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-1 {
@@ -8530,23 +8557,23 @@
 }
 
 .deepspace.slices-3 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-3-2 10.1s ease-in-out infinite;
+  animation: deepspace-3-2 10s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-3-2 13s ease-in-out infinite;
+  animation: deepspace-3-2 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-3-2 9.9s ease-in-out infinite;
+  animation: deepspace-3-2 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-3-2 8.3s ease-in-out infinite;
+  animation: deepspace-3-2 11.9s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-3-2 12.1s ease-in-out infinite;
+  animation: deepspace-3-2 8.9s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-2 {
@@ -8567,29 +8594,29 @@
 }
 
 .deepspace.slices-3 .sector.line-2 .satellite.num-0 {
-  animation: deepspace-3-3 9.7s ease-in-out infinite;
+  animation: deepspace-3-3 10.1s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-3-3 11.4s ease-in-out infinite;
+  animation: deepspace-3-3 10.8s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-3-3 8.7s ease-in-out infinite;
+  animation: deepspace-3-3 11.5s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-3-3 10.3s ease-in-out infinite;
+  animation: deepspace-3-3 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-3 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-3-3 11.8s ease-in-out infinite;
+  animation: deepspace-3-3 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-4 {
   height: 80px;
   width: 80px;
-  animation: deepspace-4 33.9s linear infinite;
+  animation: deepspace-4 30.3s linear infinite;
 }
 
 @keyframes deepspace-4 {
@@ -8617,23 +8644,23 @@
 }
 
 .deepspace.slices-4 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-4-1 9.8s ease-in-out infinite;
+  animation: deepspace-4-1 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-4-1 11.8s ease-in-out infinite;
+  animation: deepspace-4-1 11.9s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-4-1 10.7s ease-in-out infinite;
+  animation: deepspace-4-1 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-4-1 8.1s ease-in-out infinite;
+  animation: deepspace-4-1 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-4-1 10.1s ease-in-out infinite;
+  animation: deepspace-4-1 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-1 {
@@ -8654,23 +8681,23 @@
 }
 
 .deepspace.slices-4 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-4-2 10.3s ease-in-out infinite;
+  animation: deepspace-4-2 12.8s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-4-2 10.8s ease-in-out infinite;
+  animation: deepspace-4-2 9.4s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-4-2 8.5s ease-in-out infinite;
+  animation: deepspace-4-2 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-4-2 9.6s ease-in-out infinite;
+  animation: deepspace-4-2 9.1s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-4-2 10.4s ease-in-out infinite;
+  animation: deepspace-4-2 10.6s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-2 {
@@ -8691,23 +8718,23 @@
 }
 
 .deepspace.slices-4 .sector.line-2 .satellite.num-0 {
-  animation: deepspace-4-3 12.3s ease-in-out infinite;
+  animation: deepspace-4-3 12.8s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-4-3 9.3s ease-in-out infinite;
-}
-
-.deepspace.slices-4 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-4-3 10.9s ease-in-out infinite;
-}
-
-.deepspace.slices-4 .sector.line-2 .satellite.num-3 {
   animation: deepspace-4-3 11.2s ease-in-out infinite;
 }
 
+.deepspace.slices-4 .sector.line-2 .satellite.num-2 {
+  animation: deepspace-4-3 9.9s ease-in-out infinite;
+}
+
+.deepspace.slices-4 .sector.line-2 .satellite.num-3 {
+  animation: deepspace-4-3 8.3s ease-in-out infinite;
+}
+
 .deepspace.slices-4 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-4-3 10.2s ease-in-out infinite;
+  animation: deepspace-4-3 11.8s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-3 {
@@ -8728,7 +8755,7 @@
 }
 
 .deepspace.slices-4 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-4-4 9.1s ease-in-out infinite;
+  animation: deepspace-4-4 8.6s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-3 .satellite.num-1 {
@@ -8736,21 +8763,21 @@
 }
 
 .deepspace.slices-4 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-4-4 11.6s ease-in-out infinite;
+  animation: deepspace-4-4 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-4-4 10.7s ease-in-out infinite;
+  animation: deepspace-4-4 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-4 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-4-4 12.2s ease-in-out infinite;
+  animation: deepspace-4-4 9.7s ease-in-out infinite;
 }
 
 .deepspace.slices-5 {
   height: 100px;
   width: 100px;
-  animation: deepspace-5 34.5s linear infinite;
+  animation: deepspace-5 32.3s linear infinite;
 }
 
 @keyframes deepspace-5 {
@@ -8778,23 +8805,23 @@
 }
 
 .deepspace.slices-5 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-5-1 11.8s ease-in-out infinite;
+  animation: deepspace-5-1 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-5-1 12.4s ease-in-out infinite;
+  animation: deepspace-5-1 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-5-1 11.9s ease-in-out infinite;
+  animation: deepspace-5-1 9.8s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-5-1 10.3s ease-in-out infinite;
+  animation: deepspace-5-1 9.9s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-5-1 12.6s ease-in-out infinite;
+  animation: deepspace-5-1 10.4s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-1 {
@@ -8815,11 +8842,11 @@
 }
 
 .deepspace.slices-5 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-5-2 9.2s ease-in-out infinite;
+  animation: deepspace-5-2 11.3s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-5-2 11.6s ease-in-out infinite;
+  animation: deepspace-5-2 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-1 .satellite.num-2 {
@@ -8827,11 +8854,11 @@
 }
 
 .deepspace.slices-5 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-5-2 12.2s ease-in-out infinite;
+  animation: deepspace-5-2 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-5-2 12.2s ease-in-out infinite;
+  animation: deepspace-5-2 11.7s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-2 {
@@ -8856,19 +8883,19 @@
 }
 
 .deepspace.slices-5 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-5-3 8.8s ease-in-out infinite;
+  animation: deepspace-5-3 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-5-3 12.5s ease-in-out infinite;
+  animation: deepspace-5-3 9.8s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-5-3 10.8s ease-in-out infinite;
+  animation: deepspace-5-3 9.3s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-5-3 8.2s ease-in-out infinite;
+  animation: deepspace-5-3 9s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-3 {
@@ -8889,23 +8916,23 @@
 }
 
 .deepspace.slices-5 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-5-4 10.8s ease-in-out infinite;
+  animation: deepspace-5-4 12.3s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-3 .satellite.num-1 {
-  animation: deepspace-5-4 12.9s ease-in-out infinite;
+  animation: deepspace-5-4 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-5-4 9.9s ease-in-out infinite;
+  animation: deepspace-5-4 11.3s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-5-4 8.7s ease-in-out infinite;
+  animation: deepspace-5-4 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-5-4 11.4s ease-in-out infinite;
+  animation: deepspace-5-4 9.1s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-4 {
@@ -8926,29 +8953,29 @@
 }
 
 .deepspace.slices-5 .sector.line-4 .satellite.num-0 {
-  animation: deepspace-5-5 8.7s ease-in-out infinite;
+  animation: deepspace-5-5 11.1s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-4 .satellite.num-1 {
-  animation: deepspace-5-5 9.7s ease-in-out infinite;
+  animation: deepspace-5-5 10.7s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-4 .satellite.num-2 {
-  animation: deepspace-5-5 9s ease-in-out infinite;
+  animation: deepspace-5-5 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-4 .satellite.num-3 {
-  animation: deepspace-5-5 10.4s ease-in-out infinite;
+  animation: deepspace-5-5 8.2s ease-in-out infinite;
 }
 
 .deepspace.slices-5 .sector.line-4 .satellite.num-4 {
-  animation: deepspace-5-5 12.8s ease-in-out infinite;
+  animation: deepspace-5-5 8.2s ease-in-out infinite;
 }
 
 .deepspace.slices-6 {
   height: 120px;
   width: 120px;
-  animation: deepspace-6 33.9s linear infinite;
+  animation: deepspace-6 34.9s linear infinite;
 }
 
 @keyframes deepspace-6 {
@@ -8976,23 +9003,23 @@
 }
 
 .deepspace.slices-6 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-6-1 10.3s ease-in-out infinite;
+  animation: deepspace-6-1 8.4s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-6-1 12.8s ease-in-out infinite;
+  animation: deepspace-6-1 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-6-1 10.7s ease-in-out infinite;
+  animation: deepspace-6-1 11.3s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-6-1 12.7s ease-in-out infinite;
+  animation: deepspace-6-1 10.3s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-6-1 9s ease-in-out infinite;
+  animation: deepspace-6-1 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-1 {
@@ -9013,23 +9040,23 @@
 }
 
 .deepspace.slices-6 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-6-2 11.4s ease-in-out infinite;
+  animation: deepspace-6-2 12.9s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-6-2 12.6s ease-in-out infinite;
+  animation: deepspace-6-2 12s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-6-2 11.5s ease-in-out infinite;
+  animation: deepspace-6-2 8.7s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-6-2 11.4s ease-in-out infinite;
+  animation: deepspace-6-2 10.7s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-6-2 8.9s ease-in-out infinite;
+  animation: deepspace-6-2 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-2 {
@@ -9054,19 +9081,19 @@
 }
 
 .deepspace.slices-6 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-6-3 11.3s ease-in-out infinite;
+  animation: deepspace-6-3 12.1s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-6-3 11.7s ease-in-out infinite;
+  animation: deepspace-6-3 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-6-3 8.1s ease-in-out infinite;
+  animation: deepspace-6-3 11.7s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-6-3 11.9s ease-in-out infinite;
+  animation: deepspace-6-3 8.5s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-3 {
@@ -9087,23 +9114,23 @@
 }
 
 .deepspace.slices-6 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-6-4 9.9s ease-in-out infinite;
+  animation: deepspace-6-4 12.3s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-3 .satellite.num-1 {
-  animation: deepspace-6-4 11.9s ease-in-out infinite;
+  animation: deepspace-6-4 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-6-4 10.3s ease-in-out infinite;
+  animation: deepspace-6-4 10s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-6-4 8.6s ease-in-out infinite;
+  animation: deepspace-6-4 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-6-4 11.9s ease-in-out infinite;
+  animation: deepspace-6-4 9.8s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-4 {
@@ -9124,23 +9151,23 @@
 }
 
 .deepspace.slices-6 .sector.line-4 .satellite.num-0 {
-  animation: deepspace-6-5 11.3s ease-in-out infinite;
+  animation: deepspace-6-5 9.7s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-4 .satellite.num-1 {
-  animation: deepspace-6-5 9.9s ease-in-out infinite;
+  animation: deepspace-6-5 13s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-4 .satellite.num-2 {
-  animation: deepspace-6-5 11.3s ease-in-out infinite;
+  animation: deepspace-6-5 12.1s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-4 .satellite.num-3 {
-  animation: deepspace-6-5 12.2s ease-in-out infinite;
+  animation: deepspace-6-5 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-4 .satellite.num-4 {
-  animation: deepspace-6-5 11.4s ease-in-out infinite;
+  animation: deepspace-6-5 13s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-5 {
@@ -9161,29 +9188,29 @@
 }
 
 .deepspace.slices-6 .sector.line-5 .satellite.num-0 {
-  animation: deepspace-6-6 9.4s ease-in-out infinite;
+  animation: deepspace-6-6 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-5 .satellite.num-1 {
-  animation: deepspace-6-6 9s ease-in-out infinite;
+  animation: deepspace-6-6 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-5 .satellite.num-2 {
-  animation: deepspace-6-6 11s ease-in-out infinite;
+  animation: deepspace-6-6 8.5s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-5 .satellite.num-3 {
-  animation: deepspace-6-6 9.9s ease-in-out infinite;
+  animation: deepspace-6-6 9s ease-in-out infinite;
 }
 
 .deepspace.slices-6 .sector.line-5 .satellite.num-4 {
-  animation: deepspace-6-6 10.1s ease-in-out infinite;
+  animation: deepspace-6-6 9.2s ease-in-out infinite;
 }
 
 .deepspace.slices-7 {
   height: 140px;
   width: 140px;
-  animation: deepspace-7 32.7s linear infinite;
+  animation: deepspace-7 30.2s linear infinite;
 }
 
 @keyframes deepspace-7 {
@@ -9211,23 +9238,23 @@
 }
 
 .deepspace.slices-7 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-7-1 12.1s ease-in-out infinite;
+  animation: deepspace-7-1 9.1s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-7-1 11.4s ease-in-out infinite;
+  animation: deepspace-7-1 9.2s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-7-1 10.9s ease-in-out infinite;
+  animation: deepspace-7-1 13s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-7-1 9.8s ease-in-out infinite;
+  animation: deepspace-7-1 11.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-7-1 11.8s ease-in-out infinite;
+  animation: deepspace-7-1 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-1 {
@@ -9248,23 +9275,23 @@
 }
 
 .deepspace.slices-7 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-7-2 8.2s ease-in-out infinite;
+  animation: deepspace-7-2 11.8s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-7-2 9.1s ease-in-out infinite;
+  animation: deepspace-7-2 11s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-7-2 8.4s ease-in-out infinite;
+  animation: deepspace-7-2 11.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-7-2 10.1s ease-in-out infinite;
+  animation: deepspace-7-2 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-7-2 12.3s ease-in-out infinite;
+  animation: deepspace-7-2 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-2 {
@@ -9285,23 +9312,23 @@
 }
 
 .deepspace.slices-7 .sector.line-2 .satellite.num-0 {
-  animation: deepspace-7-3 8.2s ease-in-out infinite;
+  animation: deepspace-7-3 11s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-7-3 9.3s ease-in-out infinite;
+  animation: deepspace-7-3 10.8s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-7-3 9.1s ease-in-out infinite;
+  animation: deepspace-7-3 12s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-7-3 9.3s ease-in-out infinite;
+  animation: deepspace-7-3 9s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-7-3 9.9s ease-in-out infinite;
+  animation: deepspace-7-3 8.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-3 {
@@ -9322,23 +9349,23 @@
 }
 
 .deepspace.slices-7 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-7-4 8.8s ease-in-out infinite;
+  animation: deepspace-7-4 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-3 .satellite.num-1 {
-  animation: deepspace-7-4 9.3s ease-in-out infinite;
+  animation: deepspace-7-4 12.9s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-7-4 12.1s ease-in-out infinite;
+  animation: deepspace-7-4 8.2s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-7-4 10.8s ease-in-out infinite;
+  animation: deepspace-7-4 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-7-4 8.4s ease-in-out infinite;
+  animation: deepspace-7-4 8.2s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-4 {
@@ -9363,19 +9390,19 @@
 }
 
 .deepspace.slices-7 .sector.line-4 .satellite.num-1 {
-  animation: deepspace-7-5 11.7s ease-in-out infinite;
+  animation: deepspace-7-5 12.9s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-4 .satellite.num-2 {
-  animation: deepspace-7-5 9.7s ease-in-out infinite;
+  animation: deepspace-7-5 9.9s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-4 .satellite.num-3 {
-  animation: deepspace-7-5 10.7s ease-in-out infinite;
+  animation: deepspace-7-5 10.6s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-4 .satellite.num-4 {
-  animation: deepspace-7-5 9.5s ease-in-out infinite;
+  animation: deepspace-7-5 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-5 {
@@ -9396,23 +9423,23 @@
 }
 
 .deepspace.slices-7 .sector.line-5 .satellite.num-0 {
-  animation: deepspace-7-6 10.8s ease-in-out infinite;
+  animation: deepspace-7-6 11.4s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-5 .satellite.num-1 {
-  animation: deepspace-7-6 10.1s ease-in-out infinite;
+  animation: deepspace-7-6 10.8s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-5 .satellite.num-2 {
-  animation: deepspace-7-6 11.9s ease-in-out infinite;
+  animation: deepspace-7-6 11.3s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-5 .satellite.num-3 {
-  animation: deepspace-7-6 9.2s ease-in-out infinite;
+  animation: deepspace-7-6 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-5 .satellite.num-4 {
-  animation: deepspace-7-6 10.9s ease-in-out infinite;
+  animation: deepspace-7-6 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-6 {
@@ -9433,29 +9460,29 @@
 }
 
 .deepspace.slices-7 .sector.line-6 .satellite.num-0 {
-  animation: deepspace-7-7 12.6s ease-in-out infinite;
+  animation: deepspace-7-7 9.4s ease-in-out infinite;
 }
 
 .deepspace.slices-7 .sector.line-6 .satellite.num-1 {
-  animation: deepspace-7-7 8.5s ease-in-out infinite;
-}
-
-.deepspace.slices-7 .sector.line-6 .satellite.num-2 {
-  animation: deepspace-7-7 8.7s ease-in-out infinite;
-}
-
-.deepspace.slices-7 .sector.line-6 .satellite.num-3 {
   animation: deepspace-7-7 10.2s ease-in-out infinite;
 }
 
+.deepspace.slices-7 .sector.line-6 .satellite.num-2 {
+  animation: deepspace-7-7 8.4s ease-in-out infinite;
+}
+
+.deepspace.slices-7 .sector.line-6 .satellite.num-3 {
+  animation: deepspace-7-7 10s ease-in-out infinite;
+}
+
 .deepspace.slices-7 .sector.line-6 .satellite.num-4 {
-  animation: deepspace-7-7 12.7s ease-in-out infinite;
+  animation: deepspace-7-7 13s ease-in-out infinite;
 }
 
 .deepspace.slices-8 {
   height: 160px;
   width: 160px;
-  animation: deepspace-8 32.2s linear infinite;
+  animation: deepspace-8 34.4s linear infinite;
 }
 
 @keyframes deepspace-8 {
@@ -9483,23 +9510,23 @@
 }
 
 .deepspace.slices-8 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-8-1 12.3s ease-in-out infinite;
+  animation: deepspace-8-1 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-8-1 12.4s ease-in-out infinite;
+  animation: deepspace-8-1 8.6s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-8-1 12.3s ease-in-out infinite;
+  animation: deepspace-8-1 10.4s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-8-1 11.9s ease-in-out infinite;
+  animation: deepspace-8-1 11.4s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-8-1 11.3s ease-in-out infinite;
+  animation: deepspace-8-1 9.4s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-1 {
@@ -9520,23 +9547,23 @@
 }
 
 .deepspace.slices-8 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-8-2 8.1s ease-in-out infinite;
+  animation: deepspace-8-2 10.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-8-2 10.8s ease-in-out infinite;
+  animation: deepspace-8-2 10.4s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-8-2 10.3s ease-in-out infinite;
+  animation: deepspace-8-2 10.7s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-8-2 12.9s ease-in-out infinite;
+  animation: deepspace-8-2 9.3s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-8-2 11s ease-in-out infinite;
+  animation: deepspace-8-2 10.1s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-2 {
@@ -9557,23 +9584,23 @@
 }
 
 .deepspace.slices-8 .sector.line-2 .satellite.num-0 {
-  animation: deepspace-8-3 12.7s ease-in-out infinite;
+  animation: deepspace-8-3 9.3s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-8-3 12s ease-in-out infinite;
+  animation: deepspace-8-3 8.5s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-8-3 11.2s ease-in-out infinite;
+  animation: deepspace-8-3 8.6s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-8-3 9.9s ease-in-out infinite;
+  animation: deepspace-8-3 9.3s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-8-3 11.8s ease-in-out infinite;
+  animation: deepspace-8-3 10.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-3 {
@@ -9594,23 +9621,23 @@
 }
 
 .deepspace.slices-8 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-8-4 12.7s ease-in-out infinite;
+  animation: deepspace-8-4 9.2s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-3 .satellite.num-1 {
-  animation: deepspace-8-4 11.1s ease-in-out infinite;
+  animation: deepspace-8-4 10.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-8-4 10.8s ease-in-out infinite;
+  animation: deepspace-8-4 12.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-8-4 8.7s ease-in-out infinite;
+  animation: deepspace-8-4 10.4s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-8-4 8.2s ease-in-out infinite;
+  animation: deepspace-8-4 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-4 {
@@ -9631,23 +9658,23 @@
 }
 
 .deepspace.slices-8 .sector.line-4 .satellite.num-0 {
-  animation: deepspace-8-5 9.3s ease-in-out infinite;
+  animation: deepspace-8-5 10.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-4 .satellite.num-1 {
-  animation: deepspace-8-5 11.2s ease-in-out infinite;
+  animation: deepspace-8-5 10s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-4 .satellite.num-2 {
-  animation: deepspace-8-5 8.4s ease-in-out infinite;
+  animation: deepspace-8-5 8.7s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-4 .satellite.num-3 {
-  animation: deepspace-8-5 11.9s ease-in-out infinite;
+  animation: deepspace-8-5 12.2s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-4 .satellite.num-4 {
-  animation: deepspace-8-5 10.8s ease-in-out infinite;
+  animation: deepspace-8-5 10.4s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-5 {
@@ -9668,23 +9695,23 @@
 }
 
 .deepspace.slices-8 .sector.line-5 .satellite.num-0 {
-  animation: deepspace-8-6 8.3s ease-in-out infinite;
+  animation: deepspace-8-6 9.1s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-5 .satellite.num-1 {
-  animation: deepspace-8-6 9.8s ease-in-out infinite;
+  animation: deepspace-8-6 11.1s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-5 .satellite.num-2 {
-  animation: deepspace-8-6 10s ease-in-out infinite;
+  animation: deepspace-8-6 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-5 .satellite.num-3 {
-  animation: deepspace-8-6 12.9s ease-in-out infinite;
+  animation: deepspace-8-6 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-5 .satellite.num-4 {
-  animation: deepspace-8-6 10.6s ease-in-out infinite;
+  animation: deepspace-8-6 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-6 {
@@ -9705,23 +9732,23 @@
 }
 
 .deepspace.slices-8 .sector.line-6 .satellite.num-0 {
-  animation: deepspace-8-7 10.2s ease-in-out infinite;
+  animation: deepspace-8-7 9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-6 .satellite.num-1 {
-  animation: deepspace-8-7 12.2s ease-in-out infinite;
+  animation: deepspace-8-7 12s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-6 .satellite.num-2 {
-  animation: deepspace-8-7 12.2s ease-in-out infinite;
+  animation: deepspace-8-7 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-6 .satellite.num-3 {
-  animation: deepspace-8-7 8.1s ease-in-out infinite;
+  animation: deepspace-8-7 9.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-6 .satellite.num-4 {
-  animation: deepspace-8-7 12.8s ease-in-out infinite;
+  animation: deepspace-8-7 10s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-7 {
@@ -9742,29 +9769,29 @@
 }
 
 .deepspace.slices-8 .sector.line-7 .satellite.num-0 {
-  animation: deepspace-8-8 8.1s ease-in-out infinite;
+  animation: deepspace-8-8 9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-7 .satellite.num-1 {
-  animation: deepspace-8-8 9.5s ease-in-out infinite;
+  animation: deepspace-8-8 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-7 .satellite.num-2 {
-  animation: deepspace-8-8 10.6s ease-in-out infinite;
+  animation: deepspace-8-8 9.7s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-7 .satellite.num-3 {
-  animation: deepspace-8-8 10.7s ease-in-out infinite;
+  animation: deepspace-8-8 10.9s ease-in-out infinite;
 }
 
 .deepspace.slices-8 .sector.line-7 .satellite.num-4 {
-  animation: deepspace-8-8 8.8s ease-in-out infinite;
+  animation: deepspace-8-8 12.3s ease-in-out infinite;
 }
 
 .deepspace.slices-9 {
   height: 180px;
   width: 180px;
-  animation: deepspace-9 31.9s linear infinite;
+  animation: deepspace-9 31.1s linear infinite;
 }
 
 @keyframes deepspace-9 {
@@ -9792,23 +9819,23 @@
 }
 
 .deepspace.slices-9 .sector.line-0 .satellite.num-0 {
-  animation: deepspace-9-1 12.2s ease-in-out infinite;
+  animation: deepspace-9-1 9.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-9-1 12.5s ease-in-out infinite;
+  animation: deepspace-9-1 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-9-1 10.9s ease-in-out infinite;
+  animation: deepspace-9-1 11.1s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-9-1 13s ease-in-out infinite;
+  animation: deepspace-9-1 9.1s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-9-1 10.4s ease-in-out infinite;
+  animation: deepspace-9-1 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-1 {
@@ -9829,23 +9856,23 @@
 }
 
 .deepspace.slices-9 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-9-2 10s ease-in-out infinite;
+  animation: deepspace-9-2 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-9-2 9.8s ease-in-out infinite;
+  animation: deepspace-9-2 12.2s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-9-2 10.3s ease-in-out infinite;
-}
-
-.deepspace.slices-9 .sector.line-1 .satellite.num-3 {
   animation: deepspace-9-2 12.6s ease-in-out infinite;
 }
 
+.deepspace.slices-9 .sector.line-1 .satellite.num-3 {
+  animation: deepspace-9-2 11.6s ease-in-out infinite;
+}
+
 .deepspace.slices-9 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-9-2 11.1s ease-in-out infinite;
+  animation: deepspace-9-2 8.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-2 {
@@ -9866,23 +9893,23 @@
 }
 
 .deepspace.slices-9 .sector.line-2 .satellite.num-0 {
-  animation: deepspace-9-3 8.9s ease-in-out infinite;
+  animation: deepspace-9-3 8.4s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-9-3 12s ease-in-out infinite;
+  animation: deepspace-9-3 10s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-2 .satellite.num-2 {
-  animation: deepspace-9-3 12.4s ease-in-out infinite;
+  animation: deepspace-9-3 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-9-3 11.9s ease-in-out infinite;
+  animation: deepspace-9-3 11.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-9-3 10.3s ease-in-out infinite;
+  animation: deepspace-9-3 8.9s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-3 {
@@ -9903,23 +9930,23 @@
 }
 
 .deepspace.slices-9 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-9-4 12s ease-in-out infinite;
+  animation: deepspace-9-4 9.1s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-3 .satellite.num-1 {
-  animation: deepspace-9-4 11.2s ease-in-out infinite;
+  animation: deepspace-9-4 12.3s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-9-4 10.6s ease-in-out infinite;
+  animation: deepspace-9-4 10.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-9-4 10.4s ease-in-out infinite;
+  animation: deepspace-9-4 8.9s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-9-4 9.3s ease-in-out infinite;
+  animation: deepspace-9-4 8.1s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-4 {
@@ -9940,15 +9967,15 @@
 }
 
 .deepspace.slices-9 .sector.line-4 .satellite.num-0 {
-  animation: deepspace-9-5 11.9s ease-in-out infinite;
+  animation: deepspace-9-5 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-4 .satellite.num-1 {
-  animation: deepspace-9-5 12.1s ease-in-out infinite;
+  animation: deepspace-9-5 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-4 .satellite.num-2 {
-  animation: deepspace-9-5 9.4s ease-in-out infinite;
+  animation: deepspace-9-5 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-4 .satellite.num-3 {
@@ -9956,7 +9983,7 @@
 }
 
 .deepspace.slices-9 .sector.line-4 .satellite.num-4 {
-  animation: deepspace-9-5 11.1s ease-in-out infinite;
+  animation: deepspace-9-5 9.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-5 {
@@ -9977,23 +10004,23 @@
 }
 
 .deepspace.slices-9 .sector.line-5 .satellite.num-0 {
-  animation: deepspace-9-6 12.5s ease-in-out infinite;
+  animation: deepspace-9-6 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-5 .satellite.num-1 {
-  animation: deepspace-9-6 9.6s ease-in-out infinite;
+  animation: deepspace-9-6 9.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-5 .satellite.num-2 {
-  animation: deepspace-9-6 9.5s ease-in-out infinite;
+  animation: deepspace-9-6 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-5 .satellite.num-3 {
-  animation: deepspace-9-6 8.6s ease-in-out infinite;
+  animation: deepspace-9-6 10s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-5 .satellite.num-4 {
-  animation: deepspace-9-6 13s ease-in-out infinite;
+  animation: deepspace-9-6 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-6 {
@@ -10014,23 +10041,23 @@
 }
 
 .deepspace.slices-9 .sector.line-6 .satellite.num-0 {
-  animation: deepspace-9-7 12.3s ease-in-out infinite;
+  animation: deepspace-9-7 12.4s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-6 .satellite.num-1 {
-  animation: deepspace-9-7 8.7s ease-in-out infinite;
+  animation: deepspace-9-7 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-6 .satellite.num-2 {
-  animation: deepspace-9-7 11.1s ease-in-out infinite;
+  animation: deepspace-9-7 12s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-6 .satellite.num-3 {
-  animation: deepspace-9-7 9.9s ease-in-out infinite;
+  animation: deepspace-9-7 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-6 .satellite.num-4 {
-  animation: deepspace-9-7 9.8s ease-in-out infinite;
+  animation: deepspace-9-7 9.3s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-7 {
@@ -10051,23 +10078,23 @@
 }
 
 .deepspace.slices-9 .sector.line-7 .satellite.num-0 {
-  animation: deepspace-9-8 8.6s ease-in-out infinite;
+  animation: deepspace-9-8 10.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-7 .satellite.num-1 {
-  animation: deepspace-9-8 10.9s ease-in-out infinite;
+  animation: deepspace-9-8 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-7 .satellite.num-2 {
-  animation: deepspace-9-8 11.6s ease-in-out infinite;
+  animation: deepspace-9-8 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-7 .satellite.num-3 {
-  animation: deepspace-9-8 11.1s ease-in-out infinite;
+  animation: deepspace-9-8 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-7 .satellite.num-4 {
-  animation: deepspace-9-8 8.7s ease-in-out infinite;
+  animation: deepspace-9-8 10.2s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-8 {
@@ -10088,29 +10115,29 @@
 }
 
 .deepspace.slices-9 .sector.line-8 .satellite.num-0 {
-  animation: deepspace-9-9 11.7s ease-in-out infinite;
+  animation: deepspace-9-9 10s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-8 .satellite.num-1 {
-  animation: deepspace-9-9 11.4s ease-in-out infinite;
+  animation: deepspace-9-9 10.7s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-8 .satellite.num-2 {
-  animation: deepspace-9-9 11.8s ease-in-out infinite;
+  animation: deepspace-9-9 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-8 .satellite.num-3 {
-  animation: deepspace-9-9 10.5s ease-in-out infinite;
+  animation: deepspace-9-9 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-9 .sector.line-8 .satellite.num-4 {
-  animation: deepspace-9-9 8.8s ease-in-out infinite;
+  animation: deepspace-9-9 10.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 {
   height: 200px;
   width: 200px;
-  animation: deepspace-10 32.7s linear infinite;
+  animation: deepspace-10 30.5s linear infinite;
 }
 
 @keyframes deepspace-10 {
@@ -10142,19 +10169,19 @@
 }
 
 .deepspace.slices-10 .sector.line-0 .satellite.num-1 {
-  animation: deepspace-10-1 9.1s ease-in-out infinite;
+  animation: deepspace-10-1 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-0 .satellite.num-2 {
-  animation: deepspace-10-1 10.4s ease-in-out infinite;
+  animation: deepspace-10-1 11.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-0 .satellite.num-3 {
-  animation: deepspace-10-1 12.6s ease-in-out infinite;
+  animation: deepspace-10-1 12.7s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-0 .satellite.num-4 {
-  animation: deepspace-10-1 10.7s ease-in-out infinite;
+  animation: deepspace-10-1 10.8s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-1 {
@@ -10175,23 +10202,23 @@
 }
 
 .deepspace.slices-10 .sector.line-1 .satellite.num-0 {
-  animation: deepspace-10-2 9.8s ease-in-out infinite;
+  animation: deepspace-10-2 12.8s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-1 .satellite.num-1 {
-  animation: deepspace-10-2 8.5s ease-in-out infinite;
+  animation: deepspace-10-2 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-1 .satellite.num-2 {
-  animation: deepspace-10-2 8.4s ease-in-out infinite;
+  animation: deepspace-10-2 9.6s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-1 .satellite.num-3 {
-  animation: deepspace-10-2 11.5s ease-in-out infinite;
+  animation: deepspace-10-2 8.7s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-1 .satellite.num-4 {
-  animation: deepspace-10-2 11.4s ease-in-out infinite;
+  animation: deepspace-10-2 8.5s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-2 {
@@ -10212,11 +10239,11 @@
 }
 
 .deepspace.slices-10 .sector.line-2 .satellite.num-0 {
-  animation: deepspace-10-3 9s ease-in-out infinite;
+  animation: deepspace-10-3 11.2s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-2 .satellite.num-1 {
-  animation: deepspace-10-3 10.3s ease-in-out infinite;
+  animation: deepspace-10-3 9.5s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-2 .satellite.num-2 {
@@ -10224,11 +10251,11 @@
 }
 
 .deepspace.slices-10 .sector.line-2 .satellite.num-3 {
-  animation: deepspace-10-3 10.7s ease-in-out infinite;
+  animation: deepspace-10-3 9.8s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-2 .satellite.num-4 {
-  animation: deepspace-10-3 12.5s ease-in-out infinite;
+  animation: deepspace-10-3 8.8s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-3 {
@@ -10249,23 +10276,23 @@
 }
 
 .deepspace.slices-10 .sector.line-3 .satellite.num-0 {
-  animation: deepspace-10-4 10s ease-in-out infinite;
+  animation: deepspace-10-4 12.1s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-3 .satellite.num-1 {
-  animation: deepspace-10-4 10.4s ease-in-out infinite;
+  animation: deepspace-10-4 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-3 .satellite.num-2 {
-  animation: deepspace-10-4 11s ease-in-out infinite;
+  animation: deepspace-10-4 11.9s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-3 .satellite.num-3 {
-  animation: deepspace-10-4 12.6s ease-in-out infinite;
+  animation: deepspace-10-4 10.8s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-3 .satellite.num-4 {
-  animation: deepspace-10-4 8.9s ease-in-out infinite;
+  animation: deepspace-10-4 10.5s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-4 {
@@ -10286,23 +10313,23 @@
 }
 
 .deepspace.slices-10 .sector.line-4 .satellite.num-0 {
-  animation: deepspace-10-5 8.5s ease-in-out infinite;
-}
-
-.deepspace.slices-10 .sector.line-4 .satellite.num-1 {
   animation: deepspace-10-5 12.8s ease-in-out infinite;
 }
 
+.deepspace.slices-10 .sector.line-4 .satellite.num-1 {
+  animation: deepspace-10-5 9.8s ease-in-out infinite;
+}
+
 .deepspace.slices-10 .sector.line-4 .satellite.num-2 {
-  animation: deepspace-10-5 9.6s ease-in-out infinite;
+  animation: deepspace-10-5 12.6s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-4 .satellite.num-3 {
-  animation: deepspace-10-5 11.1s ease-in-out infinite;
+  animation: deepspace-10-5 12.9s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-4 .satellite.num-4 {
-  animation: deepspace-10-5 10.9s ease-in-out infinite;
+  animation: deepspace-10-5 11.9s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-5 {
@@ -10323,23 +10350,23 @@
 }
 
 .deepspace.slices-10 .sector.line-5 .satellite.num-0 {
-  animation: deepspace-10-6 11.6s ease-in-out infinite;
+  animation: deepspace-10-6 8.2s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-5 .satellite.num-1 {
-  animation: deepspace-10-6 8.8s ease-in-out infinite;
+  animation: deepspace-10-6 12.2s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-5 .satellite.num-2 {
-  animation: deepspace-10-6 8.9s ease-in-out infinite;
+  animation: deepspace-10-6 12.8s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-5 .satellite.num-3 {
-  animation: deepspace-10-6 8.7s ease-in-out infinite;
+  animation: deepspace-10-6 11.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-5 .satellite.num-4 {
-  animation: deepspace-10-6 9.3s ease-in-out infinite;
+  animation: deepspace-10-6 12.5s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-6 {
@@ -10360,23 +10387,23 @@
 }
 
 .deepspace.slices-10 .sector.line-6 .satellite.num-0 {
-  animation: deepspace-10-7 10.1s ease-in-out infinite;
+  animation: deepspace-10-7 8.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-6 .satellite.num-1 {
-  animation: deepspace-10-7 9.1s ease-in-out infinite;
+  animation: deepspace-10-7 9.3s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-6 .satellite.num-2 {
-  animation: deepspace-10-7 12.5s ease-in-out infinite;
+  animation: deepspace-10-7 9.9s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-6 .satellite.num-3 {
-  animation: deepspace-10-7 10.3s ease-in-out infinite;
+  animation: deepspace-10-7 10.1s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-6 .satellite.num-4 {
-  animation: deepspace-10-7 10.4s ease-in-out infinite;
+  animation: deepspace-10-7 8.6s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-7 {
@@ -10397,23 +10424,23 @@
 }
 
 .deepspace.slices-10 .sector.line-7 .satellite.num-0 {
-  animation: deepspace-10-8 8.5s ease-in-out infinite;
+  animation: deepspace-10-8 9.2s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-7 .satellite.num-1 {
-  animation: deepspace-10-8 10.3s ease-in-out infinite;
+  animation: deepspace-10-8 12.3s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-7 .satellite.num-2 {
-  animation: deepspace-10-8 12.5s ease-in-out infinite;
+  animation: deepspace-10-8 12s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-7 .satellite.num-3 {
-  animation: deepspace-10-8 9.6s ease-in-out infinite;
+  animation: deepspace-10-8 8.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-7 .satellite.num-4 {
-  animation: deepspace-10-8 11.4s ease-in-out infinite;
+  animation: deepspace-10-8 8.3s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-8 {
@@ -10434,23 +10461,23 @@
 }
 
 .deepspace.slices-10 .sector.line-8 .satellite.num-0 {
-  animation: deepspace-10-9 9.6s ease-in-out infinite;
+  animation: deepspace-10-9 12.2s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-8 .satellite.num-1 {
-  animation: deepspace-10-9 10.3s ease-in-out infinite;
+  animation: deepspace-10-9 11.2s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-8 .satellite.num-2 {
-  animation: deepspace-10-9 11.7s ease-in-out infinite;
+  animation: deepspace-10-9 8.6s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-8 .satellite.num-3 {
-  animation: deepspace-10-9 10.8s ease-in-out infinite;
+  animation: deepspace-10-9 12.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-8 .satellite.num-4 {
-  animation: deepspace-10-9 8.6s ease-in-out infinite;
+  animation: deepspace-10-9 8.4s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-9 {
@@ -10471,15 +10498,15 @@
 }
 
 .deepspace.slices-10 .sector.line-9 .satellite.num-0 {
-  animation: deepspace-10-10 10.4s ease-in-out infinite;
+  animation: deepspace-10-10 11.6s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-9 .satellite.num-1 {
-  animation: deepspace-10-10 10.4s ease-in-out infinite;
+  animation: deepspace-10-10 11.1s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-9 .satellite.num-2 {
-  animation: deepspace-10-10 12.6s ease-in-out infinite;
+  animation: deepspace-10-10 10.3s ease-in-out infinite;
 }
 
 .deepspace.slices-10 .sector.line-9 .satellite.num-3 {
@@ -10487,7 +10514,7 @@
 }
 
 .deepspace.slices-10 .sector.line-9 .satellite.num-4 {
-  animation: deepspace-10-10 10.5s ease-in-out infinite;
+  animation: deepspace-10-10 8.1s ease-in-out infinite;
 }
 
 .asset-form {

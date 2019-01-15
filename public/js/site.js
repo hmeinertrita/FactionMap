@@ -34,6 +34,7 @@ function hoverHighlight(element, match) {
   const hoverOut = function() {
     $(selector).removeClass('-hover');
   }
+  element.addClass('-hoverable');
   element.hover(hoverIn, hoverOut);
 }
 
@@ -107,6 +108,7 @@ function createLocationElement(location) {
 function createStarElement(star) {
   const se = starTemplate.clone();
   se.attr('id', star.name);
+  se.attr('data-'+groupIdsByName[star.name], true);
   return se;
 }
 
@@ -142,6 +144,7 @@ function createPlanetElement(planet, satelliteNum) {
     setColour(pe, planet.faction.colour);
   }
   pe.attr('data-'+locationIdsByName[planet.name], true);
+  pe.attr('data-'+groupIdsByName['Planets'], true);
   pe.attr('id', planet.name);
   pe.addClass('num-'+satelliteNum);
   return pe;
