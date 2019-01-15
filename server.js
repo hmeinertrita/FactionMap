@@ -42,6 +42,11 @@ app.post('/move', (req, res) => {
   change();
 });
 
+app.post('/rename', (req, res) => {
+  system.assets[req.body.id].callsign = req.body.callsign;
+  change();
+});
+
 io.on('connection', function(socket){
   console.log("user connected");
 

@@ -57,7 +57,7 @@ function createAssetElement(asset) {
   const ae = assetTemplate.clone();
   ae.attr('id', asset.id);
   const callsign = ae.find('.asset__callsign');
-  callsign.text(asset.callsign);
+  callsign.val(asset.callsign);
   hoverHighlight(callsign, 'asset-' + asset.id);
   ae.find('.asset__name').text(asset.name);
   const select = ae.find('select.asset__location-select');
@@ -69,6 +69,7 @@ function createAssetElement(asset) {
   ae.find('input.asset__current-hp').val(asset.currentHp);
   ae.find('input.asset__current-hp').attr('data-asset', asset.id);
   ae.find('button.asset__delete').attr('data-asset', asset.id);
+  ae.find('input.asset__callsign').attr('data-asset', asset.id);
   ae.find('.asset__max-hp').text(asset.maxHp);
   ae.attr('data-faction', asset.faction.colour);
   setColour(ae, asset.faction.colour);
@@ -397,6 +398,21 @@ function render() {
 
     $.post({
       url: 'delete',
+      data: JSON.stringify(data),
+      contentType: 'application/json'
+    });
+  });
+
+  $('input.asset__callsign').change(function() {
+    const id = $(this).attr('data-asset');
+    const callsign = $(this).val();
+    const data = {
+      id: id,
+      callsign: callsign
+    };
+
+    $.post({
+      url: 'rename',
       data: JSON.stringify(data),
       contentType: 'application/json'
     });
