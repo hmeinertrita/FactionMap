@@ -17,6 +17,10 @@ class System extends Region.CompositeRegion {
     const asset = new Asset(id, name, callsign, locationName, this.factions[factionColour], maxHp, maxHp);
     this.assets[id] = asset;
   }
+
+  removeAsset(id) {
+    this.assets[id] = null;
+  }
 }
 
 module.exports = System;

@@ -1,3 +1,4 @@
+const System = require('./Models/System.js');
 const express = require('express');
 const bodyParser = require('body-parser')
 const app = express();
@@ -26,6 +27,21 @@ app.post('/create', (req, res) => {
   change();
 });
 
+app.post('/delete', (req, res) => {
+  system.removeAsset(req.body.id);
+  change();
+});
+
+app.post('/damage', (req, res) => {
+  system.assets[req.body.id].currentHp = req.body.hp;
+  change();
+});
+
+app.post('/move', (req, res) => {
+  system.assets[req.body.id].locationName = req.body.location;
+  change();
+});
+
 io.on('connection', function(socket){
   console.log("user connected");
 
@@ -41,7 +57,7 @@ io.on('connection', function(socket){
 });
 
 function update(sys) {
-  system = sys;
+  system = new System(sys.name, sys.stars, sys.factions, sys.assets, sys.deepSpaceRegions);
   console.log('system updated');
   change();
 }
@@ -50,7 +66,6 @@ function change() {
   io.emit('refresh', system);
   json.write(system);
 }
-
 
 // console.log that your server is up and running
 http.listen(port, () => console.log(`listening on port ${port}`));

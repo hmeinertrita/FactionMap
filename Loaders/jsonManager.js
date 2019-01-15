@@ -104,7 +104,7 @@ async function writeSystem(system) {
     const planets = [];
     s.orbitals.forEach((o, i) => {
       o.locations.forEach((p) => {
-        planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
+        planets.push({name: p.name, techLevel: p.techLevel, orbital: i, factionColour: p.faction ? p.faction.colour : undefined});
       });
     });
     data.stars.push({name: s.name, planets: planets});
@@ -114,7 +114,7 @@ async function writeSystem(system) {
     const planets = [];
     ds.orbitals.forEach((o, i) => {
       o.locations.forEach((p) => {
-        planets.push({name: p.name, techLevel: p.techLevel, orbital: i});
+        planets.push({name: p.name, techLevel: p.techLevel, orbital: i, factionColour: p.faction ? p.faction.colour : undefined});
       });
     });
     data.deepspace.push({name: ds.name, size: ds.orbitals.length, planets: planets});
@@ -122,7 +122,7 @@ async function writeSystem(system) {
 
   data.factions = [];
   for (var f in system.factions) {
-    data.factions.push({name: f.name, colour: f.colour});
+    data.factions.push({name: system.factions[f].name, colour: system.factions[f].colour});
   }
 
   data.assets = [];
@@ -139,7 +139,7 @@ async function writeSystem(system) {
     }
   }
 
-  openFile('./Data/saveTest.json').then(fd => {
+  openFile('./Data/save.json').then(fd => {
     writeFile(fd, JSON.stringify({system: data}));
   });
   console.log('saved system to json');

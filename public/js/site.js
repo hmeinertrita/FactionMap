@@ -361,20 +361,45 @@ function render() {
 
   $('input.asset__current-hp').change(function() {
     const id = $(this).attr('data-asset');
-    sys.assets[id].currentHp = parseInt($(this).val());
-    update();
+    const hp = parseInt($(this).val());
+    const data = {
+      id: id,
+      hp: hp
+    };
+
+    $.post({
+      url: 'damage',
+      data: JSON.stringify(data),
+      contentType: 'application/json'
+    });
   });
 
   $('select.asset__location-select').change(function() {
     const id = $(this).attr('data-asset');
-    sys.assets[id].locationName = $(this).val();
-    update();
+    const location = $(this).val();
+    const data = {
+      id: id,
+      location: location
+    };
+
+    $.post({
+      url: 'move',
+      data: JSON.stringify(data),
+      contentType: 'application/json'
+    });
   });
 
   $('button.asset__delete').click(function() {
     const id = $(this).attr('data-asset');
-    sys.assets[id] = null;
-    update();
+    const data = {
+      id: id
+    };
+
+    $.post({
+      url: 'delete',
+      data: JSON.stringify(data),
+      contentType: 'application/json'
+    });
   });
 }
 
