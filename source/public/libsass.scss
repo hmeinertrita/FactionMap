@@ -258,7 +258,8 @@
   }
 
   .orbital {
-    border: 1px solid rgba(var(--colour), 1);
+    border: 1px solid;
+    border-color: rgba(var(--colour), 1);
     border-radius: 50%;
     position: absolute;
     flex-shrink: 0;
@@ -286,10 +287,12 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    --hover-colour: var(--colour);
     &:after {
       position:absolute;
       content:'';
-      border: 1px solid rgba(var(--colour), 1);
+      border: 1px solid;
+      border-color: rgba(var(--hover-colour), 1);
       border-radius: 50%;
       width: 16px;
       height: 16px;
@@ -320,13 +323,15 @@
 
 .deepspace {
   align-items: center;
-  border: 1px solid rgba(var(--colour), 1);
+  border: 1px solid;
+  border-color: rgba(var(--colour), 1);
   border-radius: 50%;
   justify-content: center;
   display: flex;
   position: relative;
   .sector {
-    border-left: 1px solid rgba(var(--colour), 1);
+    border-left: 1px solid;
+    border-color: rgba(var(--colour), 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -471,6 +476,7 @@ button {
 }
 
 input {
+  font-style: italic;
   min-width: 0;
 }
 
