@@ -47,6 +47,11 @@ function setColour(element, hex) {
   element.css('--colour', rgb.r + ', '+ rgb.g + ', '+ rgb.b);
 }
 
+function createSystemAsset() {
+  const se = systemTemplate.clone();
+  return se;
+}
+
 function createAssetElement(asset) {
   const ae = assetTemplate.clone();
   ae.attr('id', asset.id);
@@ -259,8 +264,8 @@ function init(system) {
 }
 
 function render() {
-  const systemElement = $('<div class="system"/>');
-  systemElement.text(sys.name);
+  const systemElement = createSystemAsset();
+  systemElement.find('.system__name').text(sys.name);
   sys.stars.forEach(s => {
     const starElement = createStarElement(s);
     s.orbitals.forEach((o, i) => {
@@ -283,12 +288,12 @@ function render() {
       starElement.append(orbitalElement);
     });
 
-    systemElement.append(starElement);
+    systemElement.find('.system__stars').append(starElement);
   });
 
-  sys.deepSpaceRegions.forEach(ds => {
+  sys.deepSpaceRegions.forEach((ds, i) => {
     const deepSpaceElement = createDeepSpaceElement(ds);
-    ds.orbitals.forEach((o, i) => {
+    ds.orbitals.forEach((o, j) => {
       const sectorElement = createSectorElement(o);
 
       var satelliteNum = 0;
@@ -307,8 +312,12 @@ function render() {
 
       deepSpaceElement.append(sectorElement);
     });
-
-    systemElement.append(deepSpaceElement);
+    var wrapper = $('<div/>');
+    wrapper.addClass('system__sector');
+    wrapper.addClass('num-'+i);
+    systemElement.find('.system__deep-space').addClass('num-'+sys.deepSpaceRegions.length);
+    wrapper.append(deepSpaceElement);
+    systemElement.find('.system__deep-space').append(wrapper);
   });
 
   const locationsElement = $('<div class="locations"/>');
@@ -336,11 +345,16 @@ function render() {
     assetsElement.append(factionElement);
   }
 
+  var sidebar = $('<div/>');
+  sidebar.addClass('sidebar')
+
+  sidebar.append(locationsElement);
+  sidebar.append(assetsElement);
+  sidebar.append(createAssetForm());
+
   $('.root').empty();
   $('.root').append(systemElement);
-  $('.root').append(locationsElement);
-  $('.root').append(assetsElement);
-  $('.root').append(createAssetForm());
+  $('.root').append(sidebar);
 
   $('input.asset__current-hp').change(function() {
     const id = $(this).attr('data-asset');

@@ -103,6 +103,18 @@
             "factionColour": "0000FF"
           }
         ]
+      },
+      {
+        "name": "Transit Space",
+        "size": 3,
+        "planets": [
+          {
+            "name": "Nexus",
+            "techLevel": 3,
+            "orbital": 1,
+            "factionColour": "00FF00"
+          }
+        ]
       }
     ],
     "factions": [

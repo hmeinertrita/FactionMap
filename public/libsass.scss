@@ -16,7 +16,32 @@
 }
 
 .system {
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__stars {
+    display: flex;
+  }
+  &__name {
+
+  }
+  &__deep-space {
+    display: flex;
+    $r: 240px;
+    @for $i from 1 to 7 {
+      &.num-#{$i} {
+        .system__sector {
+          @for $j from 0 to 6 {
+            &.num-#{j} {
+              transform: rotate(360deg/$i*$j) translateY($r);
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .faction {
