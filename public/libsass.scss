@@ -1,5 +1,6 @@
 @import "math";
 * {
+  box-sizing: border-box;
   font-size: 16px;
   font-family: arial;
 }
@@ -10,32 +11,52 @@
 
 .root {
   align-items: flex-start;
-  display:flex;
-  flex-direction: column;
+  display: flex;
   --colour: 169, 169, 169;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
 }
 
 .system {
   align-items: center;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 0;
   width: 100%;
+  height: 100vh;
 
   &__stars {
     display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
   }
   &__name {
-
+    margin-top: 16px;
+  }
+  &__sector {
+    //position: absolute;
   }
   &__deep-space {
+    align-items: center;
     display: flex;
-    $r: 240px;
+    justify-content: center;
+    margin: 48px 0;
+    position: relative;
+    width: 100%;
+
     @for $i from 1 to 7 {
+    //  $r: 300px;
       &.num-#{$i} {
         .system__sector {
           @for $j from 0 to 6 {
-            &.num-#{j} {
-              transform: rotate(360deg/$i*$j) translateY($r);
+            &.num-#{$j} {
+              //transform: rotate(360deg/$i*$j+90deg) translateY($r);
+              transform: translateX(80%/$i*($j - floor($i/2)));
+
             }
           }
         }
@@ -97,6 +118,7 @@
 .locations {
   border: 1px solid black;
   display: flex;
+  flex-shrink: 0;
   flex-wrap: wrap;
 }
 
@@ -109,6 +131,7 @@
 .assets {
   border: 1px solid black;
   display: flex;
+  flex-shrink: 0;
   flex-wrap: wrap;
 }
 
@@ -207,8 +230,14 @@
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  margin: 150px;
+  margin: 154px;
   background: pink;
+  &#Eucleia {
+    background: yellow;
+  }
+  &#Euthenia {
+    background: cyan;
+  }
   @for $i from 0 through 10 {
     .orbital.ring-#{$i} {
       width: 15px * $i * 2 + 10px;
@@ -216,7 +245,7 @@
       @for $j from 1 through 10 {
         &.count-#{$j} {
           .satellite {
-            $period: 4 + (random(150)/10) + s;
+            $period: 20 + (random(150)/10) + s;
             @for $k from 0 through ($j - 1) {
               &.num-#{$k} {
                 @include orbit(satellite-#{$i}-#{$j}-#{$k}, 15px * $i + 5px, 360deg / $j * $k, -1, $period)
@@ -247,22 +276,45 @@
 }
 .asset-dot {
   position: absolute;
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   background: rgba(var(--colour), 1);
 }
 
-.-hover {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  &:after {
-    position:absolute;
-    content:'';
-    border: 1px solid rgba(var(--colour), 1);
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
+.planet, .asset-dot{
+  &.-hover {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    &:after {
+      position:absolute;
+      content:'';
+      border: 1px solid rgba(var(--colour), 1);
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.-hoverable {
+  font-weight: bold;
+  &:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
+
+.star {
+  &.-hover {
+    border: 4px solid grey;
+  }
+}
+
+.sector, .orbital, .deepspace {
+  &.-hover {
+    border-width: 4px !important;
   }
 }
 
@@ -290,10 +342,10 @@
     $anim: deepspace-#{$slices};
     @keyframes #{$anim} {
       50% {
-        transform: rotate(180deg);
+        //transform: rotate(180deg);
       }
       100% {
-        transform: rotate(360deg);
+        //transform: rotate(360deg);
       }
     }
     $period: 30 + (random(50)/10) + s;
@@ -423,5 +475,8 @@ input {
 }
 
 form {
+  margin: 0;
+}
+body {
   margin: 0;
 }

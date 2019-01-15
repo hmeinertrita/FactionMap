@@ -1,1 +1,516 @@
-{"system":{"name":"Eleusian","stars":[{"name":"Euthenia","planets":[{"name":"Euthenia Core","techLevel":5,"orbital":0},{"name":"Alkali","techLevel":3,"orbital":2,"factionColour":"FF00FF"},{"name":"Physalis","techLevel":1,"orbital":5},{"name":"Ilanthus","techLevel":4,"orbital":6,"factionColour":"B4A7D6"},{"name":"Union IX","techLevel":4,"orbital":8,"factionColour":"FF0000"},{"name":"Dustbin","techLevel":2,"orbital":9}]},{"name":"Eucleia","planets":[{"name":"Eucleia Core","techLevel":5,"orbital":0},{"name":"Haven Base","techLevel":4.5,"orbital":1,"factionColour":"6D9EEB"},{"name":"Harbor","techLevel":4.5,"orbital":3,"factionColour":"EA9999"},{"name":"Ocean Planet","techLevel":4,"orbital":4},{"name":"Prophecy","techLevel":4,"orbital":6,"factionColour":"9900FF"},{"name":"Kaisallia","techLevel":3,"orbital":7},{"name":"Rilgar","techLevel":4,"orbital":8,"factionColour":"00FFFF"},{"name":"Diptera","techLevel":4,"orbital":9,"factionColour":"980000"}]}],"deepspace":[{"name":"Solanite River","size":9,"planets":[{"name":"Asteroid","techLevel":3,"orbital":4,"factionColour":"0000FF"}]},{"name":"Transit Space","size":3,"planets":[{"name":"Nexus","techLevel":3,"orbital":1,"factionColour":"00FF00"}]}],"factions":[{"name":"Next World","colour":"980000"},{"name":"Agraria","colour":"FF0000"},{"name":"OmniLight","colour":"EA9999"},{"name":"Dominion","colour":"B4A7D6"},{"name":"UEF","colour":"9900FF"},{"name":"Ascendancy","colour":"FF00FF"},{"name":"Chorus","colour":"00FF00"},{"name":"Shepherd's Railway","colour":"0000FF"},{"name":"Oasis","colour":"00FFFF"},{"name":"Haven Bureau","colour":"6D9EEB"}],"assets":[{"name":"Base of Influence","callsign":"Home Base","locationName":"Asteroid","factionColour":"0000FF","maxHp":"14","currentHp":"14"},{"name":"Harvesters","callsign":"Old Shepherd Mining Colony","locationName":"Solanite River-4","factionColour":"0000FF","maxHp":"4","currentHp":"4"},{"name":"Harvesters","callsign":"Scavenging Station","locationName":"Solanite River-4","factionColour":"0000FF","maxHp":"4","currentHp":"4"},{"name":"Strike Fleet","callsign":"Fleet of Some Sort","locationName":"Solanite River-4","factionColour":"0000FF","maxHp":"8","currentHp":"8"},{"name":"Base of Influence","callsign":"Oasis HQ","locationName":"Rilgar","factionColour":"00FFFF","maxHp":"13","currentHp":"13"},{"name":"Lobbyists","callsign":"#OASIS","locationName":"Rilgar","factionColour":"00FFFF","maxHp":"4","currentHp":"4"},{"name":"Base of Influence","callsign":"Holy City","locationName":"Alkali","factionColour":"FF00FF","maxHp":"18","currentHp":"18"},{"name":"Zealots","callsign":"Missionaries","locationName":"Euthenia-4","factionColour":"FF00FF","maxHp":"4","currentHp":"4"},{"name":"Smugglers","callsign":"Diplomatic Escort","locationName":"Euthenia-4","factionColour":"FF00FF","maxHp":"4","currentHp":"4"},{"name":"Base of Influence","callsign":"Council Building??","locationName":"Prophecy","factionColour":"9900FF","maxHp":"20","currentHp":"20"},{"name":"Blackmail","callsign":"blackmail???","locationName":"Prophecy","factionColour":"9900FF","maxHp":"4","currentHp":"4"},{"name":"Local Investments (x2)","callsign":"Small Business Grant","locationName":"Nexus","factionColour":"00FF00","maxHp":"4","currentHp":"4"},{"name":"Local Investments","callsign":"Corporate Money","locationName":"Prophecy","factionColour":"9900FF","maxHp":"2","currentHp":"2"},{"name":"Party Machine","callsign":"PARTY MACHINE","locationName":"Prophecy","factionColour":"9900FF","maxHp":"10","currentHp":"10"},{"name":"Cunning Trap","callsign":"i love it when a plan comes together","locationName":"Eucleia-6","factionColour":"9900FF","maxHp":"2","currentHp":"2"},{"name":"Base of Influence","callsign":"Space Base","locationName":"Haven Base","factionColour":"6D9EEB","maxHp":"26","currentHp":"26"},{"name":"Seductress","callsign":"Sanctuary Officer Ward","locationName":"Harbor","factionColour":"6D9EEB","maxHp":"4","currentHp":"4"},{"name":"Covert Transit Net","callsign":"Transportation System","locationName":"Eucleia-1","factionColour":"6D9EEB","maxHp":"15","currentHp":"15"},{"name":"False Front","callsign":"Fake Business","locationName":"Haven Base","factionColour":"6D9EEB","maxHp":"2","currentHp":"2"},{"name":"Saboteurs","callsign":"other mech squad","locationName":"Eucleia-1","factionColour":"6D9EEB","maxHp":"6","currentHp":"6"},{"name":"Smugglers","callsign":"oasis sympathizers","locationName":"Eucleia-8","factionColour":"00FFFF","maxHp":"4","currentHp":"4"},{"name":"Covert Shipping","callsign":"bIG oasis sympathizers","locationName":"Eucleia-8","factionColour":"00FFFF","maxHp":"4","currentHp":"4"},{"name":"Security Personnel","callsign":"the cops","locationName":"Nexus","factionColour":"00FF00","maxHp":"3","currentHp":"3"},{"name":"Base of Influence","callsign":"Assembly Building","locationName":"Nexus","factionColour":"00FF00","maxHp":"10","currentHp":"10"},{"name":"Smugglers","callsign":"shady transportation","locationName":"Nexus","factionColour":"00FF00","maxHp":"4","currentHp":"4"},{"name":"Base of Influence","callsign":"Dominion HQ","locationName":"Ilanthus","factionColour":"B4A7D6","maxHp":"24","currentHp":"24"},{"name":"Cyberninjas","callsign":"Phoenix Prodigy","locationName":"Euthenia-8","factionColour":"B4A7D6","maxHp":"4","currentHp":"4"},{"name":"Smugglers","callsign":"Classified Retrieval Unit","locationName":"Euthenia-8","factionColour":"B4A7D6","maxHp":"4","currentHp":"4"},{"name":"Cracked Comms","callsign":"Data Analytics Network","locationName":"Euthenia-5","factionColour":"B4A7D6","maxHp":"6","currentHp":"6"},{"name":"Base of Influence","callsign":"OmniLight HQ","locationName":"Harbor","factionColour":"EA9999","maxHp":"30","currentHp":"30"},{"name":"Pretech Manufactuory","callsign":"OmniLight Manufactoring","locationName":"Harbor","factionColour":"EA9999","maxHp":"16","currentHp":"16"},{"name":"Union Toughs","callsign":"Union Busters","locationName":"Harbor","factionColour":"EA9999","maxHp":"6","currentHp":"6"},{"name":"Franchise","callsign":"the OmniLight Brand(tm)","locationName":"Harbor","factionColour":"EA9999","maxHp":"3","currentHp":"3"},{"name":"Lawyer","callsign":"OmniLight's Lawyer?????","locationName":"Harbor","factionColour":"EA9999","maxHp":"4","currentHp":"4"},{"name":"Base of Influence","callsign":"Agraria HQ","locationName":"Union IX","factionColour":"FF0000","maxHp":"24","currentHp":"24"},{"name":"Harvesters","callsign":"Union IX Mineral Collection","locationName":"Union IX","factionColour":"FF0000","maxHp":"4","currentHp":"4"},{"name":"Harvesters","callsign":"Moon Rental","locationName":"Euthenia-8","factionColour":"FF0000","maxHp":"4","currentHp":"4"},{"name":"Elite Skirmishers","callsign":"Fuck em up squad","locationName":"Euthenia-8","factionColour":"FF0000","maxHp":"5","currentHp":"5"},{"name":"Extended Theatre","callsign":"Solanite Collection Expansion Effort","locationName":"Euthenia-10","factionColour":"FF0000","maxHp":"10","currentHp":"10"},{"name":"Base of Influence","callsign":"Brainwashing HQ","locationName":"Diptera","factionColour":"980000","maxHp":"21","currentHp":"21"},{"name":"Organization Moles","callsign":"Brainwashing cyberware","locationName":"Eucleia-9","factionColour":"980000","maxHp":"4","currentHp":"4"},{"name":"False Front","callsign":"we're definitely not brainwashing everyone haha","locationName":"Diptera","factionColour":"980000","maxHp":"2","currentHp":"2"},{"name":"Harvesters","callsign":"brain harvesters (not really)","locationName":"Diptera","factionColour":"980000","maxHp":"4","currentHp":"4"},{"name":"Smugglers","callsign":"im tired","locationName":"Eucleia-9","factionColour":"980000","maxHp":"4","currentHp":"4"}]}}
+{
+  "system": {
+    "name": "Eleusian",
+    "stars": [
+      {
+        "name": "Euthenia",
+        "planets": [
+          {
+            "name": "Euthenia Core",
+            "techLevel": 5,
+            "orbital": 0
+          },
+          {
+            "name": "Alkali",
+            "techLevel": 3,
+            "orbital": 2,
+            "factionColour": "FF00FF"
+          },
+          {
+            "name": "Physalis",
+            "techLevel": 1,
+            "orbital": 5
+          },
+          {
+            "name": "Ilanthus",
+            "techLevel": 4,
+            "orbital": 6,
+            "factionColour": "B4A7D6"
+          },
+          {
+            "name": "Union IX",
+            "techLevel": 4,
+            "orbital": 8,
+            "factionColour": "FF0000"
+          },
+          {
+            "name": "Dustbin",
+            "techLevel": 2,
+            "orbital": 9
+          },
+          {
+            "name": "Nexus",
+            "techLevel": 3,
+            "orbital": 10,
+            "factionColour": "00FF00"
+          }
+        ]
+      },
+      {
+        "name": "Eucleia",
+        "planets": [
+          {
+            "name": "Eucleia Core",
+            "techLevel": 5,
+            "orbital": 0
+          },
+          {
+            "name": "Haven Base",
+            "techLevel": 4.5,
+            "orbital": 1,
+            "factionColour": "6D9EEB"
+          },
+          {
+            "name": "Harbor",
+            "techLevel": 4.5,
+            "orbital": 3,
+            "factionColour": "EA9999"
+          },
+          {
+            "name": "Ocean Planet",
+            "techLevel": 4,
+            "orbital": 4
+          },
+          {
+            "name": "Prophecy",
+            "techLevel": 4,
+            "orbital": 6,
+            "factionColour": "9900FF"
+          },
+          {
+            "name": "Kaisallia",
+            "techLevel": 3,
+            "orbital": 7
+          },
+          {
+            "name": "Rilgar",
+            "techLevel": 4,
+            "orbital": 8,
+            "factionColour": "00FFFF"
+          },
+          {
+            "name": "Diptera",
+            "techLevel": 4,
+            "orbital": 9,
+            "factionColour": "980000"
+          }
+        ]
+      }
+    ],
+    "deepspace": [
+      {
+        "name": "Solanite River",
+        "size": 9,
+        "planets": [
+          {
+            "name": "Asteroid",
+            "techLevel": 3,
+            "orbital": 4,
+            "factionColour": "0000FF"
+          }
+        ]
+      },
+      {
+        "name": "Transit Space",
+        "size": 3,
+        "planets": []
+      }
+    ],
+    "factions": [
+      {
+        "name": "Next World",
+        "colour": "980000"
+      },
+      {
+        "name": "Agraria",
+        "colour": "FF0000"
+      },
+      {
+        "name": "OmniLight",
+        "colour": "EA9999"
+      },
+      {
+        "name": "Dominion",
+        "colour": "B4A7D6"
+      },
+      {
+        "name": "UEF",
+        "colour": "9900FF"
+      },
+      {
+        "name": "Ascendancy",
+        "colour": "FF00FF"
+      },
+      {
+        "name": "Chorus",
+        "colour": "00FF00"
+      },
+      {
+        "name": "Shepherd's Railway",
+        "colour": "0000FF"
+      },
+      {
+        "name": "Oasis",
+        "colour": "00FFFF"
+      },
+      {
+        "name": "Haven Bureau",
+        "colour": "6D9EEB"
+      }
+    ],
+    "assets": [
+      {
+        "name": "Base of Influence",
+        "callsign": "Home Base",
+        "locationName": "Asteroid",
+        "factionColour": "0000FF",
+        "maxHp": "14",
+        "currentHp": "14"
+      },
+      {
+        "name": "Harvesters",
+        "callsign": "Old Shepherd Mining Colony",
+        "locationName": "Solanite River-4",
+        "factionColour": "0000FF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Harvesters",
+        "callsign": "Scavenging Station",
+        "locationName": "Solanite River-4",
+        "factionColour": "0000FF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Strike Fleet",
+        "callsign": "Fleet of Some Sort",
+        "locationName": "Solanite River-4",
+        "factionColour": "0000FF",
+        "maxHp": "8",
+        "currentHp": "8"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Oasis HQ",
+        "locationName": "Rilgar",
+        "factionColour": "00FFFF",
+        "maxHp": "13",
+        "currentHp": "13"
+      },
+      {
+        "name": "Lobbyists",
+        "callsign": "#OASIS",
+        "locationName": "Rilgar",
+        "factionColour": "00FFFF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Holy City",
+        "locationName": "Alkali",
+        "factionColour": "FF00FF",
+        "maxHp": "18",
+        "currentHp": "18"
+      },
+      {
+        "name": "Zealots",
+        "callsign": "Missionaries",
+        "locationName": "Euthenia-4",
+        "factionColour": "FF00FF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Smugglers",
+        "callsign": "Diplomatic Escort",
+        "locationName": "Euthenia-4",
+        "factionColour": "FF00FF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Council Building??",
+        "locationName": "Prophecy",
+        "factionColour": "9900FF",
+        "maxHp": "20",
+        "currentHp": "20"
+      },
+      {
+        "name": "Blackmail",
+        "callsign": "blackmail???",
+        "locationName": "Prophecy",
+        "factionColour": "9900FF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Local Investments (x2)",
+        "callsign": "Small Business Grant",
+        "locationName": "Nexus",
+        "factionColour": "00FF00",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Local Investments",
+        "callsign": "Corporate Money",
+        "locationName": "Prophecy",
+        "factionColour": "9900FF",
+        "maxHp": "2",
+        "currentHp": "2"
+      },
+      {
+        "name": "Party Machine",
+        "callsign": "PARTY MACHINE",
+        "locationName": "Prophecy",
+        "factionColour": "9900FF",
+        "maxHp": "10",
+        "currentHp": "10"
+      },
+      {
+        "name": "Cunning Trap",
+        "callsign": "i love it when a plan comes together",
+        "locationName": "Eucleia-6",
+        "factionColour": "9900FF",
+        "maxHp": "2",
+        "currentHp": "2"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Space Base",
+        "locationName": "Haven Base",
+        "factionColour": "6D9EEB",
+        "maxHp": "26",
+        "currentHp": "26"
+      },
+      {
+        "name": "Seductress",
+        "callsign": "Sanctuary Officer Ward",
+        "locationName": "Harbor",
+        "factionColour": "6D9EEB",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Covert Transit Net",
+        "callsign": "Transportation System",
+        "locationName": "Eucleia-1",
+        "factionColour": "6D9EEB",
+        "maxHp": "15",
+        "currentHp": "15"
+      },
+      {
+        "name": "False Front",
+        "callsign": "Fake Business",
+        "locationName": "Haven Base",
+        "factionColour": "6D9EEB",
+        "maxHp": "2",
+        "currentHp": "2"
+      },
+      {
+        "name": "Saboteurs",
+        "callsign": "other mech squad",
+        "locationName": "Eucleia-1",
+        "factionColour": "6D9EEB",
+        "maxHp": "6",
+        "currentHp": "6"
+      },
+      {
+        "name": "Smugglers",
+        "callsign": "oasis sympathizers",
+        "locationName": "Eucleia-8",
+        "factionColour": "00FFFF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Covert Shipping",
+        "callsign": "bIG oasis sympathizers",
+        "locationName": "Eucleia-8",
+        "factionColour": "00FFFF",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Security Personnel",
+        "callsign": "the cops",
+        "locationName": "Nexus",
+        "factionColour": "00FF00",
+        "maxHp": "3",
+        "currentHp": "3"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Assembly Building",
+        "locationName": "Nexus",
+        "factionColour": "00FF00",
+        "maxHp": "10",
+        "currentHp": "10"
+      },
+      {
+        "name": "Smugglers",
+        "callsign": "shady transportation",
+        "locationName": "Nexus",
+        "factionColour": "00FF00",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Dominion HQ",
+        "locationName": "Ilanthus",
+        "factionColour": "B4A7D6",
+        "maxHp": "24",
+        "currentHp": "24"
+      },
+      {
+        "name": "Cyberninjas",
+        "callsign": "Phoenix Prodigy",
+        "locationName": "Euthenia-8",
+        "factionColour": "B4A7D6",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Smugglers",
+        "callsign": "Classified Retrieval Unit",
+        "locationName": "Euthenia-8",
+        "factionColour": "B4A7D6",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Cracked Comms",
+        "callsign": "Data Analytics Network",
+        "locationName": "Euthenia-5",
+        "factionColour": "B4A7D6",
+        "maxHp": "6",
+        "currentHp": "6"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "OmniLight HQ",
+        "locationName": "Harbor",
+        "factionColour": "EA9999",
+        "maxHp": "30",
+        "currentHp": "30"
+      },
+      {
+        "name": "Pretech Manufactuory",
+        "callsign": "OmniLight Manufactoring",
+        "locationName": "Harbor",
+        "factionColour": "EA9999",
+        "maxHp": "16",
+        "currentHp": "16"
+      },
+      {
+        "name": "Union Toughs",
+        "callsign": "Union Busters",
+        "locationName": "Harbor",
+        "factionColour": "EA9999",
+        "maxHp": "6",
+        "currentHp": "6"
+      },
+      {
+        "name": "Franchise",
+        "callsign": "the OmniLight Brand(tm)",
+        "locationName": "Harbor",
+        "factionColour": "EA9999",
+        "maxHp": "3",
+        "currentHp": "3"
+      },
+      {
+        "name": "Lawyer",
+        "callsign": "OmniLight's Lawyer?????",
+        "locationName": "Harbor",
+        "factionColour": "EA9999",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Agraria HQ",
+        "locationName": "Union IX",
+        "factionColour": "FF0000",
+        "maxHp": "24",
+        "currentHp": "24"
+      },
+      {
+        "name": "Harvesters",
+        "callsign": "Union IX Mineral Collection",
+        "locationName": "Union IX",
+        "factionColour": "FF0000",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Harvesters",
+        "callsign": "Moon Rental",
+        "locationName": "Euthenia-8",
+        "factionColour": "FF0000",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Elite Skirmishers",
+        "callsign": "Fuck em up squad",
+        "locationName": "Euthenia-8",
+        "factionColour": "FF0000",
+        "maxHp": "5",
+        "currentHp": "5"
+      },
+      {
+        "name": "Extended Theatre",
+        "callsign": "Solanite Collection Expansion Effort",
+        "locationName": "Euthenia-10",
+        "factionColour": "FF0000",
+        "maxHp": "10",
+        "currentHp": "10"
+      },
+      {
+        "name": "Base of Influence",
+        "callsign": "Brainwashing HQ",
+        "locationName": "Diptera",
+        "factionColour": "980000",
+        "maxHp": "21",
+        "currentHp": "21"
+      },
+      {
+        "name": "Organization Moles",
+        "callsign": "Brainwashing cyberware",
+        "locationName": "Eucleia-9",
+        "factionColour": "980000",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "False Front",
+        "callsign": "we're definitely not brainwashing everyone haha",
+        "locationName": "Diptera",
+        "factionColour": "980000",
+        "maxHp": "2",
+        "currentHp": "2"
+      },
+      {
+        "name": "Harvesters",
+        "callsign": "brain harvesters (not really)",
+        "locationName": "Diptera",
+        "factionColour": "980000",
+        "maxHp": "4",
+        "currentHp": "4"
+      },
+      {
+        "name": "Smugglers",
+        "callsign": "im tired",
+        "locationName": "Eucleia-9",
+        "factionColour": "980000",
+        "maxHp": "4",
+        "currentHp": "4"
+      }
+    ]
+  }
+}
