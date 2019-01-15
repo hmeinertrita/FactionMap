@@ -25,26 +25,43 @@ var templatesCloned=false;
 
 socket.on('refresh', refresh);
 
-function hoverHighlight(element, match) {
-  element.attr('data-match',match);
-  const selector = '[data-'+match+'=true]';
-  const hoverIn = function() {
-    $(selector).addClass('-hover');
-  }
-  const hoverOut = function() {
-    $(selector).removeClass('-hover');
-  }
-  element.addClass('-hoverable');
-  element.hover(hoverIn, hoverOut);
-}
-
-function setColour(element, hex) {
+function toRGB(hex) {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   const rgb = result ? {
     r: parseInt(result[1], 16),
     g: parseInt(result[2], 16),
     b: parseInt(result[3], 16)
   } : null;
+  return rgb;
+}
+
+function hoverHighlight(element, match, colour) {
+  element.attr('data-match',match);
+  const selector = '[data-'+match+'=true]';
+  var rgb;
+
+  if(colour) {
+    rgb = toRGB(colour);
+  }
+
+  const hoverIn = function() {
+    $(selector).addClass('-hover');
+    if(rgb) {
+      $(selector).css('--hover-colour', rgb.r + ', '+ rgb.g + ', '+ rgb.b);
+    }
+  }
+  const hoverOut = function() {
+    $(selector).removeClass('-hover');
+    if(rgb) {
+      $(selector).css('--hover-colour', 'var(--colour)');
+    }
+  }
+  element.addClass('-hoverable');
+  element.hover(hoverIn, hoverOut);
+}
+
+function setColour(element, hex) {
+  const rgb = toRGB(hex);
   element.css('--colour', rgb.r + ', '+ rgb.g + ', '+ rgb.b);
 }
 
@@ -58,7 +75,7 @@ function createAssetElement(asset) {
   ae.attr('id', asset.id);
   const callsign = ae.find('.asset__callsign');
   callsign.val(asset.callsign);
-  hoverHighlight(callsign, 'asset-' + asset.id);
+  hoverHighlight(callsign, 'asset-' + asset.id, asset.faction.colour);
   ae.find('.asset__name').text(asset.name);
   const select = ae.find('select.asset__location-select');
   for (var g in locationOptionsByGroup) {
@@ -146,6 +163,11 @@ function createPlanetElement(planet, satelliteNum) {
   }
   pe.attr('data-'+locationIdsByName[planet.name], true);
   pe.attr('data-'+groupIdsByName['Planets'], true);
+
+  assetsByLocation[planet.name].forEach(asset => {
+    pe.attr('data-asset-'+asset.id, true);
+  });
+
   pe.attr('id', planet.name);
   pe.addClass('num-'+satelliteNum);
   return pe;
